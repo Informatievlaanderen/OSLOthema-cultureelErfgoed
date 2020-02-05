@@ -2,55 +2,104 @@
 
 Dit bestand bevat instructies voor de **_editor(s)_** van dit thema.
 
-## Bestandsstructuur
+Voor naamgevingen wordt in dit bestand volgende syntax gebruikt:
+* `{}` voor een variabele. Gebruik hoofdletters, kleine letters, scheidingstekens zoals gesuggereerd in de naam van de variabele. Zo suggereert dit `{VocabulariumNaam}` bijvoorbeerld om te beginnen met een hoofdletter,
+woorden aaneen te schrijven en elk woord opnieuw met een hoofdletter te beginnen. 
+* `[]` voor een optionele term, die enkel nodig is onder de voorwaarden zoals verder wordt toegelicht.
+
+
+## 1. Bestandsstructuur
 Deze repository bevat initieel een structuur van directories en bestanden op de `master` branch.
 Deze zijn overgenomen uit een template repository.
 
-Pas bestandsnamen en bestandsinhoud aan aan de lokale gegevens. Als hint is elk variabel gegeven in de initiële bestanden aangeduid met het woord `mijn`.
-Doe dit bijvoorbeeld meteen voor de titel van het **README.md** bestand in de project root op de `master` branch.
+Principe: _pas bestandsnamen en bestandsinhoud aan uw situatie aan. Voeg bestanden toe waar nodig._
 
-Vul aan met volgende bestanden:
-* Eén of meerdere OSLO-*.EAP bestanden in deze directory.
-* Bestanden zoals gedocumenteerd in plaatselijke README.md bestanden in elke andere directory.
+Als hint is elk variabel gegeven in de initiële bestandsnamen en bestandsinhoud aangeduid met het woord `mijn` of `Mijn` (al naargelang de voorgestelde hoofdletter / kleine letter voorkeur).
+Je kan bijvoorbeeld nu meteen de titel van het README.md bestand in de repository root op de `master` branch aanpassen (er staat voorlopig `OSLOthema-mijnThema`).
 
-Vul gaandeweg de voorbeeldinhoud aan in het **README.md** bestand in de project root op de `master` branch.
+**Overzicht initiële bestanden**
 
-## Naamgeving syntax
-In naamgevingen hieronder gebruikt staat:
-* `{}` voor een variabele waarde die verder wordt toegelicht;
-* `[]` voor een optionele term, die enkel nodig is onder de voorwaarden zoals verder wordt toegelicht.
+```
+.
+├── CHANGELOG
+├── README.md
+├── stakeholders.csv
+├── OSLO-MijnVocabularium-VOC.eap
+├── OSLO-MijnApplicatieprofiel-AP.eap
+├── config
+│   ├── mijn-vocabularium-voc.json
+│   └── mijn-applicatieprofiel-ap.json
+├── resources
+├── site-skeleton
+│   └── mijn-applicatieprofiel-ap
+│       └── overview.jpg
+└── templates
+    ├── mijn-vocabularium-voc.j2
+    └── mijn-applicatieprofiel-ap.j2
+```
 
-## Branches
-Principe: **_werk op één unieke branch per document en per status_**.
+**Toelichting**
 
-Plaats alle ontwikkelingen voor een document startend van de vorige status en eindigend in de nieuwe status op een unieke branch, aangemaakt met volgende naamgeving:
+| Initieel bestand   | Naamgeving voor finaal bestand | Beschrijving | Bewerk op branch |
+|--------------------|--------------------------------|--------------|------------------|
+| CHANGELOG | `CHANGELOG` | Overzicht van wijzigingen. Vul aan volgens voorbeeld. | (*) |
+| README.md | `README.md` | Wat bezoekers van de github repository op de frontpagina te zien krijgen. Vul aan volgens voorbeeld. | master |
+| stakeholders.csv | `stakeholders.csv` | Lijst met Auteurs, Editors en Medewerkers. Vul aan volgens voorbeeld. **Opgepast voor speciale karakters: bestand moet UTF-8 encoded zijn.** | (*) |
+| OSLO-MijnVocabularium-VOC.eap | `OSLO-{VocabulariumNaam}-VOC.eap` | Enterprise Architect bestand voor een vocabularium. Zie lager voor basisstructuur. | (*) |
+| OSLO-MijnApplicatieprofiel-AP.eap | `OSLO-{ApplicatieProfielNaam}-AP.eap` | Enterprise Architect bestand voor een applicatieprofiel. Zie lager voor basisstructuur. | (*) |
+| config/mijn-vocabularium-voc.json | `config/{vocabularium-naam}-voc.json` | Configuratiebestand voor een vocabularium. Pas inhoud aan in lijn met voorbeeld. | (*) |
+| config/mijn-applicatieprofiel-ap.json | `config/{applicatieprofiel-naam}-ap.json` | Configuratiebestand voor een applicatieprofiel. Pas inhoud aan in lijn met voorbeeld. | (*) |
+| - | `resources/[{subdir}/]{bestandsnaam}` | Folder voor allerlei resources. Voeg in een vrije structuur hier bestanden toe die nuttig zijn voor of aan bod komen tijdens de thematische werkgroepen. | master |
+| site-skeleton/mijn-applicatieprofiel-ap/overview.jpg | `site-skeleton/{applicatieprofiel-naam}-ap/overview.jpg` | Diagram voor het applicatieprofiel. JPEG bestand bekomen via copy/paste uit het diagram in het overeenkomstig Enterprise Architect bestand. | (*) |
+| templates/mijn-vocabularium-voc.j2 | `templates/{vocabularium-naam}-voc.json` | Template bestand voor het tekstgedeelte van de specificatie van een vocabularium. Vul aan.| (*) |
+| templates/mijn-applicatieprofiel-ap.j2 | `templates/{applicatieprofiel-naam}-ap.json` | Template bestand voor het tekstgedeelte van de specificatie van een applicatieprofiel. Vul aan. | (*) |
+
+(*) Bewerk dit bestand op de branch die relevant is voor de huidige status van het specificatiedocument, zoals verder toegelicht. Basisinhoud kan eventueel eerst aangemaakt worden op de master branch.
+
+**Basisstructuur Enterprise Architect bestand voor een vocabularium**
+
+![basisstructuur EA vocabularium](GUIDEME-fig1.jpg)
+
+- Onder `Model` een package met vaste naam `OSLO²_vocabularium`
+- Onder `OSLO²_vocabularium` een package met naam van het vocabularium, naamgeving `OSLO-{VocabulariumNaam}`. Dit is het package waarop de tag _baseURI_ wordt geplaatst en waarin de vocabularium elementen worden aangebracht.
+- In het package `OSLO-{VocabulariumNaam}` een diagram met dezelfde naam als het vocabularium.
+
+**Basisstructuur Enterprise Architect bestand voor een applicatieprofiel**
+
+![basisstructuur EA applicatieprofiel](GUIDEME-fig2.jpg)
+
+- Onder `Model` een package met naam die aanduidt dat dit over een applicatieprofiel gaat, en ook al de naam van het applicatieprofiel aangeeft, naamgeving: `OSLO²_applicatieprofiel_{ApplicatieProfielNaam}`.
+- Onder `OSLO²_applicatieprofiel_{ApplicatieProfielNaam}` een package met naam van het vocabularium dat als basis dient voor dit applicatieprofiel, naamgeving:  `OSLO-{VocabulariumNaam}`. Dit package is een kopie van het gelijknamige vocabularium uit het Enterprise Architect bestand waarin het werd gemaakt.
+- In het package `OSLO-{VocabulariumNaam}` een diagram met een naam die verwijst naar het applicatieprofiel, naamgeving: `OSLO-{ApplicatieProfielNaam}`. Hernoem bijvoorbeeld het diagram dat meekomt met de kopie van het vocabularium. De nieuwe naam is essentieel voor het te publiceren diagram (overview.jpg).
+
+## 2. Branches
+Principe: **_werk op één unieke branch per specificatiedocument en per status_**.
+
+Plaats alle ontwikkelingen voor een specificatiedocument startend van de vorige status en eindigend in de nieuwe status op een unieke branch, aangemaakt met volgende naamgeving:
 ```
 {documenttype}[{documentvolgnummer}]{status}[-cyclus{cyclusvolgnummer}]
 ```
 
-### Onderdelen
+### Onderdelen in deze naamgeving
 **_{documenttype}_**
 
-Dit zijn de mogelijke documenttypes en de waarden {documenttype} ervoor gebruikt in de naamgeving:
-
-| documenttype (voluit) | {documenttype} |
-| --------------------- | -------------- |
-| vocabularium | `voc` |
-| applicatieprofiel | `ap` |
+| {documenttype} | voor een ... |
+|----------------|--------------|
+| `voc` | vocabularium |
+| `ap` | applicatieprofiel |
 
 **_{status}_**
 
-De mogelijke statussen zijn bepaald in [deze codelijst](https://data.vlaanderen.be/doc/conceptscheme/StandaardStatus).
-Dit zijn de waarden {status} ervoor gebruikt in de naamgeving:
+| {status} | voor status (*)  |
+|----------|------------------|
+| `ontwerp` | Ontwerp Standaard |
+| `kandidaat` | Kandidaat Standaard |
+| `erkend` | Erkende Standaard |
+| `vervangen` | Vervangen Standaard |
+| `verouderd` | Verouderde Standaard |
+| `herroepen` | Herroepen Standaard  |
 
-| status (voluit) | {status} |
-| --------------- | -------- |
-| Ontwerp Standaard | `ontwerp` |
-| Kandidaat Standaard | `kandidaat` |
-| Erkende Standaard | `erkend` |
-| Vervangen Standaard | `vervangen` |
-| Verouderde Standaard | `verouderd` |
-| Herroepen Standaard | `herroepen` |
+(*) bepaald door [deze codelijst](https://data.vlaanderen.be/doc/conceptscheme/StandaardStatus)
 
 **_{documentvolgnummer}_**
 
@@ -70,12 +119,12 @@ Volgende branches komen voor in een repository die (voorlopig) slechts één voc
  
 | Branch-naam | Beschrijving |
 | ----------- | ------------ |
-| `voc-ontwerp` | Branch voor publicatiepunt met status **_Ontwerp Standaard_** voor het **_vocabularium_**. |
-| `voc-kandidaat` | Branch voor publicatiepunt met status **_Kandidaat Standaard_** voor het **_vocabularium_**. |
-| `voc-erkend` | Branch voor publicatiepunt met status **_Erkende Standaard_** voor het **_vocabularium_**. |
-| `ap-ontwerp` | Branch voor publicatiepunt met status **_Ontwerp Standaard_** voor het **_applicatieprofiel_**. |
-| `ap-kandidaat` | Branch voor publicatiepunt met status **_Kandidaat Standaard_** voor het **_applicatieprofiel_**. |
-| `ap-erkend` | Branch voor publicatiepunt met status **_Erkende Standaard_** voor het **_applicatieprofiel_**. |
+| `voc-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor het vocabularium. |
+| `voc-kandidaat` | Branch voor publicatiepunt met status Kandidaat Standaard voor het vocabularium. |
+| `voc-erkend` | Branch voor publicatiepunt met status Erkende Standaard voor het vocabularium. |
+| `ap-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor het applicatieprofiel. |
+| `ap-kandidaat` | Branch voor publicatiepunt met status Kandidaat Standaard voor het applicatieprofiel. |
+| `ap-erkend` | Branch voor publicatiepunt met status Erkende Standaard voor het applicatieprofiel. |
 
 ### Voorbeelden met extra volgnummer
 Enkele voorbeelden in geval van meerdere vocabularia of meerdere ontwerpcycli.
@@ -83,18 +132,18 @@ Enkele voorbeelden in geval van meerdere vocabularia of meerdere ontwerpcycli.
 | Branch-naam | Beschrijving |
 | ----------- | ------------ |
 | `voc2-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor het **_tweede_** vocabularium. |
-| `voc-ontwerp-cyclus2` | Branch voor publicatiepunt met status Ontwerp Standaard voor het eerste vocabularium in de **_tweede_** ontwerpcyclus. |
+| `voc-ontwerp-cyclus2` | Branch voor publicatiepunt met status Ontwerp Standaard voor het eerste vocabularium in de **_tweede ontwerpcyclus_**. |
 
 ### Voorbeelden naar het levenseinde toe van een erkende standaard
 Enkele voorbeelden in dit geval, alle betreffende de eerste ontwerpcyclus.
 
 | Branch-naam | Beschrijving |
 | ----------- | ------------ |
-| `voc-vervangen` | Branch voor publicatiepunt met status **_Vervangen Standaard_** voor het eerste vocabularium. |
-| `voc-verouderd` | Branch voor publicatiepunt met status **_Verouderde Standaard_** voor het eerste vocabularium. |
-| `voc-herroepen` | Branch voor publicatiepunt met status **_Herroepen Standaard_** voor het eerste vocabularium. |
+| `voc-vervangen` | Branch voor publicatiepunt met status Vervangen Standaard voor het eerste vocabularium. |
+| `voc-verouderd` | Branch voor publicatiepunt met status Verouderde Standaard voor het eerste vocabularium. |
+| `voc-herroepen` | Branch voor publicatiepunt met status Herroepen Standaard voor het eerste vocabularium. |
 
-## Tags
+## 3. Tags
 Principe: **_ken één tag toe per publicatiepunt_**.
 
 Maak tags aan met volgende naamgeving:
@@ -102,7 +151,7 @@ Maak tags aan met volgende naamgeving:
 {branch-naam}-{publicatiedatum}
 ```
 
-### Onderdelen
+### Onderdelen in deze naamgeving
 **_{branch-naam}_**
 
 Naam van de betreffende branch.
@@ -122,7 +171,7 @@ Voor een volgende tag op dezelfde branch, met publicatiedatum 6 januari 2020:
 voc2-ontwerp-20200106
 ```
 
-## Geavanceerd
+## 4. Geavanceerd
 **_Deze sectie is illustratief voor editors, maar van belang voor OSLO kernmedewerkers._**
 
 ### Noodzakelijke fix aan een publicatiepunt om infrastructuur-technische redenen
@@ -134,11 +183,10 @@ Anders, maak dan voor dit doel een extra branch aan met volgende uitgebreide bra
 {oorspronkelijke-tag-naam}-fix
 ```
 
-##### Onderdelen
+##### Onderdelen in deze naamgeving
 **_{oorspronkelijke-tag-naam}_**
 
 Naam van de tag (!) van waaruit werd vertrokken.
-
 
 ##### Voorbeeld
 ```
@@ -151,7 +199,7 @@ Maak een tag met volgende uitgebreide tag-name.
 {oorspronkelijke-tag-naam}-{updatevolgnummer}
 ```
 
-##### Onderdelen
+##### Onderdelen in deze naamgeving
 **_{oorspronkelijke-tag-naam}_**
 
 Naam van de tag van waaruit werd gebrancht.

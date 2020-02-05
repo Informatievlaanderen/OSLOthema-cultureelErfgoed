@@ -1,4 +1,4 @@
-# OSLOthema-mijn-thema
+# OSLOthema-mijnThema
 
 **_Editors: lees eerst de [template richtlijnen](GUIDEME.md)._**
 
@@ -6,5 +6,5 @@
 
 | Branch-naam | Beschrijving |
 | ----------- | ------------ |
-| `voc-ontwerp` | Branch voor publicatiepunt met status **_Ontwerp Standaard_** voor vocabularium **_OSLO-MijnVocabularium_**. |
-| `ap-ontwerp` | Branch voor publicatiepunt met status **_Ontwerp Standaard_** voor applicatieprofiel **_MijnApplicatieprofiel_**. |
+| `voc-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor vocabularium OSLO-MijnVocabularium. |
+| `ap-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor applicatieprofiel OSLO-MijnApplicatieprofiel. |
