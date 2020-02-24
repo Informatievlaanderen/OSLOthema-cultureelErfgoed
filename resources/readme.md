@@ -18,6 +18,12 @@
 - [Een Vlaams cultuurbeleid in het digitale tijdperk](https://cjsm.be/cultuur/themas/e-cultuur-en-digitalisering/visienota)
 - [Plan integratie erfgoeddatabanken](https://cjsm.be/cultuur/sites/cjsm.cultuur/files/public/190316_delaware_-_integratie_provinciale_erfgoeddatabanken_0.pdf)
 
+## Relevante wetgeving
+- [Cultureelerfgoeddecreet](http://www.kunstenenerfgoed.be/beleid/wet-en-regelgeving/cultureel-erfgoeddecreet)
+- [Kunstendecreet](http://www.kunstenenerfgoed.be/nl/beleid/wet-en-regelgeving/kunstendecreet)
+- [Memoriaaldecreet](http://www.kunstenenerfgoed.be/nl/beleid/wet-en-regelgeving/memoriaaldecreet)
+- [Topstukkendecreet](http://www.kunstenenerfgoed.be/nl/beleid/wet-en-regelgeving/topstukkendecreet)
+
 ## Andere nuttige links
 - [Voorbeeld JSON van inventaris onroerend erfgoed](https://inventaris.onroerenderfgoed.be/erfgoedobjecten/307734) (openen met Postman, GET, accept: application/json)
 
