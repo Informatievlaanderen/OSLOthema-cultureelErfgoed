@@ -26,8 +26,7 @@
 - [Memoriaaldecreet](http://www.kunstenenerfgoed.be/nl/beleid/wet-en-regelgeving/memoriaaldecreet)
 - [Topstukkendecreet](http://www.kunstenenerfgoed.be/nl/beleid/wet-en-regelgeving/topstukkendecreet)
 - [Archiefdecreet](https://overheid.vlaanderen.be/informatiemanagement/archiefdecreet) --> [Bestuursdecreet](https://overheid.vlaanderen.be/bestuursdecreet-beheren-bewaren-en-vernietigen-van-bestuursdocumenten)
-- 
 
-## Andere nuttige links
+## Bestaande toepassingen
 - [Voorbeeld JSON van inventaris onroerend erfgoed](https://inventaris.onroerenderfgoed.be/erfgoedobjecten/307734) (openen met Postman, GET, accept: application/json)
-
+- [Archiefbank](https://www.archiefbank.be/)
