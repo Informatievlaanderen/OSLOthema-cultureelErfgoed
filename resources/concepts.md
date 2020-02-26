@@ -9,10 +9,11 @@ _Subtypes staan een niveau lager, attributen met kleine letter (en tussen haakje
   - Onroerend
   - Immaterieel
 - Deelobject
-- Event
-  - Tentoonstelling (bezoekers)
-- Herkomst (wanneer, waar)
-- Vondst
+- Provenance
+  - Event
+    - Tentoonstelling (bezoekers)
+  - Herkomst (wanneer, waar)
+  - Vondst
 - Locatie
   - _Verschillende niveaus van detail._
 - Waardering (erfgoedwaarde)
