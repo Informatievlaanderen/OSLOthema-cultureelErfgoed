@@ -14,6 +14,7 @@
 - IIIF
 - [Bibframe](https://www.loc.gov/bibframe/)
 - [Cometa](https://vlaamse-erfgoedbibliotheken.be/sites/default/files/bron/2018/coppoolse-cometa-elementen-model-2011.pdf)
+- [Dublin Core Collection Description Application Profile](https://www.dublincore.org/specifications/dublin-core/collection-description/collection-application-profile/2006-08-01/)
 
 ## Nuttige documenten
 - [Een Vlaams cultuurbeleid in het digitale tijdperk](https://cjsm.be/cultuur/themas/e-cultuur-en-digitalisering/visienota)
