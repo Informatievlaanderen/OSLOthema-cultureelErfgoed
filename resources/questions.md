@@ -9,3 +9,5 @@
 - Welke collectiebeherende instellingen bestaan? (Museum, culturele archiefinstelling, erfgoedbibliotheek, ...)
 - Op welk niveau komt het attribuut (semi)publiek/zichtbaarheid/toegankelijkheid, instelling of object?
 - Wat is het verschil tussen een Pand en een Gebouw?
+
+- Werk versus Item? (Item zit niet op het niveau van het Werk, maar FRBR.)
