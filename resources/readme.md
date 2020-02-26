@@ -30,3 +30,4 @@
 ## Bestaande toepassingen
 - [Voorbeeld JSON van inventaris onroerend erfgoed](https://inventaris.onroerenderfgoed.be/erfgoedobjecten/307734) (openen met Postman, GET, accept: application/json)
 - [Archiefbank](https://www.archiefbank.be/)
+- [Collectiewijzer](https://collectiewijzer.be/)
