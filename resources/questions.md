@@ -11,3 +11,4 @@
 - Wat is het verschil tussen een Pand en een Gebouw?
 
 - Werk versus Item? (Item zit niet op het niveau van het Werk, maar FRBR.)
+- Hoe zit het met Collectiebeherende Personenen?
