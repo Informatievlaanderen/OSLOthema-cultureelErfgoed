@@ -9,7 +9,7 @@
 - Europeana Data Model (EDM)
   - [Definition](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf)
   - [Primer](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf) (proxy op pagina 22)
-- VIAA metadatamodel
+- [VIAA metadatamodel](https://viaa.be/files/attachments/.917/VIAA-metadatamodel-user-manual.pdf)
 - Schema.org
 - IIIF
 - [Bibframe](https://www.loc.gov/bibframe/)
@@ -31,3 +31,4 @@
 - [Voorbeeld JSON van inventaris onroerend erfgoed](https://inventaris.onroerenderfgoed.be/erfgoedobjecten/307734) (openen met Postman, GET, accept: application/json)
 - [Archiefbank](https://www.archiefbank.be/)
 - [Collectiewijzer](https://collectiewijzer.be/)
+- [Digital Asset Management (DAM)](https://dams.antwerpen.be/asset/oBYXG7qMAj9R1lteNfntGdKu) Voeg .json aan de URL voor JSON
