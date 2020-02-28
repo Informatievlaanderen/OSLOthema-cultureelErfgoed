@@ -9,6 +9,7 @@
 - Europeana Data Model (EDM)
   - [Definition](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf)
   - [Primer](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf) (proxy op pagina 22)
+  - [Mapping guidelines ~ AP](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Mapping_Guidelines_v2.4_102017.pdf)
 - [VIAA metadatamodel](https://viaa.be/files/attachments/.917/VIAA-metadatamodel-user-manual.pdf)
 - Schema.org
 - IIIF
@@ -34,3 +35,6 @@
 - [Collectiewijzer](https://collectiewijzer.be/)
 - [Digital Asset Management (DAM)](https://dams.antwerpen.be/asset/oBYXG7qMAj9R1lteNfntGdKu) Voeg .json aan de URL voor JSON
 - [Alma](https://www.slideshare.net/Slidelib/libisnet-gebruikersdag-01062017-introductie-tot-linked-data)
+
+## Andere nuttige links
+- [Ruben Verborgh's presentatie](https://rubenverborgh.github.io/OSLO-Cultural-Heritage-2020/)
