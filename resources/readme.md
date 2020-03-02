@@ -3,7 +3,7 @@
 ## Bestaande standaarden
 - Dublin Core
 - [CIDOC](http://www.cidoc-crm.org/FunctionalUnits/cidoc-crm-class-hierarchy)
-- LIDO
+- [LIDO](http://network.icom.museum/cidoc/working-groups/lido/lido-technical/specification/)
 - [Linked Art](https://linked.art/)
 - Wikidata
 - Europeana Data Model (EDM)
