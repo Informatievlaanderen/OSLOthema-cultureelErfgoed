@@ -10,6 +10,7 @@
   - [Definition](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Definition_v5.2.8_102017.pdf)
   - [Primer](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Primer_130714.pdf) (proxy op pagina 22)
   - [Mapping guidelines ~ AP](https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Mapping_Guidelines_v2.4_102017.pdf)
+  - Partially based on: Open Archives Initiative - [Object Reuse and Exchange Vocabulary](http://www.openarchives.org/ore/1.0/vocabulary)
 - [VIAA metadatamodel](https://viaa.be/files/attachments/.917/VIAA-metadatamodel-user-manual.pdf)
 - Schema.org
 - IIIF
