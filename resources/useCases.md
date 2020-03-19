@@ -1,0 +1,45 @@
+# Use cases
+
+- Zoeken
+  - naar objecten
+    - op locatie
+      - op toegankelijkheid
+      - in ander Object
+      - deelobject
+      - bruikleen
+      - pand
+    - op instelling
+    - op zichtbaarheid
+    - op historiek / herkomst
+    - op waarde
+    - op gebruik
+    - op staat
+    - op status
+    - op juridische status	
+    - op collectie
+    - op diefstal
+    - op uitzicht
+    - op kunstenaar
+  - naar materiaal
+    - op licentie
+    - op gebruik
+    - op locatie
+    - op kwaliteit
+    - op Object
+   - naar authorities
+   - naar kunstenaars
+- Categoriseren
+- Integreren
+  - Contextualiseren
+  - Content samenvoegen
+  - Authorities koppelen
+  - Collecties koppelen
+- Beschikbaar stellen voor extern hergebruik
+- Ontzamelen en herbestemmen
+- Analyseren
+   - cultuurspreiding
+- Informeren
+  - Info bijwerken
+  - Expolijst
+  - Bronnenlijst
+  - Publieke platformen
