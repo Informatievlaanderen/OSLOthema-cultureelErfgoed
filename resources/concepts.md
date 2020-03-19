@@ -1,23 +1,55 @@
 # Mogelijks relevante klassen, attributen en relaties
 
-_Subtypes staan een niveau lager, attributen met kleine letter (en tussen haakjes), opmerkingen in italics._
-
 ## Klassen en attributen
 
+- Object
+ - identificator
+ - type
+ - nota
+ 
+- Werk [SymbolischObject]
+  - identificator
+  - nota
+  - type
+  - dimensie
+  - documenteert
+  - gaatOver
+  - inhoud
+  - refereertNaar
+  - voorstellingVan
+  - taal [dc:language]
+  - titel [dc:title] 
+  - beschrijving [dc:description]
+  - onderwerp [dc:subject]
+  - created [dcterms:created]
+  - type [dc:type]
+  - _Relaties_
+    - bestaatUit
+    - isVertalingVan
+    - heeftAlternatieveVorm
+    - heeftComponent
+    - omvat
+    - isGeassocieerdMet
+    - onderworpenAan [dc:rights]
+    - gerechtigde
+    - contributor [dc:contributor]
+    - creator [dc:creator]
+
 - MensgemaaktObject
-  * status (bv. bruikleen)
-  * locatie (via FTP, HTTP)
-  * identificator (bestandsnaam)
-  * hash (md5)
-  * titel (dc_title: reeks, deelreeks, archief, deelarchief...)
-  * creatieDatum (dc_created)
-  * uitgaveDatum (dc_issued)
-  * beschrijving (dc_description: lang, kort, programma, ondertitels, transcriptie...)
-  * categorie (bv. algemeen)
-  * type (bv. sportverslaggeving)
-  * coverage (dc_coverage: tijd en ruimte)
-  * trefwoord (dc_subject)
-  * taal (dc_languages)
+  - status (bv. bruikleen)
+  - locatie (via FTP, HTTP)
+  - identificator (bestandsnaam)
+  - hash (md5)
+  - titel (dc_title: reeks, deelreeks, archief, deelarchief...)
+  - creatieDatum (dc_created)
+  - uitgaveDatum (dc_issued)
+  - beschrijving (dc_description: lang, kort, programma, ondertitels, transcriptie...)
+  - categorie (bv. algemeen)
+  - type (bv. sportverslaggeving)
+  - coverage (dc_coverage: tijd en ruimte)
+  - trefwoord (dc_subject)
+  - taal (dc_languages)
+  
 - Deelobject
 - Events
   - Provenance
