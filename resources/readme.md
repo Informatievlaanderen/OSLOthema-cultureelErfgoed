@@ -18,6 +18,7 @@
 - [Cometa](https://vlaamse-erfgoedbibliotheken.be/sites/default/files/bron/2018/coppoolse-cometa-elementen-model-2011.pdf)
 - [Dublin Core Collection Description Application Profile](https://www.dublincore.org/specifications/dublin-core/collection-description/collection-application-profile/2006-08-01/)
 - [SPECTRUM-N](https://faro.be/spectrum/spectrumNL-nl.1.0.pdf)
+- [Getty-model voor 'Collecties' dat in kader van IIIF gebruikt wordt](IIIF Manifest Content Model (GM + GRI) (public copy).xlsx)
 
 ## Nuttige documenten
 - [Een Vlaams cultuurbeleid in het digitale tijdperk](https://cjsm.be/cultuur/themas/e-cultuur-en-digitalisering/visienota)
