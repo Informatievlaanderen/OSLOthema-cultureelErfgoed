@@ -27,6 +27,7 @@
 ## Nuttige documenten
 - [Een Vlaams cultuurbeleid in het digitale tijdperk](https://cjsm.be/cultuur/themas/e-cultuur-en-digitalisering/visienota)
 - [Plan integratie erfgoeddatabanken](https://cjsm.be/cultuur/sites/cjsm.cultuur/files/public/190316_delaware_-_integratie_provinciale_erfgoeddatabanken_0.pdf)
+- [Project CEST](https://www.projectcest.be/wiki/Richtlijnen)
 
 ## Relevante wetgeving
 - [Cultureelerfgoeddecreet](http://www.kunstenenerfgoed.be/beleid/wet-en-regelgeving/cultureel-erfgoeddecreet)
