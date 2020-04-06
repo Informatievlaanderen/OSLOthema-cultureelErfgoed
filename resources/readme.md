@@ -41,6 +41,8 @@
 - [Collectiewijzer](https://collectiewijzer.be/)
 - [Digital Asset Management (DAM)](https://dams.antwerpen.be/asset/oBYXG7qMAj9R1lteNfntGdKu) Voeg .json aan de URL voor JSON
 - [Alma](https://www.slideshare.net/Slidelib/libisnet-gebruikersdag-01062017-introductie-tot-linked-data)
+- [ODIS](https://www.odis.be/hercules/_nl_home.php)
+- [Dashboard Vlaamse Kunstcollectie](https://dashboard.vlaamsekunstcollectie.be/)
 
 ## Andere nuttige links
 - [Ruben Verborgh's presentatie](https://rubenverborgh.github.io/OSLO-Cultural-Heritage-2020/)
