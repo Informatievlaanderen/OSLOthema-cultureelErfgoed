@@ -9,3 +9,10 @@ Deze werd gedigitaliseerd door Sonim Production (Agent) waardoor de bestanden (I
 
 Een digital born object is hetzelfde als bij [Digitalisatie - archivatie](#Digitalisatie-archivatie), behalve dat er geen voorafgaand MensgemaaktObject is, die nog gedigitaliseerd moet worden.
 
+# Collectie overgenomen
+
+De botanist André Lawalrée (Agent) heeft een collectie met als identificator (13194) gegeven aan (Overdracht) de Plantentuin Meise (Agent). Deze collectie bevat o.a. een exemplaar van een Galium Aparine (MensgemaaktObject), afkomstig van Postel (MensgemaaktObject:spatialcoverage). Dit examplaar is gedigitaliseerd (InformatieObject) en geïdentificeerd met BR0000010985236.
+
+Gebaseerd op: https://www.doedat.be/task/show/3841851
+
+![digitalisatie-archivatie](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/plantentuin.jpg)
