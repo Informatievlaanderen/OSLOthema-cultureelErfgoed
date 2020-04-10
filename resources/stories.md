@@ -5,3 +5,7 @@ Deze werd gedigitaliseerd door Sonim Production (Agent) waardoor de bestanden (I
  
 ![digitalisatie-archivatie](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/digitalisatie_archivatie.jpg)
 
+# Digital born
+
+Een digital born object is hetzelfde als bij [Digitalisatie - archivatie](#Digitalisatie-archivatie), behalve dat er geen voorafgaand MensgemaaktObject is, die nog gedigitaliseerd moet worden.
+
