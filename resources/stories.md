@@ -5,6 +5,8 @@
 
 ### Lam Gods
 
+[Zie document.](documents/LamGods.docx)
+
 ### Een topstuk
 
 ### Een werk met een zekere historiek (creatie, verkoop, verhuis, bruikleen, tentoonstelling, …)
