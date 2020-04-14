@@ -5,7 +5,7 @@
 
 ### Lam Gods
 
-[Zie document.](documents/LamGods.docx)
+[Zie document.](documenten/LamGods.docx)
 
 ### Een topstuk
 
