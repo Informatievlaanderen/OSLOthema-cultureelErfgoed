@@ -5,10 +5,7 @@
 - Hoe beschrijven we ambachten? Nu geen authorities.
 - Zijn de dossiers verbonden aan bepaalde activiteiten (vergunningen, opgravingen ...) ook binnen scope?
 - Wat is het verschil tussen een Archief en een Collectie?
-- Wat is een beter woord voor Materiaal?
 - Welke collectiebeherende instellingen bestaan? (Museum, culturele archiefinstelling, erfgoedbibliotheek, ...)
 - Op welk niveau komt het attribuut (semi)publiek/zichtbaarheid/toegankelijkheid, instelling of object?
 - Wat is het verschil tussen een Pand en een Gebouw?
-
-- Werk versus Item? (Item zit niet op het niveau van het Werk, maar FRBR.)
-- Hoe zit het met Collectiebeherende Personenen?
+- Hoe zit het met Collectiebeherende Personen?
