@@ -1,10 +1,15 @@
-# OSLOthema-mijnThema
+# OSLOthema-cultureelErfgoed
 
-**_Editors: lees eerst de [template richtlijnen](GUIDEME.md)._**
+**_Editors: lees eerst [deze richtlijnen](https://github.com/Informatievlaanderen/OSLO-toolchain/blob/master/doc-user/README.md)._**
 
-## Branches in deze repository
+## Administratieve informatie
 
-| Branch-naam | Beschrijving |
-| ----------- | ------------ |
-| `voc-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor vocabularium OSLO-MijnVocabularium. |
-| `ap-ontwerp` | Branch voor publicatiepunt met status Ontwerp Standaard voor applicatieprofiel OSLO-MijnApplicatieprofiel. |
+### Tags
+Voor de beschikbare git tags om naar te refereren bij het maken van publicaties, zie de "Releases" tab in deze repo.
+
+### Branches
+Overzicht van git branches die niet behoren tot de branches voor fixes die gedocumenteerd werden in de richtlijnen.
+
+| Branch | Bedoeling | Nog actief (j/n) |
+| ------ | --------- | ---------------- | 
+|  |  |  |
