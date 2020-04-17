@@ -23,6 +23,7 @@
 - [Encoded Archival Context for Corporate Bodies, Persons and Families](https://eac.staatsbibliothek-berlin.de/)
 - International Standard Archival Authority Record - ISAAR (CPF)
 - [Records in Context](https://www.ica.org/en/egad-ric-conceptual-model)
+- [Rights Statements](https://rightsstatements.org/en/)
 
 ## Nuttige documenten
 - [Een Vlaams cultuurbeleid in het digitale tijdperk](https://cjsm.be/cultuur/themas/e-cultuur-en-digitalisering/visienota)
