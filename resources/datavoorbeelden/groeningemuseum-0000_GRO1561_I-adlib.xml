@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<adlibXML>
+  <recordList><record priref="20000001" creation="2012-06-18T14:15:13" modification="2020-04-03T10:21:06">
+  <Reproduction>
+    <reproduction.reference>c9638a4d-082f-26fe-c4a9-e76791f52a4c</reproduction.reference>
+    <reproduction.notes />
+    <reproduction.date>2012-07-13</reproduction.date>
+    <reproduction.format />
+    <reproduction.original_file_name />
+    <reproduction.type />
+    <reproduction.creator>Cel Fotografie Brugge</reproduction.creator>
+    <reproduction.webpublication>
+      <value lang="neutral">ERFGOED</value>
+      <value lang="0">Heritage</value>
+      <value lang="1">Erfgoedinzicht</value>
+    </reproduction.webpublication>
+  </Reproduction>
+  <Reproduction>
+    <reproduction.reference>ec13af8d-b0d0-8192-b58d-99747517828a</reproduction.reference>
+    <reproduction.notes />
+    <reproduction.date>2007-01-15</reproduction.date>
+    <reproduction.format />
+    <reproduction.original_file_name>0000.GRO1561.I.jpg</reproduction.original_file_name>
+    <reproduction.type />
+    <reproduction.creator>Maertens, Hugo</reproduction.creator>
+    <reproduction.webpublication />
+  </Reproduction>
+  <object_number>0000.GRO1561.I</object_number>
+  <Production>
+    <creator>Bruegel, Pieter I</creator>
+    <creator.date_of_birth>1526</creator.date_of_birth>
+    <creator.history />
+    <creator.qualifier>kopie naar</creator.qualifier>
+    <creator.role />
+    <creator.date_of_death>1569-09-05</creator.date_of_death>
+    <production.notes />
+    <production.place />
+  </Production>
+  <Production>
+    <creator>Brueghel, Pieter II</creator>
+    <creator.date_of_birth>1564-05-23</creator.date_of_birth>
+    <creator.history />
+    <creator.qualifier>atelier van</creator.qualifier>
+    <creator.role />
+    <creator.date_of_death>1638-03</creator.date_of_death>
+    <production.notes />
+    <production.place />
+  </Production>
+  <Production>
+    <creator>Brueghel, Jan I</creator>
+    <creator.date_of_birth>1568</creator.date_of_birth>
+    <creator.history />
+    <creator.qualifier>atelier van</creator.qualifier>
+    <creator.role />
+    <creator.date_of_death>1625-01-13</creator.date_of_death>
+    <production.notes />
+    <production.place />
+  </Production>
+  <Title>
+    <title>Johannes predikt tot de menigte</title>
+    <title.notes />
+    <title.term_index />
+    <title.type>toegekende titel</title.type>
+  </Title>
+  <Object_name>
+    <object_name>olieverfschildering</object_name>
+    <object_name.notes />
+    <object_name.authority />
+    <object_name.type />
+  </Object_name>
+  <number_of_parts>1</number_of_parts>
+  <administration_name>Groeningemuseum Brugge</administration_name>
+  <Dimension>
+    <dimension.notes />
+    <dimension.unit>cm</dimension.unit>
+    <dimension.part>geheel</dimension.part>
+    <dimension.precision />
+    <dimension.type>hoogte</dimension.type>
+    <dimension.value>118.7</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes />
+    <dimension.unit>cm</dimension.unit>
+    <dimension.part>geheel</dimension.part>
+    <dimension.precision />
+    <dimension.type>breedte</dimension.type>
+    <dimension.value>167.5</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes>nagemeten i.f.v. depotverhuis</dimension.notes>
+    <dimension.unit>cm</dimension.unit>
+    <dimension.part>met lijst</dimension.part>
+    <dimension.precision />
+    <dimension.type>hoogte</dimension.type>
+    <dimension.value>145.5</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes>nagemeten i.f.v. depotverhuis</dimension.notes>
+    <dimension.unit>cm</dimension.unit>
+    <dimension.part>met lijst</dimension.part>
+    <dimension.precision />
+    <dimension.type>breedte</dimension.type>
+    <dimension.value>196</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes>nagemeten i.f.v. depotverhuis</dimension.notes>
+    <dimension.unit>cm</dimension.unit>
+    <dimension.part>met lijst</dimension.part>
+    <dimension.precision />
+    <dimension.type>diepte</dimension.type>
+    <dimension.value>9</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes>Dit betreft de oude lijst.</dimension.notes>
+    <dimension.unit>kg</dimension.unit>
+    <dimension.part>met lijst</dimension.part>
+    <dimension.precision />
+    <dimension.type>gewicht</dimension.type>
+    <dimension.value>29.1</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes />
+    <dimension.unit>cm</dimension.unit>
+    <dimension.part>zonder lijst</dimension.part>
+    <dimension.precision />
+    <dimension.type>diepte</dimension.type>
+    <dimension.value>1</dimension.value>
+  </Dimension>
+  <Alternative_number>
+    <alternative_number>http://groeningemuseum.be/collection/work/id/0000_GRO1561_I</alternative_number>
+    <alternative_number.date>2018-02-13</alternative_number.date>
+    <alternative_number.type>workpid</alternative_number.type>
+    <alternative_number.institution>Musea Brugge - Groeningemuseum</alternative_number.institution>
+  </Alternative_number>
+  <barcode>O0010961</barcode>
+  <Description>
+    <description>Dit schilderij is een van de vele kopieën die in het atelier van Pieter Brueghel II en Jan Brueghel I vervaardigd werden naar het origineel van hun vader. Het originele werk van Pieter Bruegel I is in 1566 gedateerd en wordt bewaard in het Szépmüveszeti Muzeum in Budapest. De Brugse kopie kan tussen 1601 en 1620 gedateerd worden.</description>
+    <description.date />
+    <description.name />
+  </Description>
+  <Loan_out>
+    <loan.out.request.period.end>2019-01-20</loan.out.request.period.end>
+    <loan.out.number>2018/05</loan.out.number>
+    <loan.out.request.period.start>2018-10-12</loan.out.request.period.start>
+    <loan.out.request.reason>
+      <value lang="neutral">EXHIBITION</value>
+      <value lang="0">exhibition</value>
+      <value lang="1">tentoonstelling</value>
+      <value lang="2">exposition</value>
+      <value lang="3">Ausstellung</value>
+      <value lang="4">عرض</value>
+      <value lang="5">mostra</value>
+      <value lang="6">έκθεση</value>
+    </loan.out.request.reason>
+    <loan.out.requester>Rijksmuseum</loan.out.requester>
+    <loan.out.requester.contact />
+    <loan.out.contract.period.end />
+    <loan.out.contract.period.start />
+    <loan.out.status>
+      <value lang="neutral">CONCLUDED</value>
+      <value lang="0">concluded</value>
+      <value lang="1">afgesloten</value>
+      <value lang="2">clôturé</value>
+      <value lang="3">Abgeschlossen</value>
+      <value lang="4">إختتام</value>
+      <value lang="5">concluso</value>
+      <value lang="6">ολοκληρώθηκε</value>
+    </loan.out.status>
+    <loan.out.exhibition>De Tachtigjarige Oorlog</loan.out.exhibition>
+  </Loan_out>
+  <collection>Groeningemuseum</collection>
+  <part>1</part>
+  <Digital_reference>
+    <digital_reference>http://groeningemuseum.be/collection/work/data/0000_GRO1561_I</digital_reference>
+    <digital_reference.description>datapid</digital_reference.description>
+  </Digital_reference>
+  <Digital_reference>
+    <digital_reference>http://groeningemuseum.be/collection/work/representation/0000_GRO1561_I</digital_reference>
+    <digital_reference.description>representationpid</digital_reference.description>
+  </Digital_reference>
+  <Documentation>
+    <documentation.author>Vos, Dirk De</documentation.author>
+    <documentation.title>Stedelijke Musea Brugge. Catalogus schilderijen 15de en 16de eeuw</documentation.title>
+    <documentation.notes />
+    <documentation.page_reference>pp. 93-94</documentation.page_reference>
+    <documentation.shelfmark />
+    <documentation.title.lead_word />
+  </Documentation>
+  <Documentation>
+    <documentation.author>Poucke, Tine Van</documentation.author>
+    <documentation.title>Groeningemuseum Brugge</documentation.title>
+    <documentation.notes />
+    <documentation.page_reference />
+    <documentation.shelfmark />
+    <documentation.title.lead_word />
+  </Documentation>
+  <owner_hist.date.start>1961</owner_hist.date.start>
+  <owner_hist.owner>Stad Brugge</owner_hist.owner>
+  <owner_hist.acquisition.method>aankoop</owner_hist.acquisition.method>
+  <owner_hist.acquired_from>Barré de Comogne, de</owner_hist.acquired_from>
+  <physical_description>olieverf op paneel</physical_description>
+  <current_owner>Stad Brugge</current_owner>
+  <Current_location>
+    <current_location>Groeningemuseum, zaal 4</current_location>
+    <current_location.authoriser />
+    <current_location.notes />
+    <current_location.context>Groeningemuseum, zaal 4</current_location.context>
+    <current_location.date>2020-01-27</current_location.date>
+    <current_location.suitability />
+    <current_location.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </current_location.type>
+    <current_location.time>15:46:01</current_location.time>
+  </Current_location>
+  <current_location.barcode>S0081028</current_location.barcode>
+  <current_location.executor>gsouffreau</current_location.executor>
+  <id_number>2</id_number>
+  <content.motif.general>religieuze voorstellingen</content.motif.general>
+  <content.motif.general>landschappen</content.motif.general>
+  <institution.code>22</institution.code>
+  <institution.name>Musea Brugge - Groeningemuseum</institution.name>
+  <institution.place>Brugge</institution.place>
+  <input.source>collect&gt;intern</input.source>
+  <input.date>2003-02-03</input.date>
+  <input.name>Brecht</input.name>
+  <input.time>14:36:35</input.time>
+  <Material>
+    <material>olieverf</material>
+    <material.notes />
+    <material.part>medium</material.part>
+  </Material>
+  <Material>
+    <material>eikenhout</material>
+    <material.notes />
+    <material.part>drager</material.part>
+  </Material>
+  <object_category>schilderingen</object_category>
+  <object_history_note>Verz. de Barré de Comogne. Gekocht in 1961 door de stad Brugge.</object_history_note>
+  <Research>
+    <research.notes />
+    <research.date.end>1998</research.date.end>
+    <research.reference_number>1998.06485</research.reference_number>
+    <research.date.start>1998</research.date.start>
+    <research.researcher>KIK-IRPA</research.researcher>
+    <research.result />
+  </Research>
+  <Research>
+    <research.notes />
+    <research.date.end>2014-09-29</research.date.end>
+    <research.reference_number>2014/11</research.reference_number>
+    <research.date.start>2014-09-22</research.date.start>
+    <research.researcher>KIK-IRPA</research.researcher>
+    <research.result />
+  </Research>
+  <notes>op web</notes>
+  <check_record>x</check_record>
+  <record_type>
+    <value lang="neutral">OBJECT</value>
+    <value lang="0">single object</value>
+    <value lang="1">enkelvoudig object</value>
+    <value lang="2">objet individuel</value>
+    <value lang="3">Einzelnes Objekt</value>
+    <value lang="5">oggetto singolo</value>
+  </record_type>
+  <record_access.owner>gsouffreau</record_access.owner>
+  <Locationhistory>
+    <location.history>Tijdelijk depot zaal 6</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0080802</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Tijdelijk depot zaal 6</location.history.context>
+    <location.history.date.start>2020-01-07</location.history.date.start>
+    <location.history.date.end>2020-01-27</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>16:39:18</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>15:46:01</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000361</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2019-02-04</location.history.date.start>
+    <location.history.date.end>2020-01-07</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>16:47:18</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>16:39:18</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Transitdepot</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000468</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Transitdepot</location.history.context>
+    <location.history.date.start>2019-01-30</location.history.date.start>
+    <location.history.date.end>2019-02-04</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>16:46:52</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>16:47:18</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Rijksmuseum, Amsterdam</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0064701</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Rijksmuseum, Amsterdam</location.history.context>
+    <location.history.date.start>2018-10-02</location.history.date.start>
+    <location.history.date.end>2019-01-30</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>12:04:57</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>16:46:52</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Transitdepot</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000468</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Transitdepot</location.history.context>
+    <location.history.date.start>2018-09-24</location.history.date.start>
+    <location.history.date.end>2018-10-02</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>11:44:23</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>12:04:57</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000361</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2018-06-25</location.history.date.start>
+    <location.history.date.end>2018-09-24</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>09:40:17</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>11:44:23</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 6</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000363</location.history.barcode>
+    <location.history.notes>Tijdelijke stockage (zaal afgesloten voor publiek tijdens wissel na tentoonstelling Colard Mansion).</location.history.notes>
+    <location.history.context>Groeningemuseum, zaal 6</location.history.context>
+    <location.history.date.start>2018-06-14</location.history.date.start>
+    <location.history.date.end>2018-06-25</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>16:14:54</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>09:40:17</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Tijdelijk depot zaal 4b</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0047116</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Tijdelijk depot zaal 4b</location.history.context>
+    <location.history.date.start>2018-01-22</location.history.date.start>
+    <location.history.date.end>2018-06-14</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>17:15:32</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>16:14:54</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000361</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2017-02-20</location.history.date.start>
+    <location.history.date.end>2018-01-22</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>09:15:02</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>17:15:32</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 9a (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000692</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 9a (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2016-10-03</location.history.date.start>
+    <location.history.date.end>2017-02-20</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>13:32:24</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>09:15:02</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000361</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2015-01-26</location.history.date.start>
+    <location.history.date.end>2016-10-03</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>15:44:50</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>13:32:24</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Transitdepot, rek 5a</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000528</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Transitdepot, rek 5a</location.history.context>
+    <location.history.date.start>2014-09-29</location.history.date.start>
+    <location.history.date.end>2015-01-26</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>15:47:49</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>15:44:50</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Transitdepot, rek 11a</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000601</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Transitdepot, rek 11a</location.history.context>
+    <location.history.date.start>2013-04-15</location.history.date.start>
+    <location.history.date.end>2014-09-29</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>15:14:43</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>15:47:49</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal A (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000366</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal A (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2012-12-17</location.history.date.start>
+    <location.history.date.end>2013-04-15</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>12:05</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>15:14:43</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Transitdepot, rek 11a</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000601</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Transitdepot, rek 11a</location.history.context>
+    <location.history.date.start>2012-12-13</location.history.date.start>
+    <location.history.date.end>2012-12-17</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>09:04:36</location.history.time>
+    <location.history.executor>ccoevoet</location.history.executor>
+    <location.history.removal_time>10:35:43</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Depot 9</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000545</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Depot 9</location.history.context>
+    <location.history.date.start>2012-11-23</location.history.date.start>
+    <location.history.date.end>2012-12-13</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time>13:24:23</location.history.time>
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>09:04:36</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Restauratieatelier</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000467</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Restauratieatelier</location.history.context>
+    <location.history.date.start>2012-04-11</location.history.date.start>
+    <location.history.date.end>2012-11-23</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time />
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time>13:24:23</location.history.removal_time>
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000361</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2012-01-30</location.history.date.start>
+    <location.history.date.end>2012-04-11</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time />
+    <location.history.executor>gsouffreau</location.history.executor>
+    <location.history.removal_time />
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal A (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000366</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal A (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2011-09-26</location.history.date.start>
+    <location.history.date.end>2012-01-30</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time />
+    <location.history.executor />
+    <location.history.removal_time />
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Transitdepot, muur achteraan</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000428</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Transitdepot, muur achteraan</location.history.context>
+    <location.history.date.start>2011-09-05</location.history.date.start>
+    <location.history.date.end>2011-09-26</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time />
+    <location.history.executor />
+    <location.history.removal_time />
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <Locationhistory>
+    <location.history>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history>
+    <location.history.authoriser />
+    <location.history.barcode>S0000361</location.history.barcode>
+    <location.history.notes />
+    <location.history.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.history.context>
+    <location.history.date.start>2011-04-09</location.history.date.start>
+    <location.history.date.end>2011-09-05</location.history.date.end>
+    <location.history.suitability />
+    <location.history.type>
+      <value lang="neutral">LOCATION</value>
+      <value lang="0">location</value>
+      <value lang="1">standplaats</value>
+    </location.history.type>
+    <location.history.time />
+    <location.history.executor />
+    <location.history.removal_time />
+    <location_history.device_name />
+    <movement.notes />
+    <movement.contact />
+    <movement.method />
+    <movement.reference />
+  </Locationhistory>
+  <location.default>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.default>
+  <location.default.barcode>S0000361</location.default.barcode>
+  <location.default.context>Groeningemuseum, zaal 4 (nummering t.e.m. 2019)</location.default.context>
+  <location.default.type>
+    <value lang="neutral">LOCATION</value>
+    <value lang="0">location</value>
+    <value lang="1">standplaats</value>
+  </location.default.type>
+  <Location_check>
+    <location_check.notes />
+    <location_check.date>2011-06-27</location_check.date>
+    <location_check.name>Souffreau, Guenevere</location_check.name>
+  </Location_check>
+  <Exhibition>
+    <exhibition>De Tachtigjarige Oorlog</exhibition>
+    <exhibition.notes />
+    <exhibition.catalogue_number />
+    <exhibition.date.start>2018-10-12</exhibition.date.start>
+    <exhibition.date.end>2019-01-20</exhibition.date.end>
+    <exhibition.venue>Rijksmuseum</exhibition.venue>
+    <exhibition.venue.place>Amsterdam</exhibition.venue.place>
+    <exhibition.organiser>Rijksmuseum</exhibition.organiser>
+    <exhibition.reference_number>2018/05</exhibition.reference_number>
+  </Exhibition>
+  <Titel_translation>
+    <title.language />
+    <title.translation>Jean Baptiste prêchant</title.translation>
+  </Titel_translation>
+  <Titel_translation>
+    <title.language />
+    <title.translation>John the Baptist preaching</title.translation>
+  </Titel_translation>
+  <Titel_translation>
+    <title.language />
+    <title.translation>Johannes der Täufer predigt</title.translation>
+  </Titel_translation>
+  <Condition>
+    <condition>goed</condition>
+    <condition.notes />
+    <condition.check.name>Francine Huys</condition.check.name>
+    <condition.date>2003-03-27</condition.date>
+    <condition.part>geheel</condition.part>
+  </Condition>
+  <Production_date>
+    <production.date.start>1601</production.date.start>
+    <production.date.start.prec>circa</production.date.start.prec>
+    <production.date.end>1620</production.date.end>
+    <production.date.end.prec>circa</production.date.end.prec>
+  </Production_date>
+  <production.period>17de eeuw</production.period>
+  <Acquisition_source>
+    <acquisition.source>Barré de Comogne, de</acquisition.source>
+    <acquisition.source.type />
+  </Acquisition_source>
+  <acquisition.date>1961</acquisition.date>
+  <acquisition.method>aankoop</acquisition.method>
+  <Free_field>
+    <free_field.date />
+    <free_field.content>gemerkt</free_field.content>
+    <free_field.type />
+    <free_field.confidential />
+  </Free_field>
+  <webpublication>
+    <value lang="neutral">ERFGOED</value>
+    <value lang="0">Heritage</value>
+    <value lang="1">Erfgoedinzicht</value>
+  </webpublication>
+  <webpublication>
+    <value lang="neutral">VKC</value>
+    <value lang="0">VKC Datahub API</value>
+    <value lang="1">VKC Datahub API</value>
+    <value lang="2">VKC Datahub API</value>
+    <value lang="3">VKC Datahub API</value>
+  </webpublication>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2020-04-03</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>10:21:06</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2020-03-17</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:46:19</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2020-01-07</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>16:39:22</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2019-02-04</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>16:47:30</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2019-02-04</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>16:47:05</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-11-06</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>10:43:51</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-10-05</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>12:05:32</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-10-05</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>12:05:02</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-09-25</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>11:44:31</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-08-30</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>09:17:58</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-07-02</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>14:51:00</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-06-28</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>09:40:31</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-06-15</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>16:17:09</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes>Creatie PID velden</edit.notes>
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2018-02-13</edit.date>
+    <edit.name>ccoevoet</edit.name>
+    <edit.time>11:17:46</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>loans&gt;outgoing</edit.source>
+    <edit.date>2017-10-17</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>09:01:15</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2017-09-04</edit.date>
+    <edit.name>ccoevoet</edit.name>
+    <edit.time>14:23:59</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2017-02-21</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>09:15:12</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2016-10-04</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>13:32:43</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>document&gt;book</edit.source>
+    <edit.date>2016-06-15</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>13:56:49</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>COLLECT&gt;intern</edit.source>
+    <edit.date>2015-01-27</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:44:58</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>research&gt;research</edit.source>
+    <edit.date>2014-10-03</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>09:36:20</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2014-03-25</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>11:43:00</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2014-03-25</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>11:35:57</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;fullcatalogue</edit.source>
+    <edit.date>2013-11-25</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>11:14:19</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-10-02</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>10:41:49</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-05-28</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>13:05:48</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-05-28</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>13:04:49</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-04-15</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:14:54</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-01-07</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>12:06:52</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-01-07</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>12:06:13</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-01-07</edit.date>
+    <edit.name>ccoevoet</edit.name>
+    <edit.time>09:33:26</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2013-01-03</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>10:35:55</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-12-13</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>09:04:48</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-11-27</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>13:24:39</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-10-12</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:11:25</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-07-26</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>14:10:40</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-04-25</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>11:01:35</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-04-16</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>08:55:35</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-04-11</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>10:49:01</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-03-16</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:56:40</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2012-01-31</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>10:37:17</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2011-09-28</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:18:24</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2011-09-06</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>13:59:17</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2011-08-16</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>16:27:09</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2011-06-27</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:56:49</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2011-06-27</edit.date>
+    <edit.name>gsouffreau</edit.name>
+    <edit.time>15:40:51</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2006-09-07</edit.date>
+    <edit.name>beheerder</edit.name>
+    <edit.time>09:49:06</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2006-07-05</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>15:30:21</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2006-03-08</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>15:44:28</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2006-03-01</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>11:40:32</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2006-01-20</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>10:55:57</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-12-20</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>13:51:44</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-10-21</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>09:28:42</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-10-12</edit.date>
+    <edit.name>steven</edit.name>
+    <edit.time>16:38:25</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-31</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>14:22:30</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-31</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>13:49:14</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-17</edit.date>
+    <edit.name>smb</edit.name>
+    <edit.time>13:28:35</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-09</edit.date>
+    <edit.name>steven</edit.name>
+    <edit.time>12:46:31</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-08</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>08:35:02</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-08</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>08:20:00</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-05</edit.date>
+    <edit.name>Q4S</edit.name>
+    <edit.time>09:53:35</edit.time>
+  </Edit>
+  <Edit>
+    <edit.notes />
+    <edit.source>collect&gt;intern</edit.source>
+    <edit.date>2005-08-02</edit.date>
+    <edit.name>smb</edit.name>
+    <edit.time>17:21:51</edit.time>
+  </Edit>
+</record></recordList>
+</adlibXML>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<lido:lido xmlns:lido="http://www.lido-schema.org" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink"><lido:lidoRecID lido:label="dataPID" lido:source="Musea Brugge - Groeningemuseum" lido:type="purl" lido:pref="alternate">http://groeningemuseum.be/collection/work/data/0000_GRO1561_I</lido:lidoRecID><lido:lidoRecID lido:label="dataPID" lido:source="Vlaamse Kunstcollectie - Arthub Flanders" lido:type="urn" lido:pref="preferred">groeningemuseum:0000_GRO1561_I</lido:lidoRecID><lido:objectPublishedID lido:label="workPID" lido:source="Musea Brugge - Groeningemuseum" lido:type="purl">http://groeningemuseum.be/collection/work/id/0000_GRO1561_I</lido:objectPublishedID><lido:category><lido:conceptID lido:source="cidoc-crm" lido:type="purl">http://www.cidoc-crm.org/Entity/e22-man-made-object/version-6.1</lido:conceptID><lido:term>Man-Made Object</lido:term>
+  </lido:category><lido:descriptiveMetadata xml:lang="nl"><lido:objectClassificationWrap><lido:objectWorkTypeWrap><lido:objectWorkType><lido:conceptID lido:source="Adlib" lido:type="local" lido:pref="preferred">20000153</lido:conceptID><lido:conceptID lido:source="AAT" lido:type="purl" lido:pref="alternate">http://vocab.getty.edu/aat/300033799</lido:conceptID><lido:term lido:pref="preferred" xml:lang="nl">olieverfschildering</lido:term><lido:term lido:pref="alternate" xml:lang="nl">olieverfschilderingen</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap><lido:classificationWrap><lido:classification lido:type="objectcategorie"><lido:conceptID lido:source="Adlib" lido:type="local" lido:pref="preferred">20000001</lido:conceptID><lido:conceptID lido:source="AAT" lido:type="purl" lido:pref="alternate">http://vocab.getty.edu/aat/300033618</lido:conceptID><lido:term lido:pref="preferred" xml:lang="nl">schilderingen</lido:term><lido:term lido:pref="alternate" xml:lang="nl">schilderingen</lido:term>
+        </lido:classification><lido:classification lido:type="hoofdmotief"><lido:conceptID lido:source="Adlib" lido:type="local" lido:pref="preferred">20000133</lido:conceptID><lido:term lido:pref="preferred" xml:lang="nl">landschappen</lido:term>
+        </lido:classification><lido:classification lido:type="hoofdmotief"><lido:conceptID lido:source="Adlib" lido:type="local" lido:pref="preferred">20000137</lido:conceptID><lido:term lido:pref="preferred" xml:lang="nl">religieuze voorstellingen</lido:term>
+        </lido:classification>
+      </lido:classificationWrap>
+    </lido:objectClassificationWrap><lido:objectIdentificationWrap><lido:titleWrap><lido:titleSet><lido:appellationValue lido:pref="preferred">Johannes predikt tot de menigte</lido:appellationValue><lido:appellationValue lido:pref="alternate">Jean Baptiste pr&#xEA;chant</lido:appellationValue><lido:appellationValue lido:pref="alternate">John the Baptist preaching</lido:appellationValue><lido:appellationValue lido:pref="alternate">Johannes der T&#xE4;ufer predigt</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap><lido:repositoryWrap><lido:repositorySet><lido:repositoryName><lido:legalBodyName><lido:appellationValue>Musea Brugge - Groeningemuseum</lido:appellationValue>
+            </lido:legalBodyName>
+          </lido:repositoryName><lido:workID lido:type="objectnummer">0000.GRO1561.I</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap><lido:objectDescriptionWrap><lido:objectDescriptionSet><lido:descriptiveNoteValue>Dit schilderij is een van de vele kopie&#xEB;n die in het atelier van Pieter Brueghel II en Jan Brueghel I vervaardigd werden naar het origineel van hun vader. Het originele werk van Pieter Bruegel I is in 1566 gedateerd en wordt bewaard in het Sz&#xE9;pm&#xFC;veszeti Muzeum in Budapest. De Brugse kopie kan tussen 1601 en 1620 gedateerd worden.</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+      </lido:objectDescriptionWrap><lido:objectMeasurementsWrap><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>hoogte</lido:measurementType><lido:measurementUnit>cm</lido:measurementUnit><lido:measurementValue>118.7</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>geheel</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>breedte</lido:measurementType><lido:measurementUnit>cm</lido:measurementUnit><lido:measurementValue>167.5</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>geheel</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>hoogte</lido:measurementType><lido:measurementUnit>cm</lido:measurementUnit><lido:measurementValue>145.5</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>met lijst</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>breedte</lido:measurementType><lido:measurementUnit>cm</lido:measurementUnit><lido:measurementValue>195.3</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>met lijst</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>diepte</lido:measurementType><lido:measurementUnit>cm</lido:measurementUnit><lido:measurementValue>8</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>met lijst</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>gewicht</lido:measurementType><lido:measurementUnit>kg</lido:measurementUnit><lido:measurementValue>29.10</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>met lijst</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet><lido:objectMeasurementsSet><lido:objectMeasurements><lido:measurementsSet><lido:measurementType>diepte</lido:measurementType><lido:measurementUnit>cm</lido:measurementUnit><lido:measurementValue>1</lido:measurementValue>
+            </lido:measurementsSet><lido:extentMeasurements>zonder lijst</lido:extentMeasurements>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap><lido:eventWrap><lido:eventSet><lido:event><lido:eventType><lido:term>production</lido:term>
+          </lido:eventType><lido:eventActor><lido:actorInRole><lido:actor><lido:actorID lido:source="Adlib" lido:type="local">20000199</lido:actorID><lido:actorID lido:source="VIAF" lido:type="purl">http://viaf.org/viaf/95761864</lido:actorID><lido:actorID lido:source="RKD" lido:type="purl">https://rkd.nl/explore/artists/13292</lido:actorID><lido:actorID lido:source="Wikidata" lido:type="purl">http://www.wikidata.org/wiki/Q43270</lido:actorID><lido:nameActorSet><lido:appellationValue lido:pref="preferred">Bruegel, Pieter I</lido:appellationValue><lido:appellationValue lido:pref="alternate">Pieter Bruegel I</lido:appellationValue>
+                </lido:nameActorSet><lido:vitalDatesActor><lido:earliestDate>1526</lido:earliestDate><lido:latestDate>1569-09-05</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor><lido:attributionQualifierActor>kopie naar</lido:attributionQualifierActor>
+            </lido:actorInRole>
+          </lido:eventActor><lido:eventActor><lido:actorInRole><lido:actor><lido:actorID lido:source="Adlib" lido:type="local">20000445</lido:actorID><lido:actorID lido:source="VIAF" lido:type="purl">http://viaf.org/viaf/106974142</lido:actorID><lido:actorID lido:source="RKD" lido:type="purl">https://rkd.nl/explore/artists/13293</lido:actorID><lido:actorID lido:source="Wikidata" lido:type="purl">http://www.wikidata.org/wiki/Q255828</lido:actorID><lido:nameActorSet><lido:appellationValue lido:pref="preferred">Brueghel, Pieter II</lido:appellationValue><lido:appellationValue lido:pref="alternate">Pieter Brueghel II</lido:appellationValue>
+                </lido:nameActorSet><lido:vitalDatesActor><lido:earliestDate>1564-05-23</lido:earliestDate><lido:latestDate>1638-03</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor><lido:attributionQualifierActor>atelier van</lido:attributionQualifierActor>
+            </lido:actorInRole>
+          </lido:eventActor><lido:eventActor><lido:actorInRole><lido:actor><lido:actorID lido:source="Adlib" lido:type="local">20000559</lido:actorID><lido:actorID lido:source="VIAF" lido:type="purl">http://viaf.org/viaf/100909732</lido:actorID><lido:actorID lido:source="RKD" lido:type="purl">https://rkd.nl/explore/artists/13288</lido:actorID><lido:nameActorSet><lido:appellationValue lido:pref="preferred">Brueghel, Jan I</lido:appellationValue><lido:appellationValue lido:pref="alternate">Jan Brueghel I</lido:appellationValue>
+                </lido:nameActorSet><lido:vitalDatesActor><lido:earliestDate>1568</lido:earliestDate><lido:latestDate>1625-01-13</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor><lido:attributionQualifierActor>atelier van</lido:attributionQualifierActor>
+            </lido:actorInRole>
+          </lido:eventActor><lido:eventDate><lido:displayDate>circa 1601 - circa 1620</lido:displayDate><lido:date><lido:earliestDate lido:type="circa">1601</lido:earliestDate><lido:latestDate lido:type="circa">1620</lido:latestDate>
+            </lido:date>
+          </lido:eventDate><lido:periodName><lido:conceptID lido:source="Adlib" lido:type="local">20000140</lido:conceptID><lido:term xml:lang="nl">17de eeuw</lido:term>
+          </lido:periodName><lido:eventMaterialsTech><lido:materialsTech><lido:termMaterialsTech><lido:conceptID lido:source="Adlib" lido:type="local" lido:pref="preferred">20000012</lido:conceptID><lido:term lido:pref="preferred" xml:lang="nl">olieverf</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech><lido:eventMaterialsTech><lido:materialsTech><lido:termMaterialsTech><lido:conceptID lido:source="Adlib" lido:type="local" lido:pref="preferred">20000158</lido:conceptID><lido:conceptID lido:source="AAT" lido:type="purl" lido:pref="alternate">http://vocab.getty.edu/aat/300012264</lido:conceptID><lido:term lido:pref="preferred" xml:lang="nl">eikenhout</lido:term><lido:term lido:pref="alternate" xml:lang="nl">eikenhout</lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech><lido:eventMaterialsTech><lido:displayMaterialsTech>olieverf op paneel</lido:displayMaterialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+  </lido:descriptiveMetadata><lido:administrativeMetadata xml:lang="nl"><lido:recordWrap><lido:recordID lido:type="global">http://groeningemuseum.be/collection/work/data/0000_GRO1561_I</lido:recordID><lido:recordID lido:type="local">20000001</lido:recordID><lido:recordType><lido:conceptID lido:source="AAT" lido:type="local">http://vocab.getty.edu/aat/300133025</lido:conceptID><lido:term>Item</lido:term>
+      </lido:recordType><lido:recordSource><lido:legalBodyName><lido:appellationValue>Musea Brugge - Groeningemuseum</lido:appellationValue>
+        </lido:legalBodyName><lido:legalBodyWeblink>http://groeningemuseum.be</lido:legalBodyWeblink>
+      </lido:recordSource>
+    </lido:recordWrap><lido:resourceWrap><lido:resourceSet><lido:resourceID lido:type="purl">http://groeningemuseum.be/collection/work/representation/0000_GRO1561_I</lido:resourceID><lido:resourceRepresentation><lido:linkResource>http://groeningemuseum.be/collection/work/representation/0000_GRO1561_I</lido:linkResource>
+        </lido:resourceRepresentation>
+      </lido:resourceSet>
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>
