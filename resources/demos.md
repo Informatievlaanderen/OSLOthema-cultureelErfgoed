@@ -71,5 +71,5 @@ Zie ook:
 - [Spectrum (British museum)](https://collectionstrust.org.uk/spectrum/)
 - [CEMPER](https://www.cemper.be/)
 - [Invulboek objecten](https://www.projectcest.be/wiki/Publicatie:Invulboek_objecten)
-- [CollectiveAccess](https://collectiveaccess.org/)- [Github](https://github.com/collectiveaccess)
+-  CollectiveAccess: [homepage](https://collectiveaccess.org/) en [Github](https://github.com/collectiveaccess)
 
