@@ -79,13 +79,15 @@ Beschrijving van een kopergravure naar Rubens
 
 http://jamesensor.vlaamsekunstcollectie.be/en/sources/online-publications/james-ensor-and-photography
 
-## Kunstwerken die met elkaar verband houden
+### Kunstwerken die met elkaar verband houden
 
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/the-artists-mother-in-death
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iii 
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iv 
 
-### Verschillende versie van hetzelfde kunstwerk
+### Verschillende versies van hetzelfde kunstwerk
+
+Bijvoorbeeld ingekleurd en niet ingekleurd, en niet noodzakelijkerwijze in dezelfde collectie, zelfs niet noodzakelijk met de zelfde (toegekende) titel.
 
 - http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-zeven-hoofdzonden-beheerst-door-de-dood 
 -	http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-hoofdzonden-beheerst-door-de-dood-2 
@@ -93,6 +95,7 @@ http://jamesensor.vlaamsekunstcollectie.be/en/sources/online-publications/james-
 -	http://jamesensor.vlaamsekunstcollectie.be/nl/search/node/hoogmoed
 
 ### Een muziekstuk
+
 
 
 
@@ -120,6 +123,8 @@ Een geïnteresseerde arriveert op immaterieelerfgoed.be en voegt in 2010 de erfg
 ### Veronderstelde relaties zoeken en toevoegen
 
 Een 100-tal moderators (uit ngo's en de Vlaamse Overheid) willen verbanden leggen tussen Nicolaas van Myra, Sinterklaas en de Kerstman. Ze willen relaties beschrijven en meta-opmerkingen over de tijdsgeest maken. De informatie wordt wekelijks geüpdatet.
+
+
 
 
 ## Digitalisatie
