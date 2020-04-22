@@ -1,13 +1,26 @@
 # Stories
 
-
 ## Roerend erfgoed
 
 ### Lam Gods
 
-[Zie document.](documenten/LamGods.docx)
+- Men wil het Altaarretabel, met 26 panelen, Lam Gods (MensgemaaktObject) inventariseren.
+- De permanente locatie is in de Sint-Baafskathedraal (MensgemaaktObject.permanenteLocatie).
+- Momenteel bevindt deze zich echter gedeeltelijk (o.m. inventarisnrs. 10000091, 100000118, 100000107, 100000111, 100000112, 10000113, 100000115, …) in het Museum voor Schone Kunsten (MensgemaaktObject.locatie) en gedeeltelijk (inventarisnrs. 10000105, 100000108, 10000110, …) in de Sint-Baafskathedraal (MensgemaaktObject.locatie). 
+- Het retabel is in geopende toestand totaal 520,0 cm breed (MensgemaaktObject.dimensie) en 375,0 cm (MensgemaaktObject.dimensie) hoog. - Het retabel is in gesloten toestand totaal XXX cm breed (MensgemaaktObject.dimensie) en XXX cm hoog (MensgemaaktObject.dimensie).
+- Het paneel van het Lam Gods, schilderij is 134,3 cm hoog (MensgemaaktObject.dimensie) en 237,5 cm breed (MensgemaaktObject.dimensie).
+- Men voegt foto’s (Document) van het altaarretabel in gesloten toestand, in open toestand en van de verschillende deelpanelen toe.
+- De Kerkfabriek (Agent) is eigenaar (MensgemaaktObject.eigenaar) van het Lam Gods. 
+- Het Altaarretabel behoort tot het publiek domein (Recht), maar de Kerkfabriek delegeerde het beeldbeheer naar Meemoo dat volgende vermelding verplicht: ‘CC-BY-NC-ND Sint-Baafskathedraal Gent www.lukasweb.be Fotograaf: Dominique Provost’ (Recht).
+- Het is gemaakt door de Jan van Eyck (Productie.uitgevoerdDoor) en Hubert van Eyck (Productie.uitgevoerdDoor) in 1420-1432 (Productie.tijd).
+- De Rechtvaardige Rechters (MensgemaaktObject) is een paneel (MensgemaaktObject.bestaatUit) van het Lam Gods.
+- De Aanbidding van het Lam (MensgemaaktObject) is een paneel (MensgemaaktObject.bestaatUit) van het Lam Gods.
+- Toe te voegen relaties:
+  - Welke panelen behoren tot het gesloten retabel
+  - Welke panelen behoren tot het open retabel
+  - Hoe verhouden de panelen zich tot elkaar
 
-### Een topstuk
+[Brondocument.](documenten/LamGods.docx)
 
 ### Een werk met een zekere waardebepaling / rangschikking
 
@@ -15,15 +28,27 @@
 
 ### Twee werken van dezelfde kunstenaar die in twee aparte collecties zitten
 
+De zeven hoofdzonden door James Ensor
+- [Titelblad](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-hoofdzonden-beheerst-door-de-dood)
+- [Hoogmoed](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-hoogmoed-3)
+- [Hebzucht](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-gierigheid)
+- [Onkuisheid](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-ontucht)
+- [Afgunst](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/envie)
+- [Gulzigheid](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/gourmandise)
+- [Woede](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/colere)
+- [Luiheid](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/paresse) 
+
 ### Eén werk dat (fysiek) uit elkaar is gehaald en nu over 2 of meer collecties verspreid is
 
 Melun-diptiek
 
 Zie https://www.wikidata.org/wiki/Q2589776. Het luik 'Madonna omringd door serafijnen en cherubijnen' (zie https://www.wikidata.org/wiki/Q29585674 en https://arthub.vlaamsekunstcollectie.be/nl/catalog/kmska:132) bevindt zich in het KMSKA, het andere luik, 'Étienne Chevalier met de heilige Stephanus' (zie https://www.wikidata.org/wiki/Q29585693), bevindt zich in de Gemäldegalerie in Berlijn.
 
-Het luik 'Madonna omringd door serafijnen en cherubijnen' staat trouwens ook op de Topstukkenlijst, zie https://cjsm.be/topstukken/topstuk?id=253.
+### Een topstuk
 
-### Een werk van meerdere kunstenaars
+Het luik 'Madonna omringd door serafijnen en cherubijnen' (zie hierboven) staat op de Topstukkenlijst, zie https://cjsm.be/topstukken/topstuk?id=253.
+
+### Een werk van meerdere kunstenaars 1
 
 Beschrijving van een kopergravure naar Rubens
 
@@ -45,6 +70,27 @@ Beschrijving van een kopergravure naar Rubens
   - rechts onder: Martinus vanden Enden excudit Cum priuilegio.
   - midden onder: ET ERAT SVBDITVS ILLIS. Luc. 2.
 - Het is een schenking van Max Rooses, Antwerpen 1839 - Antwerpen 1914 aan het KMSKA
+
+### Een werk van meerdere kunstenaars 2
+
+[Diana's jacht](https://museumdichtcollectieopen.art/2020/04/14/peter-paul-rubens-paul-de-vos-en-jan-wildens-dianas-jacht-langdurig-bruikleen-aan-het-rubenshuis/): 1 kunstwerk, drie betrokken kunstenaars
+
+### Kunstwerken uit verschillende collecties die aan elkaar gerelateerd zijn
+
+http://jamesensor.vlaamsekunstcollectie.be/en/sources/online-publications/james-ensor-and-photography
+
+## Kunstwerken die met elkaar verband houden
+
+- http://jamesensor.vlaamsekunstcollectie.be/en/collection/the-artists-mother-in-death
+- http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iii 
+- http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iv 
+
+### Verschillende versie van hetzelfde kunstwerk
+
+- http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-zeven-hoofdzonden-beheerst-door-de-dood 
+-	http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-hoofdzonden-beheerst-door-de-dood-2 
+-	http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/de-hoofdzonden-beheerst-door-de-dood 
+-	http://jamesensor.vlaamsekunstcollectie.be/nl/search/node/hoogmoed
 
 ### Een muziekstuk
 
