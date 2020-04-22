@@ -61,9 +61,15 @@ Zoeken kan o.a. op
   - plaats
   - reden
 
-Adlib kan exporteren naar een Adlib-XML, waarvoor een mapping (Github link nog toe te voegen) bestaat naar LIDO-XML.
+Adlib kan exporteren naar een Adlib-XML [(datavoorbeeld)](datavoorbeelden/groeningemuseum-0000_GRO1561_I-adlib.xml), waarvoor een [mapping](https://github.com/VlaamseKunstcollectie/Datahub-Fixes) bestaat naar LIDO-XML [(datavoorbeeld)](datavoorbeelden/groeningemuseum-0000_GRO1561_I-LIDO.xml).
 
 In theorie kan alles met externe thesauri gelinkt worden, in praktijk wordt dit niet veel gedaan.
 
-Zie ook: CDWA, Spectrum (British museum), CEMPER.
+Zie ook:
+- [LIDO](http://www.lido-schema.org/schema/v1.0/lido-v1.0-specification.pdf)
+- [CDWA](https://www.getty.edu/research/publications/electronic_publications/cdwa/)
+- [Spectrum (British museum)](https://collectionstrust.org.uk/spectrum/)
+- [CEMPER](https://www.cemper.be/)
+- [Invulboek objecten](https://www.projectcest.be/wiki/Publicatie:Invulboek_objecten)
+- [CollectiveAccess](https://collectiveaccess.org/)
 
