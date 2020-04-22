@@ -9,6 +9,8 @@
 
 ### Een topstuk
 
+### Een werk met een zekere waardebepaling / rangschikking
+
 ### Een werk met een zekere historiek (creatie, verkoop, verhuis, bruikleen, tentoonstelling, …)
 
 ### Twee werken van dezelfde kunstenaar die in twee aparte collecties zitten
@@ -21,8 +23,30 @@ Zie https://www.wikidata.org/wiki/Q2589776. Het luik 'Madonna omringd door seraf
 
 Het luik 'Madonna omringd door serafijnen en cherubijnen' staat trouwens ook op de Topstukkenlijst, zie https://cjsm.be/topstukken/topstuk?id=253.
 
-### Een muziekstuk
+### Een werk van meerdere kunstenaars
 
+Beschrijving van een kopergravure naar Rubens
+
+- De permanente locatie is in het KMSKA.
+- Momenteel bevindt de gravure zich in het externe depot van het KMSKA
+- De gravure meet 435mm hoog bij 324mm breed 
+- Er bestaan 3 foto’s van deze gravure
+- De gravure behoort tot het publiek domein 
+- het inventarisnumer is 10200
+- Het is gemaakt door:
+  - inventor: Peter Paul Rubens, Siegen 1577 - Antwerpen 1640
+  - graveur: Schelte Adamsz. Bolswert, Bolsward 1584/1588 - Antwerpen 1659
+  - uitgever: Martinus van den Enden I, Antwerpen 17de eeuw
+- De afgeleide productiedatum ligt tussen 1600 en 1659
+- De titel is: Terugkeer uit Egypte; Le retour d' Égypte; The Return from Egypt; Der Rückkehr aus Ägypten
+- Materiaal en techniek: kopergravure op papier
+- Er staan inscripties op de gravure:
+  - links onder: P.P. Rubbens pinxit. S. a Bolswert fecit.
+  - rechts onder: Martinus vanden Enden excudit Cum priuilegio.
+  - midden onder: ET ERAT SVBDITVS ILLIS. Luc. 2.
+- Het is een schenking van Max Rooses, Antwerpen 1839 - Antwerpen 1914 aan het KMSKA
+
+### Een muziekstuk
 
 
 
@@ -43,7 +67,13 @@ Het luik 'Madonna omringd door serafijnen en cherubijnen' staat trouwens ook op 
 
 ### Een erfgoedpraktijk met duidelijke events, bv. jaarmarkt, processie, etc. 
 
+### Evoluties opvolgen
 
+Een geïnteresseerde arriveert op immaterieelerfgoed.be en voegt in 2010 de erfgoedpraktijk 'Sinterklaas en Zwarte piet' toe. We publiceren de praktijk. In 2021 vraagt de Vlaamse Overheid, omwille van gevoeligheden, of het eventueel mogelijk is om verwijzingen naar 'Zwarte piet' te verwijderen uit online publicaties. Een collega van een partnerorganisatie vraagt de inzender om de uitdrukking 'zwarte piet' te wijzigen naar 'roetpiet' en de inzender gaat hiermee akkoord. Nadien wil een moderator weten waarom de eigenschappen van de erfgoedpraktijk gewijzigd zijn, wie wat gewijzigd heeft en hoe de vorige versies er uit zien.
+
+### Veronderstelde relaties zoeken en toevoegen
+
+Een 100-tal moderators (uit ngo's en de Vlaamse Overheid) willen verbanden leggen tussen Nicolaas van Myra, Sinterklaas en de Kerstman. Ze willen relaties beschrijven en meta-opmerkingen over de tijdsgeest maken. De informatie wordt wekelijks geüpdatet.
 
 
 ## Digitalisatie
