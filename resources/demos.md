@@ -73,3 +73,44 @@ Zie ook:
 - [Invulboek objecten](https://www.projectcest.be/wiki/Publicatie:Invulboek_objecten)
 -  CollectiveAccess: [homepage](https://collectiveaccess.org/) en [Github](https://github.com/collectiveaccess)
 
+## TMS
+
+Grote rubrieken
+- Objecten
+- Personen en instellingen
+- Bruikleen
+- Tentoonstelling
+- Verplaatsingen (bv. naar tentoonstelling/bruikleen)
+
+Informatie bij Object
+- type
+- periode
+- koppeling naar Personen/Instellingen via rollen (objectgerelateerd, verwervingsgerelateerd, voormalige eigenaars)
+- fysieke kenmerken
+  - afmetingen
+  - inscripties
+  - standplaats
+  - materiaal en techniek
+- opmerkingen
+  - geïllustreerde objecten
+  - tekstwaarden = random nota’s
+- koppeling met bibliotheekcatalogus (OPACKMSKA) Brokade?
+
+Informatie bij Tentoonstelling:
+- naam
+- periode
+- bruikleen aan gekoppeld
+
+Gebeurtenissen
+	Topstukken = gebeurtenis = handig voor beheer omdat daar veel aan gekoppeld kan worden (vanaf wanneer bv.)
+
+Aandachtspunten (vinkje)
+- verdwenen
+- beschikbaar voor publiek
+- topstukken (zowel classificatie als gebeurtenis)
+
+Taxatie = verzekeringsbedragen
+
+Waardering = bv. uniek, spiritueel, religieus, ...
+
+
