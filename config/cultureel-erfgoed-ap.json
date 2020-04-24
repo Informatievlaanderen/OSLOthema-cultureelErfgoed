@@ -2,7 +2,7 @@
 {
   "name": "cultureel-erfgoed-ap",
   "type": "ap",
-  "eap": "CultureelErfgoed-object-withTags.EAP",
+  "eap": "CultureelErfgoed-object.EAP",
   "diagram": "CultureelErfgoed-Object",
   "template": "mijn-applicatieprofiel-ap.j2",
   "title": "Cultureel Erfgoed (Applicatieprofiel)",
