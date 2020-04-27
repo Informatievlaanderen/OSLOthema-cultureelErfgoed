@@ -107,7 +107,7 @@ Bijvoorbeeld ingekleurd en niet ingekleurd, en niet noodzakelijkerwijze in dezel
 
 ### Een ensemble van meerdere gebouwen, bv. Begijnhof van Brugge, Gravensteen, ...
 
-
+### Vondst
 
 
 ## Immaterieel erfgoed
