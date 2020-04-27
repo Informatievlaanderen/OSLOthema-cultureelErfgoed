@@ -12,7 +12,7 @@
 
 5. Authorities koppelen aan andere authorities. -> ?
 
-6. Objecten kunnen inventariseren los van de collectie, bv. toptukkenlijst, juridische status/erkenning, ...
+6. Objecten kunnen inventariseren los van de collectie, bv. inventaris OE, toptukkenlijst, juridische status/erkenning, ...
 
 7. Historiek van het object bijhouden.
 
@@ -36,7 +36,7 @@
 
 16. Als burger, projectontwikkelaar of makelaar wil ik weten of een bepaald perceel aanleiding zal geven tot het opstellen van een archeologienota. (https://www.onroerenderfgoed.be/archeologie-bij-vergunningsaanvragen-bouwheren)
 
-17. Als onderzoeker of collectiebeheerder wil ik weten in welk onroerenderfgoeddepot (https://www.onroerenderfgoed.be/ik-werk-voor-een-onroerenderfgoeddepot) het archeologische ensemble (de vondsten en de documentatie ) van een bepaald archeologisch onderzoek zich bevinden.
+17. Als onderzoeker of collectiebeheerder wil ik weten in welk onroerenderfgoeddepot (https://www.onroerenderfgoed.be/ik-werk-voor-een-onroerenderfgoeddepot) het archeologische ensemble (de vondsten en de documentatie) van een bepaald archeologisch onderzoek zich bevinden.
 
 18. Als metaaldetectorist wil ik mijn vondsten kunnen melden.
 
