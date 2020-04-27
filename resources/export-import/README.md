@@ -10,7 +10,11 @@ Voor het eerste gebruik is het niet meer nodig om de referentie naar Microsoft X
 De functionaliteit is echter identiek.
 
 ## Tags van EA naar Excel
-Open de te behandelen .EAP file met Enterprise Architect. Note: niet de centrale EA repository, maar een externe file met beperkt aantal packages.
+Open het in te lezen .eap bestand met Enterprise Architect.
+
+Note 1: niet de centrale EA repository, maar een externe bestand.
+
+Note 2: als het in te lezen .eap bestand meer packages bevat dan de te beschouwen input, vertrek dan van een kopie, die enkel het/de te beschouwen package(s) bevat. Er is namelijk geen andere mogelijkheid om packages te selecteren.
 
 Open een nieuwe (of oude...) kopie van het .xlsm bestand.
 
@@ -24,7 +28,9 @@ Menu: **Add-ins**; klik **Export Tagged Values** (jawel, export, bekeken vanuit 
 
 De resultaten komen in het tabblad **Tagged Values** terecht. That's it!
 
-Sla het bestand op.
+Sla het .xlsm bestand op.
+
+Sluit het .eap bestand.
 
 ## Bewerking
 Opgepast, zoals de documentatie (te lezen op de download URL) vermeldt:	**het is niet mogelijk om nieuwe tags aan te maken; je kan alleen bestaande tags wijzigen**.
@@ -40,12 +46,20 @@ Doe een of meerdere van volgende mogelijke bewerkingen:
 
 Tip: het is handig om de inhoud eerst te sorten van A-Z op de kolom **Owner**.
 
-Sla het bestand op.
+Sla het .xlsm bestand op.
 
 ## Tags van Excel naar EA
+
+Open het aan te passen .eap bestand met Enterprise Architect (nu zeker niet de gereduceerde kopie!).
 
 Open het .xlsm bestand.
 
 Open het tabblad **Tagged Values**.
 
 Menu: Add-ins; klik **Import Tagged Values**; klik **Start** (jawel, import, bekeken vanuit het standpunt van de .eap).
+
+Sluit het .xlsm bestand.
+
+Sluit het gewijzigde .eap bestand.
+
+
