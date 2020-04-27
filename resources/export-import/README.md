@@ -1,4 +1,4 @@
-# Tags Exporten uit, aanpassen en opnieuw importeren in .eap bestanden
+# Tags exporteren uit, aanpassen en opnieuw importeren in .eap bestanden
 
 ## Bron
 
