@@ -26,9 +26,9 @@
 
 12. Zoeken naar objecten op periode.
 
-13. Als Vlaamse overheid wil ik de laag van het beschermde erfgoed kunnen publiceren in het INSPIRE protected sites thema.
-
 ## Voorlopig out of scope -> nog te bekijken
+
+13. Als Vlaamse overheid wil ik de laag van het beschermde erfgoed kunnen publiceren in het INSPIRE protected sites thema.
 
 14. Als Vlaams Architectuur Archief (VAI) wil ik archiefbeschrijvingen van archieven van architecten kunnen koppelen aan de realisaties van deze architect die gekend zijn in de inventaris onroerend erfgoed (https://www.onroerenderfgoed.be/nieuws/collectie-vai-gekoppeld-aan-onze-inventaris).
 
