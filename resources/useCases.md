@@ -26,19 +26,19 @@
 
 12. Zoeken naar objecten op periode.
 
+13. Als metaaldetectorist wil ik mijn vondsten kunnen melden. --> OK?
+
 ## Voorlopig out of scope -> nog te bekijken
 
-13. Als Vlaamse overheid wil ik de laag van het beschermde erfgoed kunnen publiceren in het INSPIRE protected sites thema.
+14. Als Vlaamse overheid wil ik de laag van het beschermde erfgoed kunnen publiceren in het INSPIRE protected sites thema.
 
-14. Als Vlaams Architectuur Archief (VAI) wil ik archiefbeschrijvingen van archieven van architecten kunnen koppelen aan de realisaties van deze architect die gekend zijn in de inventaris onroerend erfgoed (https://www.onroerenderfgoed.be/nieuws/collectie-vai-gekoppeld-aan-onze-inventaris).
+15. Als Vlaams Architectuur Archief (VAI) wil ik archiefbeschrijvingen van archieven van architecten kunnen koppelen aan de realisaties van deze architect die gekend zijn in de inventaris onroerend erfgoed (https://www.onroerenderfgoed.be/nieuws/collectie-vai-gekoppeld-aan-onze-inventaris).
 
-15. Als informatiebeheerder wil ik alle dossiers in mijn archief over een bepaald onroerend erfgoed (een kerk, een standbeeld, een brug, een woning, een boom, een pompstation, een boot, een motte, een bunker, een sluis, een rivervallei, ...) kunnen terugvinden, ook al zitten die in verschillende reeksen.
+16. Als informatiebeheerder wil ik alle dossiers in mijn archief over een bepaald onroerend erfgoed (een kerk, een standbeeld, een brug, een woning, een boom, een pompstation, een boot, een motte, een bunker, een sluis, een rivervallei, ...) kunnen terugvinden, ook al zitten die in verschillende reeksen.
 
-16. Als burger, projectontwikkelaar of makelaar wil ik weten of een bepaald perceel aanleiding zal geven tot het opstellen van een archeologienota. (https://www.onroerenderfgoed.be/archeologie-bij-vergunningsaanvragen-bouwheren)
+17. Als burger, projectontwikkelaar of makelaar wil ik weten of een bepaald perceel aanleiding zal geven tot het opstellen van een archeologienota. (https://www.onroerenderfgoed.be/archeologie-bij-vergunningsaanvragen-bouwheren)
 
-17. Als onderzoeker of collectiebeheerder wil ik weten in welk onroerenderfgoeddepot (https://www.onroerenderfgoed.be/ik-werk-voor-een-onroerenderfgoeddepot) het archeologische ensemble (de vondsten en de documentatie) van een bepaald archeologisch onderzoek zich bevinden.
-
-18. Als metaaldetectorist wil ik mijn vondsten kunnen melden.
+18. Als onderzoeker of collectiebeheerder wil ik weten in welk onroerenderfgoeddepot (https://www.onroerenderfgoed.be/ik-werk-voor-een-onroerenderfgoeddepot) het archeologische ensemble (de vondsten en de documentatie) van een bepaald archeologisch onderzoek zich bevinden.
 
 19. Als burger wil ik de status van mijn toelatings- (https://www.onroerenderfgoed.be/ik-wil-werken-uitvoeren-aan-erfgoed) of premieaanvraag (https://www.onroerenderfgoed.be/ik-wil-financiele-ondersteuning-krijgen) kunnen raadplegen bij de behandelende overheid.
 
