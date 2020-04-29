@@ -179,7 +179,7 @@ Vervolgens wordt deze video gearchiveerd (Creatie-activiteit van het type "Archi
 
 ### Collectie-overdracht
 
-De botanist André Lawalrée (Agent) heeft een collectie overgedragen aan (Overdracht) Plantentuin Meise (Agent). Deze collectie bevat o.a. een exemplaar van een Galium Aparine (MensgemaaktObject) met als identificator 13194, afkomstig van Postel (MensgemaaktObject:spatialcoverage). Dit examplaar is gedigitaliseerd (InformatieObject) en geïdentificeerd met BR0000010985236.
+De botanist André Lawalrée (Agent) heeft een collectie overgedragen aan (Overdracht) Plantentuin Meise (Agent). Deze collectie bevat o.a. een exemplaar van een Galium Aparine (MensgemaaktObject) met als identificator 13194, afkomstig van Postel (MensgemaaktObject:spatialcoverage). Dit examplaar is gedigitaliseerd (Document) en geïdentificeerd met BR0000010985236.
 
 Gebaseerd op: https://www.doedat.be/task/show/3841851
 
