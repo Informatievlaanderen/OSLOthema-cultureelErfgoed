@@ -183,4 +183,4 @@ De botanist André Lawalrée (Agent) heeft een collectie overgedragen aan (Overd
 
 Gebaseerd op: https://www.doedat.be/task/show/3841851
 
-![digitalisatie-archivatie](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/plantentuin.jpg)
+![overdracht](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/overdracht.jpg)
