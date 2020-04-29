@@ -173,13 +173,9 @@ Deze werd gedigitaliseerd door Sonim Production (Agent) waardoor de bestanden (I
 
 ### Archivering
 
-Vervolgens wordt deze video gearchiveerd (Creatie-activiteit van het type "Archivering") waarbij de video gekopieerd wordt op een LTO tape (MensgemaaktObject) door Meemoo (Agent). Tot slot is er een ondertitelingsdocument (InformatieObject) gekoppeld met deze video.
- 
+Vervolgens wordt deze video gearchiveerd (Creatie-activiteit van het type "Archivering") waarbij de video gekopieerd wordt op een LTO tape (MensgemaaktObject) door Meemoo (Agent).
+
 ![archivering](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/archivering.jpg)
-
-### Digital born
-
-Een digital born object is hetzelfde als bij [Digitalisatie - archivatie](#Digitalisatie-archivatie), behalve dat er geen voorafgaand MensgemaaktObject is, die nog gedigitaliseerd moet worden.
 
 ### Collectie-overdracht
 
