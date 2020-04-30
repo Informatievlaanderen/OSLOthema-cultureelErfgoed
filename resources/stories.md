@@ -73,6 +73,8 @@ De zeven hoofdzonden door James Ensor
 - [Woede](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/colere)
 - [Luiheid](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/paresse) 
 
+![hoofdzonden](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/4.1.jpg)
+
 ### Eén werk dat (fysiek) uit elkaar is gehaald en nu over 2 of meer collecties verspreid is
 
 Melun-diptiek
@@ -120,6 +122,9 @@ http://jamesensor.vlaamsekunstcollectie.be/en/sources/online-publications/james-
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iii 
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iv 
 
+![verband](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/6.1.jpg)
+
+
 ### Verschillende versies van hetzelfde kunstwerk
 
 Bijvoorbeeld ingekleurd en niet ingekleurd, en niet noodzakelijkerwijze in dezelfde collectie, zelfs niet noodzakelijk met de zelfde (toegekende) titel.
@@ -164,21 +169,23 @@ Een 100-tal moderators (uit ngo's en de Vlaamse Overheid) willen verbanden legge
 
 ## Digitalisatie
 
-### Archivatie
+### Digitalisatie
 
 VRT (Agent) heeft een VCR casette (MensgemaaktObject) waarop verschillende video's bewaard staan.
-Deze werd gedigitaliseerd door Sonim Production (Agent) waardoor de bestanden (InformatieObject) in digitale vorm beschikbaar zijn. Eén daarvan is een video met daarop het journaal van 1 januari 1993 (InformatieObject:titel). De VRT is eigenaar van dit bestand (InformatieObject:eigenaar). Vervolgens wordt deze video gearchiveerd (Archivatie-activiteit) door Meemoo (Agent) op een LTO tape (MensgemaaktObject). Tot slot is er een ondertitelingsdocument (InformatieObject) gekoppeld met deze video.
- 
-![digitalisatie-archivatie](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/digitalisatie_archivatie.jpg)
+Deze werd gedigitaliseerd door Sonim Production (Agent) waardoor de bestanden (InformatieObject) in digitale vorm beschikbaar zijn. Eén daarvan is een video met daarop het journaal van 1 januari 1993 (InformatieObject:titel). De VRT is eigenaar van dit bestand (InformatieObject:eigenaar).
 
-### Digital born
+![digitalisatie](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/digitalisatie.jpg)
 
-Een digital born object is hetzelfde als bij [Digitalisatie - archivatie](#Digitalisatie-archivatie), behalve dat er geen voorafgaand MensgemaaktObject is, die nog gedigitaliseerd moet worden.
+### Archivering
+
+Vervolgens wordt deze video gearchiveerd (Creatie-activiteit van het type "Archivering") waarbij de video gekopieerd wordt op een LTO tape (MensgemaaktObject) door Meemoo (Agent).
+
+![archivering](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/archivering.jpg)
 
 ### Collectie-overdracht
 
-De botanist André Lawalrée (Agent) heeft een collectie overgedragen aan (Overdracht) Plantentuin Meise (Agent). Deze collectie bevat o.a. een exemplaar van een Galium Aparine (MensgemaaktObject) met als identificator 13194, afkomstig van Postel (MensgemaaktObject:spatialcoverage). Dit examplaar is gedigitaliseerd (InformatieObject) en geïdentificeerd met BR0000010985236.
+De botanist André Lawalrée (Agent) heeft een collectie overgedragen aan (Overdracht) Plantentuin Meise (Agent). Deze collectie bevat o.a. een exemplaar van een Galium Aparine (MensgemaaktObject) met als identificator 13194, afkomstig van Postel (MensgemaaktObject:spatialcoverage). Dit examplaar is gedigitaliseerd (Document) en geïdentificeerd met BR0000010985236.
 
 Gebaseerd op: https://www.doedat.be/task/show/3841851
 
-![digitalisatie-archivatie](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/plantentuin.jpg)
+![overdracht](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/overdracht.jpg)
