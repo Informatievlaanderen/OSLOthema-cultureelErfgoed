@@ -73,6 +73,8 @@ De zeven hoofdzonden door James Ensor
 - [Woede](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/colere)
 - [Luiheid](http://jamesensor.vlaamsekunstcollectie.be/nl/collectie/paresse) 
 
+![hoofdzonden](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/4.1.jpg)
+
 ### Eén werk dat (fysiek) uit elkaar is gehaald en nu over 2 of meer collecties verspreid is
 
 Melun-diptiek
@@ -119,6 +121,9 @@ http://jamesensor.vlaamsekunstcollectie.be/en/sources/online-publications/james-
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/the-artists-mother-in-death
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iii 
 - http://jamesensor.vlaamsekunstcollectie.be/en/collection/mijn-dode-moeder-iv 
+
+![verband](https://raw.githubusercontent.com/brechtvdv/OSLOthema-cultureelErfgoed/master/resources/objectdiagrammen/6.1.jpg)
+
 
 ### Verschillende versies van hetzelfde kunstwerk
 
