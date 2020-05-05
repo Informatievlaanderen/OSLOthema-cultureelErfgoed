@@ -54,6 +54,8 @@ Sla het .xlsm bestand op.
 
 ## Tags van Excel naar EA
 
+**Pas op: eventueel aangebrachte 'tagged value notes' op tags worden vernietigd bij elke nieuwe import. Verwijder dus dergelijke tags uit de lijst alvorens opnieuw te importeren!!!** 
+
 Open het aan te passen .eap bestand met Enterprise Architect (nu zeker niet de gereduceerde kopie!).
 
 Open het .xlsm bestand.
