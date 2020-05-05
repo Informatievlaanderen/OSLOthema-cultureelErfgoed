@@ -55,7 +55,7 @@ Informatieobject
 Identificeerbaar immaterieel item met een objectief herkenbare structuur dat als afzonderlijke eenheid wordt gedocumenteerd.
 
 ***************************************************************************************************************************************************************************************************************************************************************
-Voorbeelden: gedichten, grappen, datasets, afbeeldingen, teksten, multimedia-objecten, ontwerpen of procedures, computerprogrammacode, algoritmes of wiskundige formules, kennisgraphs… Kan los van een drager bestaan of op één of meer dragers voorkomen.
+Voorbeelden: gedichten, grappen, datasets, afbeeldingen, teksten, multimedia-objecten, ontwerpen of procedures, computerprogrammacode, algoritmes of wiskundige formules, kennisgraphs... Kan los van een drager bestaan of op één of meer dragers voorkomen.
 
 MensgemaaktObject
 
@@ -98,14 +98,14 @@ Publicatiewerk
 Werk bedoeld om verspreid te worden voor een groter publiek, in materiële of elektronische vorm en gericht op het weergeven van de Expressies van andere Werken.
 
 ***************************************************************************************************************************************************************************************************************************************************************
-Typische voorbeelden zijn boeken, tijdschriften, naslagwerken, e-boeken, podcasts, blogs…
+Typische voorbeelden zijn boeken, tijdschriften, naslagwerken, e-boeken, podcasts, blogs...
 
 SerieelWerk
 
 Periodiek uitgegeven Publicatiewerk. 
 
 ***************************************************************************************************************************************************************************************************************************************************************
-Bv tijdschrift, magazine…
+Bv tijdschrift, magazine...
 
 Taalobject
 

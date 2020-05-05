@@ -46,6 +46,10 @@ Doe een of meerdere van volgende mogelijke bewerkingen:
 
 Tip: het is handig om de inhoud eerst te sorten van A-Z op de kolom **Owner**.
 
+Note 1: let op met Microsoft Office-achtige dingen zoals '...'. Daarvan maken de Office tools één karakter dat niet rendert in de spec. Vervangen door drie afzonderlijke puntjes!
+
+Note 2: werkt niet voor tag waarden langer dan 255 karakters. Vul in dat geval NOTE in als waarde en bewerk de 'tagged value notes' rechtstreeks in EA!
+
 Sla het .xlsm bestand op.
 
 ## Tags van Excel naar EA
