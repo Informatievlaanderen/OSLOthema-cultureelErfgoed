@@ -1,0 +1,6 @@
+k:ZelfstandigeExpressie|c:|k:Manifestatieproducttype
+k:InformatieObject|c:|k:Collectie
+k:Manifestatieproducttype|c:|k:Publicatieexpressie
+k:Manifestatieproducttype|c:|k:Agent
+k:Locatie|c:|k:Collectie
+k:MensgemaaktObject|c:|k:Collectie

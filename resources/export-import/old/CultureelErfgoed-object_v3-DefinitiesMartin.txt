@@ -1,0 +1,154 @@
+***************************************************************************************************************************************************************************************************************************************************************
+Definities
+
+maandag 4 mei 2020
+
+10:55
+
+Naam
+
+Definitie
+
+Gebruiksnota
+
+Aggregatiewerk
+
+Werk waarvan de essentie de selectie en/of schikking is van Expressies van één of meer andere werken. 
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Het resultaat van de aggregatie is dus een werk op zich, bv een bloemlezing van gedichten waarbij deze geselecteerd en geordend werden. De samengevoegde Expressies maken daardoor geen deel uit van het Aggregatiewerk, ze zijn hoogstens een onderdeel van de overeenkomstige Expressie.
+
+Collectie
+
+Verzameling fysieke items die voor een specifiek doel en een bepaald publiek en volgens een ontwikkelingsplan door één of meer personen of organisaties wordt samengesteld en onderhouden ("gecureerd" en "bewaard" in museumtermen).
+
+***************************************************************************************************************************************************************************************************************************************************************
+Typische voorbeelden zijn museumcollecties, archieven, bibliotheekcollecties, digitale bibliotheken. Samengestelde objecten zoals meerluiken of schaaksets die een fysiek of functioneel geheel vormen zijn geen Collecties. 
+
+ComplexWerk
+
+Werk dat uit andere Werken is samengesteld.
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Die andere Werken zijn bv adaptaties of vertalingen of publicaties van een oorspronkelijk Individueel werk. De andere Werken kunnen parallel of apart evolueren. Het feit dat een Werk Expressies omvat van andere Werken maakt het niet complex, bv een bloemlezing waarvan één versie bestaat is geen Complex Werk. De samenhang tussen de samenstellende Werken van een Complex Werk wordt bepaald door de sterkte van het achterliggend idee. Daardoor is bv een vertaling van een oorspronkelijk Werk deel van hetzelfde Complex Werk, zelfs als is het een Individueel werk op zich. 
+
+Containerwerk
+
+Document
+
+Identificeerbaar immaterieel item dat uitspraken bevat over de werkelijkheid.
+
+***************************************************************************************************************************************************************************************************************************************************************
+Deze uitspraken kan de vorm aannemen van tekst, beeld, audio, video of gelijkaardig. Niet te verwarren met een computerdocument (dat mogelijk maar niet noodzakelijk iets documenteert) dat gewoon als Informatieobject kan beschreven worden. 
+
+IndividueelWerk
+
+Werk dat door slechts één zelfstandige Expressie wordt gerealiseerd.
+
+***************************************************************************************************************************************************************************************************************************************************************
+De Expressie van een Individueel Werk stemt er één op één mee overeen, het Werk en zijn uitdrukking zijn equivalent of is toch zo bedoeld (dus ook als de Expressie in praktijk niet helemaal is afgewerkt).
+
+Informatieobject
+
+Identificeerbaar immaterieel item met een objectief herkenbare structuur dat als afzonderlijke eenheid wordt gedocumenteerd.
+
+***************************************************************************************************************************************************************************************************************************************************************
+Voorbeelden: gedichten, grappen, datasets, afbeeldingen, teksten, multimedia-objecten, ontwerpen of procedures, computerprogrammacode, algoritmes of wiskundige formules, kennisgraphs... Kan los van een drager bestaan of op één of meer dragers voorkomen.
+
+MensgemaaktObject
+
+Fysiek object ontstaan door een doelbewuste menselijke activiteit.
+
+***************************************************************************************************************************************************************************************************************************************************************
+De grens tussen natuurlijk of mensgemaakt is niet precies bepaald. Een steen met inscripties of een opgezette vlinder worden ook beschouwd als door de mens gemaakt.
+
+OntwerpOfProcedure
+
+***************************************************************************************************************************************************************************************************************************************************************
+Gedocumenteerd plan voor het uitvoeren van acties met het oog op het bekomen van een resultaat van een bepaalde kwaliteit, vorm of inhoud. 
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Het resultaat is een gevolg van doelbewuste menselijke activiteit en kan zowel materieel als immaterieel zijn. Het kan een procedure zijn te volgen bij het uitvoeren van een bepaalde activiteit, het kan een ontwerpschema zijn van een bepaald product, het kan ook een louter bepaald product, het kan ook een louter intellectuele oefening zijn (maw een ontwerp dat nooit is uitgevoerd).
+
+Opname
+
+Expressie die het resultaat is van een Opnamesessie, bedoeld om wat daarbij geregistreerd werd over te brengen en te bewaren. 
+
+Opnamewerk
+
+Werk gericht op het vastleggen verschijnselen die plaatsvinden in een bepaald tijdsbestek. 
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Eventueel worden daarbij andere Werken geregistreerd maar die maken geen deel uit van het Opnamewerk, ze zijn net als bij een Containerwerk (ttz een Publicatiewerk, Voorstelling of Aggregatiewerk) hoogstens deel van de overeenkomstige Opname(expressie). Foto's of film registreren niet noodzakelijk iets (bv animatiefilm) in welk geval het gewone Werken en geen Opnemewerken zijn. 
+
+Publicatieexpressie
+
+Geheel van zaken die uitdrukking geven aan de beslissingen van uitgevers mbt de selectie van de inhoud en de lay-out van publicaties. 
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Typisch wordt wat oorspronkelijk louter tekst was grafisch en typografisch vormgegeven en worden illustraties en andere inhoud toegevoegd. Als zodanig bevat een instantie van een Publicatieexpressie alle Expressies nodig voor de uiteindelijke weergave van de publicatie, of die nu visueel, audio of tactiel is.
+
+Publicatiewerk
+
+Werk bedoeld om verspreid te worden voor een groter publiek, in materiële of elektronische vorm en gericht op het weergeven van de Expressies van andere Werken.
+
+***************************************************************************************************************************************************************************************************************************************************************
+Typische voorbeelden zijn boeken, tijdschriften, naslagwerken, e-boeken, podcasts, blogs...
+
+SerieelWerk
+
+Periodiek uitgegeven Publicatiewerk. 
+
+***************************************************************************************************************************************************************************************************************************************************************
+Bv tijdschrift, magazine...
+
+Taalobject
+
+Identificeerbare uitdrukking in natuurlijke taal of talen.
+
+***************************************************************************************************************************************************************************************************************************************************************
+Een Taalobject staat los van de vorm die het aanneemt (geschreven tekst, opgenomen spraak, gebarentaal). Uitingen in een niet-natuurlijke taal zoals computercode of wiskundige formules worden niet beschouwd als Taalobject maar gewoon als Informatieobject.
+
+VisueelItem
+
+Intellectueel of conceptueel deel van een herkenbaar teken of afbeelding.
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Staat los van het uiteindelijke uitzicht of de fysieke vorm van het VisueelItem. Bv een logo in een ander formaat, oriëntatie of kleur is nog steeds hetzelfde logo. Laat bv toe om MensgemaakteObjecten met elkaar te koppelen die dezelfde visuele symbolen, tekens of afbeeldingen dragen (bv items met daarop een afbeelding van de Mona Lisa).
+
+Voorstelling
+
+Werk gericht op het tonen van artistieke expressies voor een publiek.
+
+***************************************************************************************************************************************************************************************************************************************************************
+Net als Aggregatiewerken of Publicatiewerken is een Voorstelling een Containerwerk, ttz een Werk dat Expressies van andere Werken omvat. Bv de tekst van een toneelvoorstelling, de muziek van een dansvoorstelling.
+
+Voorstellingsplan
+
+Set van instructies waaraan individuele uitvoeringen van een Voorstelling moeten voldoen.
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Typisch de aanwijzingen nodig voor theatrale, choreografische of muziekvoorstellingen. Kan bv gaan over aangepaste tekst van een toneelstuk, choregorafische bewegingen volgens een bepaalde notatie, de muzikale partituur of software-instructies. Het resultaat van een Voorstelling kan in meer of mindere mate uit het Voorstellingsplan worden afgeleid hoewel de instructies beperkt kunnen zijn (en bv louter improvisatie voorzien).
+
+Werk
+
+Idee of combinatie van ideeën achter één of meer artistieke of intellectuele Expressies.
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Typische voorbeelden van Werken zijn gedichten, verhalen, muziekcomposities. Een Werk kan uit meerdere Werken bestaan, het kan ook de uitingen van andere Werken omvatten (is bv het geval bij een Publicatiewerk). Soms zijn de bij een Publicatiewerk). Soms zijn de artistieke/intellectuele uitingen slechts indirect bewijs voor het idee of de ideëen achter een Werk, ze vormen ahw een snapshot van een Werk op een bepaald moment. Een Werk kan Expressies van andere Werken omvatten, bv een verzamelalbum van muzieknummers.
+
+ZelfstandigeExpressie
+
+De immateriële realisatie van een Individueel Werk op een bepaald moment dat als een compleet geheel kan worden beschouwd.
+
+***************************************************************************************************************************************************************************************************************************************************************
+NOTE
+Een Werk kan gerealiseerd worden door meerdere ZelfstandigeExpressies, maar achter elke ZelfstandigeExpressie zit in principe een Individueel Werk. Bv een Aggregatiewerk vh type muziekalbum bevat meerdere ZelfstandigeExpressies die elk een Individueel Werk vh type "song" realiseren. Onder "zelfstandig" of "compleet" verstaan we dat de creator deze intentie had, zelfs al heeft hij de expressie misschien nooit volledig afgewerkt. 
