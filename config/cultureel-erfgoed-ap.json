@@ -1,17 +1,33 @@
 [
 {
-  "name": "cultureel-erfgoed-ap",
+  "name": "cultureel-erfgoed-object-ap",
   "type": "ap",
   "eap": "CultureelErfgoed-object.EAP",
   "diagram": "CultureelErfgoed-Object",
-  "template": "cultureel-erfgoed-ap.j2",
-  "title": "Cultureel Erfgoed (Applicatieprofiel)",
+  "template": "cultureel-erfgoed-object-ap.j2",
+  "title": "Cultureel Erfgoed Object (Applicatieprofiel)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2020-05-05",
+  "publication-date": "2020-05-28",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "CultureelErfgoed",
-  "site": "site-skeleton",
+  "site": "site-skeleton/cultureel-erfgoed-object",
+  "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/issues",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/cultureel-erfgoed/index.html"
+},
+{
+  "name": "cultureel-erfgoed-event-ap",
+  "type": "ap",
+  "eap": "CultureelErfgoed-event.EAP",
+  "diagram": "CultureelErfgoed-Event",
+  "template": "cultureel-erfgoed-event-ap.j2",
+  "title": "Cultureel Erfgoed Event (Applicatieprofiel)",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2020-05-28",
+  "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "CultureelErfgoed",
+  "site": "site-skeleton/cultureel-erfgoed-event",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/issues",
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaarden-in-ontwikkeling/cultureel-erfgoed/index.html"
 }
