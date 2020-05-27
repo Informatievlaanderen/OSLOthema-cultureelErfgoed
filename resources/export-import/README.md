@@ -1,2 +1,2 @@
-De vroeger inhoud van deze directory heb ik ter referentie laten bestan in subdirectory 'old'.
-Nieuwe inhoud me de nieuwe .xlsm is te vinden in de root folder van deze repo, bij de modellen zelf.
+De vroegere inhoud van deze directory heb ik ter referentie laten bestaan in subdirectory 'old'.
+Nieuwe inhoud moet je maken in lokale *.xlsm bestanden op basis van https://github.com/Informatievlaanderen/OSLO-allerleiTooltjes/tree/master/EA-Excel/TagsAndNotes.
