@@ -2,7 +2,7 @@
 {
   "name": "cultureel-erfgoed-voc",
   "type": "voc",
-  "eap": "CultureelErfgoed-VOC.EAP",
+  "eap": "CultureelErfgoed-object.EAP",
   "diagram": "CultureelErfgoed-Object",
   "template": "cultureel-erfgoed-voc.j2",
   "title": "Cultureel Erfgoed (Vocabularium)",
