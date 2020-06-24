@@ -4,7 +4,7 @@
   "type": "voc",
   "eap": "CultureelErfgoed-VOC.EAP",
   "diagram": "CultureelErfgoed-Object",
-  "template": "cultureel-erfgoed-object-voc.j2",
+  "template": "cultureel-erfgoed-voc.j2",
   "title": "Cultureel Erfgoed (Vocabularium)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2020-07-02",
