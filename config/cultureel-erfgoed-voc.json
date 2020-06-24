@@ -1,6 +1,6 @@
 [
 {
-  "name": "cultureel-erfgoed-object-voc",
+  "name": "cultureel-erfgoed-voc",
   "type": "voc",
   "eap": "CultureelErfgoed-VOC.EAP",
   "diagram": "CultureelErfgoed-Object",
