@@ -2,31 +2,29 @@
 
 ## In scope
 
-1. Zoeken naar objecten op locatie/instelling/pand en hun toegankelijkheid. ->  OK (To do: specifieke Locatie, incl. roerend erfgoed in onroerend erfgoed)
+1. Zoeken naar objecten op locatie/instelling/pand en hun toegankelijkheid. ->  OK (Toegankelijkheid out of scope.)
 
 2. Weten welk rechten (rechtsgevolgen) verbonden zijn aan (het gebruik van) een object. -> OK
 
-3. Collectie (objecten) contextualiseren door ze te koppelen met andere collecties of collectieobjecten.
+3. Collectie (objecten) contextualiseren door ze te koppelen met andere collecties of collectieobjecten. -> OK
 
 4. Informatieobjecten/documentatie/materiaal (afbeeldingen, teksten, kaarten, bibliografiën, etc.) over een erfgoedobject kunnen terugvinden. -> OK
 
-5. Authorities koppelen aan andere authorities. -> ?
+6. Objecten kunnen inventariseren los van de collectie, bv. inventaris OE, toptukkenlijst, juridische status/erkenning, ... -> OK
 
-6. Objecten kunnen inventariseren los van de collectie, bv. inventaris OE, toptukkenlijst, juridische status/erkenning, ...
-
-7. Historiek van het object bijhouden.
+7. Historiek van het object bijhouden. -> OK
 
 8. Weten in welke tentoonstellingen een erfgoedobject opgenomen was en in welke bronnen (catalogi, studies …) het object beschreven werd (historiek). -> OK
 
-9. Waarde van een object kunnen opzoeken.
+9. Waarde van een object kunnen opzoeken. -> OK
 
-10. Nagaan of een object ontvreemd werd en in welke collectie het object thuishoort, we willen dit over alle culturele (erfgoed)collecties heen opzoeken en op basis van invoer van kenmerken (representatie (2D/3D) of beschrijving) een set overeenkomstige objecten opvragen.
+10. Nagaan of een object ontvreemd werd en in welke collectie het object thuishoort, we willen dit over alle culturele (erfgoed)collecties heen opzoeken en op basis van invoer van kenmerken (representatie (2D/3D) of beschrijving) een set overeenkomstige objecten opvragen. -> OK
 
 11. Alle kunstenaars weergeven waarvan Vlaanderen (of mogelijk er buiten) werken herbergt. → OK  
 
-12. Zoeken naar objecten op periode.
+12. Zoeken naar objecten op periode. -> OK
 
-13. Als metaaldetectorist wil ik mijn vondsten kunnen melden. --> OK?
+13. Als metaaldetectorist wil ik mijn vondsten kunnen melden. -> OK?
 
 ## Voorlopig out of scope -> nog te bekijken
 
