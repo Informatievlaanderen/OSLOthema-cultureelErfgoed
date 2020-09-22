@@ -1,11 +1,12 @@
 {
   "naam": "Applicatieprofielen Cultureel Erfgoed",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-07-17/all-cultureel-erfgoed-event-ap.jsonld",
   "verantwoordelijke_organisatie": "Departement Cultuur, Jeugd en Media",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000067",
   "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
   "categorie": "Vocabularium & applicatieprofielen",
-  "description_file" : "ap-cultureel-erfgoed.md",
+  "beschrijving" : "ap-cultureel-erfgoed.md",
   "specificatiedocument": [
     {
       "naam": "Applicatieprofiel Cultureel Erfgoed Object",

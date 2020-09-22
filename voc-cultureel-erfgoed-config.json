@@ -1,11 +1,12 @@
 {
   "naam": "Vocabularium Cultureel Erfgoed",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/cultureel-erfgoed/kandidaatstandaard/2020-07-17/all-cultureel-erfgoed-voc.jsonld",
   "verantwoordelijke_organisatie": "Departement Cultuur, Jeugd en Media",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000067",
   "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
   "categorie": "Vocabularium & applicatieprofielen",
-  "description_file" : "voc-cultureel-erfgoed.md",
+  "beschrijving" : "voc-cultureel-erfgoed.md",
   "specificatiedocument": [
     {
       "naam": "Vocabularium Cultureel Erfgoed",
