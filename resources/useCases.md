@@ -24,7 +24,7 @@
 
 12. Zoeken naar objecten op periode. -> OK
 
-13. Als metaaldetectorist wil ik mijn vondsten kunnen melden. -> OK?
+13. Als metaaldetectorist wil ik mijn vondsten kunnen melden. -> OK
 
 ## Voorlopig out of scope -> nog te bekijken
 
