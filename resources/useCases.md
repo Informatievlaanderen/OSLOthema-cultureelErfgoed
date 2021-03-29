@@ -44,11 +44,11 @@
 
 ## Af te leiden use cases
 
-- Zoveel mogelijk contentlagen (collectiemetadata, digitale reproducties van de collectiestukken, provenance, tentoonstellingsgeschiedenis, bibliografie, digitale filmpjes …) geautomatiseerd samenbrengen voor intern gebruik, maar tevens voor extern hergebruik. → OK?
+- Zoveel mogelijk contentlagen (collectiemetadata, digitale reproducties van de collectiestukken, provenance, tentoonstellingsgeschiedenis, bibliografie, digitale filmpjes …) geautomatiseerd samenbrengen voor intern gebruik, maar tevens voor extern hergebruik. → OK
 
-- Als overheid wil ik weten welk percentage van het cultureel erfgoed online beschikbaar is en tegen welke kwaliteit dit aangeboden wordt. → OK?
+- Als overheid wil ik weten welk percentage van het cultureel erfgoed online beschikbaar is en tegen welke kwaliteit dit aangeboden wordt. → OK
 
-- Als overheid wil ik weten in welke mate cultuurspreiding gestimuleerd wordt door digitale culturele content als open content ter beschikking te stellen. → OK?
+- Als overheid wil ik weten in welke mate cultuurspreiding gestimuleerd wordt door digitale culturele content als open content ter beschikking te stellen. → OK
 
 - Als overheid, dienst of organisatie wil ik in het kader van een GRUP, bouwproject/verkaveling, herbestemming of renovatie een beleidsoverschrijdende bevraging doen van (erfgoed)databanken (ifv archeologie, onroerend erfgoed en cultureel erfgoed). → OK
 
