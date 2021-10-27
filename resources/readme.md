@@ -1,3 +1,12 @@
+# Doel van deze directory
+
+Deze directory omvat de toestand zoals bekomen op het einde van de OSLO traject voor cultureel erfgoed dat leidde 
+tot de erkenning van 2 applicatieprofielen Cultureel erfgoed Event en Cultureel erfgoed Object met bijhorend vocabularium.
+
+De informatie in deze directory omvat dus informatie waarop deze applicatieprofielen zijn gebouwd. En worden daarom als archief bijgehouden voor eventuele vervolg trajecten of ondersteunend te zijn in het gebruik van de applicatieprofielen.
+Er is geen afronding gebeurt om deze informatie te ordenen en evalueren in hoeverre het vollige noch accuraat is ten opzichte van de finaal erkende data standaarden. 
+
+
 # Nuttige bronnen
 
 ## Bestaande standaarden

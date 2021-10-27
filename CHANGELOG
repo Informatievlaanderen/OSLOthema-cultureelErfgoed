@@ -1,3 +1,8 @@
-YYYY-MM--DD
-  - Mijn aanpassing1
-  - Mijn aanpassing2
+2021-10-27
+  - editoriale verbeteringen: 
+      - verwijzen naar juiste link voor het standaardenregister (gevolg van aanpassingen in het standaardenregister)
+  - kleine opkuis van de repository:
+      - verhuizen van een ondersteunend EAP file naar de resources directory
+      - aanpassen van de bijhorende readme en verwijderen van een obsolete todo lijst
+2021-04-22
+  - publicatie van erkende standaarden
