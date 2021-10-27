@@ -1,16 +1,16 @@
 {
-  "naam": "Vocabularium Cultureel Erfgoed",
-  "rapport" : "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/vocabularium/cultureel-erfgoed/erkendestandaard/2021-04-22/all-cultureel-erfgoed-voc.jsonld",
+  "naam": "Applicatieprofiel Cultureel Erfgoed Object",
+  "rapport" : "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22/all-cultureel-erfgoed-object-ap.jsonld",
   "verantwoordelijke_organisatie": "Departement Cultuur, Jeugd en Media",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000067",
   "publicatiedatum": "2021-04-22",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Vocabularium",
-  "beschrijving" : "voc-cultureel-erfgoed.md",
+  "type_toepassing": "aanbevolen (vrijwillig)",
+  "categorie": "Applicatieprofiel",
+  "beschrijving" : "ap-cultureel-erfgoed-object.md",
   "specificatiedocument": [
     {
-      "naam": "Vocabularium Cultureel Erfgoed",
-      "waarde": "https://data.vlaanderen.be/ns/cultureel-erfgoed"
+      "naam": "Applicatieprofiel Cultureel Erfgoed Object",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object"
     }
   ],
   "documentatie": [],
@@ -84,7 +84,7 @@
   ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie over cultureel erfgoed",
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "2019-11-20",
+  "datum_van_aanmelding": "20 November 2019",
   "erkenning_werkgroep_datastandaarden": "2021-03-11",
   "erkenning_stuurgroep": "2021-04-22"
 }

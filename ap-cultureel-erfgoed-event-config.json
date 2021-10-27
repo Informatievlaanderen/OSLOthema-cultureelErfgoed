@@ -1,17 +1,13 @@
 {
-  "naam": "Applicatieprofielen Cultureel Erfgoed",
-  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-07-17/all-cultureel-erfgoed-event-ap.jsonld",
+  "naam": "Applicatieprofiel Cultureel Erfgoed Event",
+  "rapport" : "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22/all-cultureel-erfgoed-event-ap.jsonld",
   "verantwoordelijke_organisatie": "Departement Cultuur, Jeugd en Media",
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO000067",
-  "publicatiedatum": "TBD",
-  "type_toepassing": "TBD",
+  "publicatiedatum": "2021-04-22",
+  "type_toepassing": "aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
-  "beschrijving" : "ap-cultureel-erfgoed.md",
+  "beschrijving" : "ap-cultureel-erfgoed-event.md",
   "specificatiedocument": [
-    {
-      "naam": "Applicatieprofiel Cultureel Erfgoed Object",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object"
-    },
     {
       "naam": "Applicatieprofiel Cultureel Erfgoed Event",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event"
@@ -89,6 +85,6 @@
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie over cultureel erfgoed",
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
   "datum_van_aanmelding": "20 November 2019",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "erkenning_werkgroep_datastandaarden": "2021-03-11",
+  "erkenning_stuurgroep": "2021-04-22"
 }
