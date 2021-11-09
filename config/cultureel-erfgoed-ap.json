@@ -13,7 +13,7 @@
   "contributors-column": "CultureelErfgoed",
   "site": "site-skeleton/cultureel-erfgoed-object",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/issues",
-  "standaardregisterurl": "https://test.data.vlaanderen.be/standaarden/erkende-standaard/applicatieprofiel-cultureel-erfgoed-object.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/erkende-standaard/applicatieprofiel-cultureel-erfgoed-object.html"
 },
 {
   "name": "cultureel-erfgoed-event-ap",
@@ -29,6 +29,6 @@
   "contributors-column": "CultureelErfgoed",
   "site": "site-skeleton/cultureel-erfgoed-event",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/issues",
-  "standaardregisterurl": "https://test.data.vlaanderen.be/standaarden/erkende-standaard/applicatieprofiel-cultureel-erfgoed-event.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/erkende-standaard/applicatieprofiel-cultureel-erfgoed-event.html"
 }
 ]
