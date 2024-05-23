@@ -13,7 +13,16 @@
       "waarde": "https://data.vlaanderen.be/ns/cultureel-erfgoed"
     }
   ],
-  "documentatie": [],
+  "documentatie": [
+    {
+      "naam": "Applicatieprofiel Cultureel Erfgoed Object",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object"
+    },
+    {
+      "naam": "Applicatieprofiel Cultureel Erfgoed Event",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event"
+    }
+  ],
   "charter": [
     {
       "naam": "Werkgroep Charter OSLO Cultureel Erfgoed",
