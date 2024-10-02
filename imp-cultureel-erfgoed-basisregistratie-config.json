@@ -1,0 +1,56 @@
+{
+  "title": "Implementatiemodel Basisregistratie Cultureel Erfgoed Event",
+  "category": "Implementatiemodel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "standaard-in-ontwikkeling",
+  "descriptionFileName": "imp-cultureel-erfgoed-basisregistratie.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Departement Cultuur, Jeugd en Media",
+      "resourceReference": "http://data.vlaanderen.be/id/organisatie/OVO000067"
+    }
+  ],
+  "publicationDate": "2024-10-02",
+  "specificationDocuments": [
+    {
+      "name": "Implementatiemodel Basisregistratie Cultureel Erfgoed",
+      "resourceReference": "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie"
+    }
+  ],
+  "documentation": [
+    {
+      "naam": "Applicatieprofiel Cultureel Erfgoed Object",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object"
+    },
+    {
+      "naam": "Applicatieprofiel Cultureel Erfgoed Event",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event"
+    },
+    {
+      "naam": "Vocabularium Cultureel Erfgoed",
+      "waarde": "https://data.vlaanderen.be/ns/cultureel-erfgoed"
+    }
+  ],
+  "reports": [
+    {
+      "name": "Verslag Business Werkgroep - 24 september 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/reports/20240116_ThematicWorkshop1_Verslag_OSLOOverlijdensaangifte.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Charter OSLO Iteratie Cultureel Erfgoed",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/charter/Charter OSLO_Overlijdensaangifte.pdf"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie Business Werkgroep - 24 september 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/presentations/20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+    }
+  ],
+  "dateOfRegistration": "2024-09-05",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-cultureelErfgoed",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}
