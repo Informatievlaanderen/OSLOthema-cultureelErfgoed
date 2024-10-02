@@ -34,17 +34,17 @@
   "reports": [
     {
       "name": "Verslag Business Werkgroep - 24 september 2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/reports/20240116_ThematicWorkshop1_Verslag_OSLOOverlijdensaangifte.pdf"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/reports/20240924_BusinessWorkshop_Verslag_OSLOiteratieCE.pdf"
     }
   ],
   "charter": {
     "name": "Charter OSLO Iteratie Cultureel Erfgoed",
-    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/charter/Charter OSLO_Overlijdensaangifte.pdf"
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/charter/Werkgroep_charter_OSLO_iteratie_CE.pdf"
   },
   "presentations": [
     {
       "name": "Presentatie Business Werkgroep - 24 september 2024",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-overlijdensaangifte/standaardenregister/presentations/20240116_ThematicWorkshop1_Powerpoint_OSLOOverlijdensaangifte.pptx"
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/presentations/20240924_BusinessWorkshop_Slides_OSLOiteratieCE.pdf"
     }
   ],
   "dateOfRegistration": "2024-09-05",
