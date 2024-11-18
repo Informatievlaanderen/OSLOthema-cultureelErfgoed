@@ -1,11 +1,11 @@
 [
 {
-  "name": "cultureel-erfgoed/basisregistratie",
+  "name": "cultureel-erfgoed-basisregistratie",
   "type": "ap",
   "eap": "CultureelErfgoed-basisregistratie.EAP",
-  "diagram": "CultureelErfgoed-Iteratie-Basisregistratie",
+  "diagram": "OSLO-CultureelErfgoed-Iteratie-Basisregistratie",
   "template": "cultureel-erfgoed-basisregistratie-impl.j2",
-  "title": "Implementatiemodel Cultureel Erfgoed Basisregistratie",
+  "title": "Implementatiemodel Cultureel Erfgoed - Basisregistratie",
   "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2024-11-14",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
