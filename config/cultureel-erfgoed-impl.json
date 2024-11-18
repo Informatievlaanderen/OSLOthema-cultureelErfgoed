@@ -4,7 +4,7 @@
   "type": "ap",
   "eap": "CultureelErfgoed-basisregistratie.EAP",
   "diagram": "CultureelErfgoed-Iteratie-Basisregistratie",
-  "template": "cultureel-erfgoed-basisregistratie-impl",
+  "template": "cultureel-erfgoed-basisregistratie-impl.j2",
   "title": "Implementatiemodel Cultureel Erfgoed Basisregistratie",
   "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2024-11-14",
