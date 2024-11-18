@@ -1,6 +1,6 @@
 [
 {
-  "name": "cultureel-erfgoed-basisregistratie",
+  "name": "cultureel-erfgoed/basisregistratie",
   "type": "ap",
   "eap": "CultureelErfgoed-basisregistratie.EAP",
   "diagram": "CultureelErfgoed-Iteratie-Basisregistrratie",
