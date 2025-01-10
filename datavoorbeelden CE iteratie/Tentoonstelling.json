@@ -25,7 +25,7 @@
         },   
       "Gebeurtenis.identificator": {    
         "@type": "Identificator",    
-        "Identificaor.identificator": {     
+        "Identificator.identificator": {     
           "@value": "Design with a smile",     
           "@language": "nl"    
           }   
