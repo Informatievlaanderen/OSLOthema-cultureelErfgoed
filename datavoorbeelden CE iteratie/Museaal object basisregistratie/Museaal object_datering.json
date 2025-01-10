@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-object/erkendestandaard/2021-04-22/context/cultureel-erfgoed-object-ap.jsonld",
+    "https://data.vlaanderen.be/doc/applicatieprofiel/cultureel-erfgoed-event/erkendestandaard/2021-04-22/context/cultureel-erfgoed-event-ap.jsonld"
+  ],
+  "@id": "https://mskgent.be/collection/work/data/1979-C",
+  "@type": "MensgemaaktObject",
+  "MensgemaaktObject.productie": [
+    {
+      "@type": "Productie",
+      "Gebeurtenis.tijd": {
+        "@type": "Periode",
+        "Periode.inEDTF": "1886"
+      }
+    }
+  ]
+}
+      
