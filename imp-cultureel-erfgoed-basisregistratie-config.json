@@ -35,6 +35,14 @@
     {
       "name": "Verslag Business Werkgroep - 24 september 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/reports/20240924_BusinessWorkshop_Verslag_OSLOiteratieCE.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 1 - 22 oktober 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/reports/20241022_ThematicWorkshop1_Verslag_OSLOiteratieCE.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 2 - 19 november 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/reports/20241119_ThematicWorkshop2_Verslag_OSLOiteratieCE.pdf"
     }
   ],
   "charter": {
@@ -45,6 +53,18 @@
     {
       "name": "Presentatie Business Werkgroep - 24 september 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/presentations/20240924_BusinessWorkshop_Slides_OSLOiteratieCE.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 1 - 22 oktober 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/presentations/20241022_ThematicWorkshop1_Slides_OSLOiteratieCE.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 2 - 19 november 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/presentations/20241119_ThematicWorkshop2_Slides_OSLOiteratieCE.pdf"
+    },
+    {
+      "name": "Presentatie Thematische Werkgroep 3 - 19 december 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/presentations/20241219_ThematicWorkshop3_Slides_OSLOiteratieCE.pdf"
     }
   ],
   "dateOfRegistration": "2024-09-05",
