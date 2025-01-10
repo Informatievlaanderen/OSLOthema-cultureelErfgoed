@@ -18,7 +18,7 @@
         },   
       "Gebeurtenis.identificator": {    
         "@type": "Identificator",    
-        "Identificaor.identificator": {     
+        "Identificator.identificator": {     
           "@value": "TE_2008-009",     
           "@type": "https://stad.gent/id/identificatiesysteem/referentienummer"    
           }   
