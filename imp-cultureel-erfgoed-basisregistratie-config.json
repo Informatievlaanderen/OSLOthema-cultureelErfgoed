@@ -43,6 +43,10 @@
     {
       "name": "Verslag Thematische Werkgroep 2 - 19 november 2024",
       "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/reports/20241119_ThematicWorkshop2_Verslag_OSLOiteratieCE.pdf"
+    },
+    {
+      "name": "Verslag Thematische Werkgroep 3 - 19 december 2024",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/standaardenregister/reports/20241219_ThematicWorkshop3_Verslag_OSLOiteratieCE.pdf"
     }
   ],
   "charter": {
@@ -71,6 +75,6 @@
   "dateOfAcknowledgementByWorkingGroup": "TBD",
   "dateOfAcknowledgementBySteeringCommittee": "TBD",
   "repository": "OSLOthema-cultureelErfgoed",
-  "datePublicReviewStart": "",
+  "datePublicReviewStart": "2025-03-20",
   "endOfPublicationDate": ""
 }
