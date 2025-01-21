@@ -6,7 +6,7 @@
     "diagram": "OSLO-CultureelErfgoed-Iteratie-Basisregistratie",
     "template": "cultureel-erfgoed-basisregistratie-impl.j2",
     "title": "Implementatiemodel Cultureel Erfgoed - Basisregistratie - Generiek",
-    "publication-state": "https://data.vlaanderen.be/doc/concept/StandaardStatus/OntwerpStandaard",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "publication-date": "2025-01-20",
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "contributors-file": "stakeholders.csv",
