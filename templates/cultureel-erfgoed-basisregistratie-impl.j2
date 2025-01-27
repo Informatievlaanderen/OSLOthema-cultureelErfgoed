@@ -18,29 +18,29 @@
 <p>Om deze zes verschillende vormen van cultureel erfgoed te modelleren, werd een aantal concepten uit CIDOC-CRM en LinkedArt hergebruikt: Entiteit, Conceptueel Object, Materieel Ding, InformatieObject, MensgemaaktObject en Set. Hieronder wordt
     kort toegelicht hoe deze klassen gebruikt kunnen worden voor verschillende subdomeinen van de cultureel erfgoedsector:</p>
     <ul>
-<p><li>Publicatie: Een uitgave of publicatie is voorbeeld van een InformatieObject. Kenmerken van een publicatie zijn een auteur, ISBN nummer, aantal pagina’s (dimensie) enzovoort. Wanneer men data wil uitwisselen over een fysiek exemplaar van de publicatie,
+<p><li>Publicatie: Een uitgave of publicatie is een voorbeeld van een InformatieObject. Kenmerken van een publicatie zijn een auteur, ISBN nummer, aantal pagina’s (dimensie) enzovoort. Wanneer men data wil uitwisselen over een fysiek exemplaar van de publicatie,
     moet de link gemaakt worden met een MensgemaaktObject dat de drager is van het InformatieObject. Voor een meer gedetailleerde typering van informatie over publicaties, moet gekeken worden naar LRMoo. De publicatie wordt dan voorgesteld als een Informatieobject
-    van het type Manifestatie, een exemplaar is een MensgemaaktObjject van het type Item. Het implementatiemodel is zodanig opgesteld dat de complexiteit van LRMoo makkelijk herleidt of gemapt kan worden  worden tot data conform aan dit generieke implementatiemodel.</p>
+    van het type Manifestatie, een exemplaar is een MensgemaaktObject van het type Item. Het implementatiemodel is zodanig opgesteld dat de complexiteit van LRMoo makkelijk herleidt of gemapt kan worden  worden tot data conform aan dit generieke implementatiemodel.</p>
 <p><li>Archief: Archieven zijn groeperingen van materieel en/of immaterieel erfgoed. Vaak maken ze deel uit van een hiërarchie. Het laagste niveau waarover data bijgehouden en/of uitgewisseld wordt, moet voorgesteld worden m.b.v. InformatieObjecten of Mensgemaakte
-    Objecten. Elke groepering daarvan in een archief of archiefcollectie wordt beschreven met de klasse Set. Mapping op meer gespecialiseerde modellen zoals Records in Context is mogelijk, waarbij RecordSet bijvoorbeeld overeenstemt met Set, Record en
-    RecordPart met Informatieobject en Instantiation met MensgemaaktObject. Het implementatiemodel is opgesteld zodat de complexiteit van RiCo gemakkelijk kan 'platgeslaan' worden tot data conform aan dit generieke implementatiemodel.</p>
+    Objecten. Elke groepering daarvan in een archief of archiefcollectie wordt beschreven met de klasse Set. Mapping op meer gespecialiseerde modellen zoals <a href="https://www.ica.org/standards/RiC/RiC-O_1-0-2.html">Records in Context</a> is mogelijk, waarbij RecordSet bijvoorbeeld overeenstemt met Set, Record en
+    RecordPart met Informatieobject en Instantiation met MensgemaaktObject. Het implementatiemodel is opgesteld zodat de complexiteit van RiC makkelijk gemapt of herleid kan worden tot data conform aan dit generieke implementatiemodel.</p>
 <p><li>Museaal object: Een museaal object, zoals een schilderij, beeldhouwwerk of ander voorwerp met bepaalde erfgoedwaarde, is een voorbeeld van een MensgemaaktObject. Een MensgemaaktObject kan uit verschillende delen bestaan die op zich ook MensgemaakteObjecten
     zijn, zoals een servies bestaande uit een aantal kopjes en borden of een geschilderd veelluik.</p>
-<p><li>Tentoonstelling: Tentoonstellingen kunnen beschouwd worden als Activiteiten. Aangezien Activiteiten een subklasse zijn van Gebeurtenis, kunnen tentoonstellingen getypeerd worden aan de hand van een tijd, plaats, identificator en beschrijving. De Persoon
+<p><li>Tentoonstelling: Tentoonstellingen kunnen beschouwd worden als Activiteiten. Aangezien Activiteiten een subklasse zijn van Gebeurtenissen, kunnen tentoonstellingen getypeerd worden aan de hand van een tijd, plaats, identificator en beschrijving. De Persoon
     of Organisatie die de tentoonstelling organiseert kan beschreven worden met het attribuut “uitgevoerd door”. Via het attribuut “gebruiktObject” van Activiteit kan de link gemaakt worden met MensgemaakteObjecten die deel uitmaken van of gebruikt worden
     bij de tentoonstelling. Voor een uitgebreidere uitwerking van een culturele participatie van een Activiteit wordt er best gekeken naar <a href="https://data.vlaanderen.be/doc/applicatieprofiel/cultuurparticipatie">OSLO Cultuurparticipatie</a>.</p>
-<p><li>Onroerend erfgoed: Een onroerend erfgoed, zoals een gebouw, tuin, domein, en onderdelen of combinaties daarvan, is eveneens een Mensgemaakt Object. Een verzameling van onroerend erfgoed dat als geheel beschouwd wordt door een Agent, wordt beschreven als
-    Set, en niet als Mensgemaakt Object, omdat het niet gecreëerd is als geheel.</p>
+<p><li>Onroerend erfgoed: Een onroerend erfgoed, zoals een gebouw, tuin, domein, en onderdelen of combinaties daarvan, is eveneens een MensgemaaktObject. Een verzameling van onroerend erfgoed dat als geheel beschouwd wordt door een Agent, wordt beschreven als
+    Set, maar ook als MensgemaaktObject als het zich materieel manifesteert bijvoorbeeld doordat het geografisch is afgebakend.</p>
 <p><li>Immaterieel erfgoed praktijk: Een immaterieel erfgoed praktijk kan beschreven worden als Conceptueel Object. Aan dit Conceptueel Object kan een thema toegekend worden met behulp van het overgeërfde attribuut “type”. Het Conceptueel Object kan gelinkt
-    worden aan Mensgemaakte Objecten die gebruikt worden bij de immaterieel erfgoed praktijk of activiteiten die daarbij worden uitgevoerd. Voor verdere specialisatie moet ook hier naar LRMoo worden gekeken, waarbij de erfgoedpraktijken verder kunnen
+    worden aan MensgemaakteObjecten die gebruikt worden bij de immaterieel erfgoed praktijk of activiteiten die daarbij worden uitgevoerd. Voor verdere specialisatie moet ook hier naar LRMoo worden gekeken, waarbij de erfgoedpraktijken verder kunnen
     worden gespecialiseerd als Work of Expression en activiteiten zoals bijvoorbeeld processies als Performance.</p></ul>
 <p><b>Cultureel Erfgoed Events</b></p>
-<p>Ook enkele Gebeurtenissen of Activiteiten die in het kader van Erfgoed plaatsvinden, hebben een plaats in dit implementatiemodel. Het gaat dan over de Creatie/Productie van erfgoed objecten of over het beheer ervan (Verwerving, Bewaring, Classificatie).</p>
+<p>Ook enkele Gebeurtenissen of Activiteiten die in het kader van Erfgoed plaatsvinden, hebben een plaats in dit implementatiemodel. Het gaat dan over de Creatie/Productie van erfgoedobjecten of over het beheer ervan (Verwerving, Bewaring, Classificatie).</p>
 <p><b>Tijd en ruimte</b></p>
 <p>In het implementatiemodel werd ook extra aandacht besteed aan de modelleringsopties voor plaats en tijd. Voor het modelleren van tijd werd is bovenal flexibiliteit nodig. Voor sommige cultureel erfgoed objecten kan bijvoorbeeld niet nauwkeurig worden
     aangegeven wanneer ze gecreëerd werden. Het model voorziet voor die gevallen een tijdsindicatie in EDTF, die toelaat om onzekerheid daarover aan te duiden wanneer een datum of periode slechts een schatting is.</p>
 <p><b>Rechten</b></p>
-<p>Op de objecten beschreven in het applicatieprofiel OSLO-CultureelErfgoed-object kunnen bepaalde rechten van toepassing zijn, bv eigendom of auteursrecht, een beschermd statuut of de stempel van ‘topstuk’. De klasse Recht beschrijft over welk soort rechten
+<p>Op de objecten beschreven in dit implementatiemodel kunnen bepaalde rechten van toepassing zijn, bvb. eigendom of auteursrecht, een beschermd statuut of de stempel van ‘topstuk’. De klasse Recht beschrijft over welk soort rechten
     het gaat. En uiteraard is het mogelijk om de rechtenhouders te specifiëren. Voor eigendom is daar een shortcut voor: de associatie “eigenaar” tussen een object en een Agent (Persoon of Organisatie). Een echte diepgaande uitwerking van deze rechten zelf is out of scope voor dit implementatiemodel.</p>
 {% endblock %}
 
