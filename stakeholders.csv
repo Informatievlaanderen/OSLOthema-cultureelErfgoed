@@ -1,26 +1,47 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;CultureelErfgoed;
-Annelies;Van Daele;Agentschap Onroerend Erfgoed;;;C;
-Anthony;Van Heymbeeck;PwC;anthony.van.heymbeeck@pwc.com;https://www.pwc.be;E;
-Bert;Aernouts;Archiefbank Vlaanderen;;;C;
-Bert;Lemmens;meemoo;;;C;
-Bram;Wiercx;FARO;;;C;
-Brecht;Van de Vyvere;UGent - imec;brecht.vandevyvere@ugent.be;https://imec.be;E;
-David;Coppoolse;Vlaamse Erfgoedbibliotheek;;;C;
-Dimitri;Schepers;PwC;dimitri.schepers@pwc.com;https://www.pwc.be;E;
-Floris;Zuallaert;Werkplaats Immaterieel Erfgoed;;;C;
-Geert;Thijs;Informatie Vlaanderen;geert.thijs@vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;E;
-Hans;van der Linden;Departement Cultuur, Jeugd en Media;hans.vanderlinden@vlaanderen.be;https://www.vlaanderen.be/cjm/nl;A;
-Hendrik;Vandeginste;Histories vzw;;;C;
-Jorijn;Neyrinck;Werkplaats Immaterieel Erfgoed;;;C;
-Kim;Robensyn;Amsab-ISG;;;C;
-Koen;Van Daele;Agentschap Onroerend Erfgoed;;;C;
-Laurens;Vercauteren;PwC;laurens.vercauteren@pwc.com;https://www.pwc.be;E;
-Martin;Vanbrabant;Informatie Vlaanderen;martin.vanbrabant@vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;E;
-Matthias;Priem;meemoo;;;C;
-Miel;Vander Sande;meemoo;;;C;
-Pascal;Ennaert;Vlaamse Kunstcollectie;;;C;
-Raf;Buyle;Informatie Vlaanderen;raf.buyle@vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;E;
-Rony;Vissers;meemoo;;;C;
-Roxanne;Wyns;LIBIS - KU Leuven;;;C;
-Shana;Van Hauwermeiren;Werkplaats Immaterieel Erfgoed;;;C;
+Voornaam;Naam;Affiliatie;E-mail;Website;CultureelErfgoed;Basisregistratie
+Annelies;Van Daele;Agentschap Onroerend Erfgoed;;https://data.vlaanderen.be/id/organisatie/OVO000104;C;C
+Koen;Van Daele;Agentschap Onroerend Erfgoed;;https://data.vlaanderen.be/id/organisatie/OVO000104;C;C
 Sofie;Marchand;Agentschap Onroerend Erfgoed;;;C;
+Chloë;Van Gelder;Amsab-ISG;;https://data.vlaanderen.be/id/organisatie/OVO020417;;C
+Kim;Robensyn;Amsab-ISG;;https://data.vlaanderen.be/id/organisatie/OVO020417;C;C
+Bert;Aernouts;Archiefbank Vlaanderen;;;C;
+Hans;van der Linden;Departement Cultuur, Jeugd en Media;hans.vanderlinden@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO000009;A;A
+Jitse;De Cock;Digitaal Vlaanderen;jitse.decock@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E;E
+Louise;Ysewijn;Digitaal Vlaanderen;louise.ysewijn@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;;E
+Bram;Wiercx;FARO;;;C;
+Hendrik;Vandeginste;Histories vzw;;;C;
+Geert;Thijs;Informatie Vlaanderen;geert.thijs@vlaanderen.be;https://data.vlaanderen.be/id/organisatie/OVO002949;E;E
+Martin;Vanbrabant;Informatie Vlaanderen;martin.vanbrabant@vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;E;
+Raf;Buyle;Informatie Vlaanderen;raf.buyle@vlaanderen.be;https://overheid.vlaanderen.be/informatie-vlaanderen;E;
+Roxanne;Wyns;LIBIS - KU Leuven;;;C;
+Bert;Lemmens;meemoo;;https://data.vlaanderen.be/id/organisatie/OVO008227;C;
+Matthias;Priem;meemoo;;https://data.vlaanderen.be/id/organisatie/OVO008227;C;
+Miel;Vander Sande;meemoo;;https://data.vlaanderen.be/id/organisatie/OVO008227;C;
+Rony;Vissers;meemoo;;https://data.vlaanderen.be/id/organisatie/OVO008227;C;A
+Astrid;Vergauwe;Meemoo;;https://data.vlaanderen.be/id/organisatie/OVO008227;;A
+Anthony;Van Heymbeeck;PwC;anthony.van.heymbeeck@pwc.com;https://www.pwc.be;E;
+Dimitri;Schepers;PwC;dimitri.schepers@pwc.com;https://www.pwc.be;E;
+Laurens;Vercauteren;PwC;laurens.vercauteren@pwc.com;https://www.pwc.be;E;
+Brecht;Van de Vyvere;UGent - imec;brecht.vandevyvere@ugent.be;https://data.vlaanderen.be/id/organisatie/OVO001613;E;
+David;Coppoolse;Vlaamse Erfgoedbibliotheek;;https://data.vlaanderen.be/id/organisatie/OVO021323;C;
+Pascal;Ennaert;Vlaamse Kunstcollectie;;;C;
+Floris;Zuallaert;Werkplaats Immaterieel Erfgoed;;https://data.vlaanderen.be/id/organisatie/OVO021103;C;
+Jorijn;Neyrinck;Werkplaats Immaterieel Erfgoed;;https://data.vlaanderen.be/id/organisatie/OVO021103;C;
+Shana;Van Hauwermeiren;Werkplaats Immaterieel Erfgoed;;https://data.vlaanderen.be/id/organisatie/OVO021103;C;
+Filip;Borloo;Digitaal Vlaanderen;;https://data.vlaanderen.be/id/organisatie/OVO002949;;A
+Jelle;Kleevens;Archiefpunt;;https://data.vlaanderen.be/id/organisatie/OVO008585;;C
+Marek;Fenner;Archiefpunt;;https://data.vlaanderen.be/id/organisatie/OVO008585;;C
+Annelies;Valgaeren;Stad Gent;;https://data.vlaanderen.be/id/organisatie/OVO002067;;C
+Jeroen;Cortvriendt;Vlaamse Erfgoedbibliotheken;;https://data.vlaanderen.be/id/organisatie/OVO021323;;C
+Tobias;Hendrickx;MoMu;;https://data.vlaanderen.be/id/organisatie/OVO013251;;C
+Ron;Van den Branden;Stad Antwerpen;;https://data.vlaanderen.be/id/organisatie/OVO001999;;C
+ Vincent;Ducatteeuw;Ugent;;https://data.vlaanderen.be/id/organisatie/OVO002303;;C
+Tom;Cobbaert;Archief en Documentatiecentrum voor het Vlaams Nationalisme;;https://data.vlaanderen.be/id/organisatie/OVO008414;;C
+Diantha;Osseweijer;Centrum voor Agrarische Geschiedenis;;https://data.vlaanderen.be/id/organisatie/OVO019487;;C
+Michaël;Meersmans;Digipolis;;https://data.vlaanderen.be/id/organisatie/OVO046441;;C
+Rein;Meus;Toerisme Vlaanderen;;https://data.vlaanderen.be/id/organisatie/OVO000034;;C
+Stan;Vertessen;Publiq;;https://data.vlaanderen.be/id/organisatie/OVO003887;;C
+Toon;Tabruyn;Publiq;;https://data.vlaanderen.be/id/organisatie/OVO003887;;C
+Sofie;Teugels;Stad Gent;;https://data.vlaanderen.be/id/organisatie/OVO002067;;C
+Olivier;D'huynslager;Design Museum Gent;;https://data.vlaanderen.be/id/organisatie/OVO002067;;C
+Valérie;Adriaens;KU Leuven;;https://data.vlaanderen.be/id/organisatie/OVO002307;;C

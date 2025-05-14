@@ -1,0 +1,18 @@
+[
+  {
+    "name": "cultureel-erfgoed-basisregistratie",
+    "type": "ap",
+    "eap": "CultureelErfgoed-basisregistratie.EAP",
+    "diagram": "OSLO-CultureelErfgoed-Iteratie-Basisregistratie",
+    "template": "cultureel-erfgoed-basisregistratie-impl.j2",
+    "title": "Implementatiemodel Cultureel Erfgoed - Basisregistratie - Generiek",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "publication-date": "2025-01-20",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Basisregistratie",
+    "site": "site-skeleton/cultureel-erfgoed-basisregistratie",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-cultureelErfgoed/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-basisregistratie-cultureel-erfgoed"
+  }
+]
