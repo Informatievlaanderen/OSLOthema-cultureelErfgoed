@@ -2,7 +2,7 @@
   "title": "Vocabularium Cultureel Erfgoed",
   "category": "Vocabularium",
   "usage": "Aanbevolen (vrijwillig)",
-  "status": "erkende-standaard",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-cultureel-erfgoed.md",
   "responsibleOrganisation": [
     {
