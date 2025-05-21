@@ -1,6 +1,6 @@
 {
   "title": "Implementatiemodel Basisregistratie Cultureel Erfgoed",
-  "category": "Implementatiemodel",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
   "descriptionFileName": "imp-cultureel-erfgoed-basisregistratie.md",
