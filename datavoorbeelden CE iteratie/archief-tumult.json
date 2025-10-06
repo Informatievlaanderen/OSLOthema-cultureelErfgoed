@@ -1,0 +1,225 @@
+{
+    "@context": [
+        {
+            "rico": "https://www.ica.org/standards/RiC/ontology#",
+            "rico-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#",
+            "skos": "http://www.w3.org/2004/02/skos/core#"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://hdl.handle.net/10796/9405f30b-564a-44c4-a86a-a089065ff129",
+            "@type": "rico:RecordSet",
+            "rico:identifier": {
+                "@value": "811",
+                "@type": "https://example.com/identificatortype/objectnummer"
+            },
+            "rico:hasAccumulator": "_:ORG001",
+            "rico:title": {
+                "@value": "Archief van vzw Tumult en voorgangers Burgerdienst voor de Jeugd (1972-1992) - Jeugd & Vrede (1992-2013)",
+                "@language": "nl"
+            },
+            "rico:hasCreator": "_:ORG002",
+            "rico:type": [
+                {
+                    "@id": "rico-rst:Fonds",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/archief",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "rico:date": {
+                "@value": "1964/2018",
+                "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+            },
+            "rico:directlyIncludes": [
+                "https://hdl.handle.net/10796/6d22532e-e8dd-4819-a30a-c0b7c0e717d3",
+                "https://hdl.handle.net/10796/bbc7343f-9ab6-4533-ae23-084bc334930e",
+                "https://hdl.handle.net/10796/3627e55a-2d27-48bf-ba44-8af1f076bae3"
+            ],
+            "rico:conditionsOfAccess": {
+                "@value": "Archief is raadpleegbaar",
+                "@language": "nl"
+            },
+            "rico:isAssociatedWithEvent": {
+                "@type": "rico:Activity",
+                "rico:type": {
+                    "@id": "https://example.com/activiteittype/verwerving",
+                    "@type": "skos:Concept"
+                },
+                "rico:identifier": [
+                    {
+                        "@value": "S/2023/055",
+                        "@type": "https://example.com/identificatortype/inschrijvingsnummer"
+                    },
+                    {
+                        "@value": "S/2024/130",
+                        "@type": "https://example.com/identificatortype/inschrijvingsnummer"
+                    }
+                ],
+                "rico:generalDescription": {
+                    "@value": "In april 2023 nam Tumult contact op met Amsab-ISG in verband met het archiveren van hun website. Naar aanleiding van deze website-archivering (en een gepland verhuis in 2024) heeft er ook een overdracht plaatsgevonden van papieren archief van de afgelopen 50 jaar, van Burgerdienst van de Jeugd tot Tumult. Later ontvingen we ook nog een persoonlijk archief van medewerker Jan Rutgeers. Dit is ingebracht onder nummer S/2024/130",
+                    "@language": "nl"
+                }
+            },
+            "rico:hasOrHadInstantiation": {
+                "@type": "rico:Instantiation",
+                "rico:instantiationExtent": "3 meter"
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/6d22532e-e8dd-4819-a30a-c0b7c0e717d3",
+            "@type": "rico:RecordSet",
+            "rico:identifier": {
+                "@value": "811/1",
+                "@type": "https://example.com/identificatortype/objectnummer"
+            },
+            "rico:title": {
+                "@value": "Burgerdienst voor de Jeugd (1972-1992)",
+                "@language": "nl"
+            },
+            "rico:hasCreator": "_:ORG002",
+            "rico:type": [
+                {
+                    "@id": "rico-rst:Fonds",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/deelarchief",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "rico:directlyIncludes": [
+                "https://hdl.handle.net/10796/58eaf63c-6c3c-417d-9da0-06e25b1ab4e9",
+                "https://hdl.handle.net/10796/54a0beb9-138e-4d0b-b3ac-238c2e27519b",
+                "https://hdl.handle.net/10796/b7df89d8-4113-4475-b776-4aa4d3958316",
+                "https://hdl.handle.net/10796/b716744e-346b-48b6-89e2-c6f8d1bc6ca2"
+            ],
+            "rico:conditionsOfAccess": {
+                "@value": "raadpleegbaar",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/58eaf63c-6c3c-417d-9da0-06e25b1ab4e9",
+            "@type": "rico:RecordSet",
+            "rico:identifier": {
+                "@value": "811/1.1",
+                "@type": "https://example.com/identificatortype/objectnummer"
+            },
+            "rico:title": {
+                "@value": "Statuut, vorming en ondersteuning van gewetensbezwaarden",
+                "@language": "nl"
+            },
+            "rico:hasCreator": "_:ORG002",
+            "rico:type": [
+                {
+                    "@id": "rico-rst:Series",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/reeks",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "rico:directlyIncludes": [
+                "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
+                "https://hdl.handle.net/10796/3c95e451-569d-431d-b76b-0cd0a977546f",
+                ""
+            ],
+            "rico:conditionsOfAccess": {
+                "@value": "raadpleegbaar",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
+            "@type": "rico:RecordSet",
+            "rico:identifier": {
+                "@value": "811/001",
+                "@type": "https://example.com/identificatortype/objectnummer"
+            },
+            "rico:title": {
+                "@value": "Witboek over de civiele bescherming",
+                "@language": "nl"
+            },
+            "rico:hasCreator": "_:ORG002",
+            "rico:type": [
+                {
+                    "@id": "ric-rst:File",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/bestanddeel",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "rico:date": {
+                "@value": "1969",
+                "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+            },
+            "rico:conditionsOfAccess": {
+                "@value": "raadpleegbaar",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/3c95e451-569d-431d-b76b-0cd0a977546f",
+            "@type": "rico:RecordSet",
+            "rico:identifier": {
+                "@value": "811/002",
+                "@type": "https://example.com/identificatortype/objectnummer"
+            },
+            "rico:title": {
+                "@value": "Knipseldossier betreffende getuigenissen van dienstweigeraars",
+                "@language": "nl"
+            },
+            "rico:hasCreator": "_:ORG002",
+            "rico:type": [
+                {
+                    "@id": "rico-rst:File",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/bestanddeel",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "rico:date": {
+                "@value": "1971/1975",
+                "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+            },
+            "rico:conditionsOfAccess": {
+                "@value": "raadpleegbaar",
+                "@language": "nl"
+            }
+        },
+        {},
+        {
+            "@id": "_:ORG001",
+            "@type": "rico:Agent",
+            "rico:identifier": {
+                "@value": "0421.285.549",
+                "@type": "https://example.com/identificatortype/kbo-nummer"
+            },
+            "rico:name": {
+                "@value": "Amsab-Instituut voor Sociale Geschiedenis",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "_:ORG002",
+            "@type": "rico:Agent",
+            "rico:identifier": {
+                "@value": "0412.588.609",
+                "@type": "https://example.com/identificatortype/kbo-nummer"
+            },
+            "rico:name": {
+                "@value": "Tumult vzw",
+                "@language": "nl"
+            }
+        }
+    ]
+}
