@@ -1,3 +1,3 @@
-| Naam|Status|Uitgiftedatum|AP|VOC|
+| Naam|Datavoorbeeld|Gemapt datavoorbeeld|Documentatie|Documentatie mapping|
 | --- |--- |---|---|---|
-|Rooilijnplannen|OntwerpStandaard|20250601|[Link](https://data.vlaanderen.be/doc/applicatieprofiel/rooilijnplannen/)|[Link](https://data.vlaanderen.be/ns/rooilijnplannen/)|
+|Museaal Object Schilderij Théo Van Rysselberghe|[]()|[]()|[]()|[]()|
