@@ -1,0 +1,349 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
+        {
+            "rico": "https://www.ica.org/standards/RiC/ontology#",
+            "rico-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#",
+            "skos": "http://www.w3.org/2004/02/skos/core#",
+            "Activiteit.rol": {
+                "@reverse": "Rol.activiteit"
+            }
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://hdl.handle.net/10796/9405f30b-564a-44c4-a86a-a089065ff129",
+            "@type": [
+                "Set",
+                "rico:RecordSet"
+            ],
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "811",
+                    "@type": "https://example.com/identificatortype/objectnummer"
+                }
+            },
+            "ConceptueelObject.creatie": [
+                {
+                    "@type": "Creatie",
+                    "Activiteit.uitgevoerdDoor": "_:ORG001",
+                    "Activiteit.rol": {
+                        "@type": "Rol",
+                        "Rol.rol": {
+                            "@id": "https://example.com/roltype/instelling",
+                            "@type": "skos:Concept"
+                        }
+                    }
+                },
+                {
+                    "@type": "Creatie",
+                    "Activiteit.uitgevoerdDoor": "_:ORG002",
+                    "Activiteit.rol": {
+                        "@type": "Rol",
+                        "Rol.rol": {
+                            "@id": "https://example.com/roltype/archiefvormer",
+                            "@type": "skos:Concept"
+                        }
+                    },
+                    "Gebeurtenis.tijd": {
+                        "@type": "Moment",
+                        "Moment.inEDTF": {
+                            "@value": "1964/2018",
+                            "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+                        }
+                    }
+                }
+            ],
+            "ConceptueelObject.titel": {
+                "@value": "Archief van vzw Tumult en voorgangers Burgerdienst voor de Jeugd (1972-1992) - Jeugd & Vrede (1992-2013)",
+                "@language": "nl"
+            },
+            "Entiteit.type": [
+                {
+                    "@id": "rico-rst:Fonds",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/archief",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "Set.heeftLid": [
+                "https://hdl.handle.net/10796/6d22532e-e8dd-4819-a30a-c0b7c0e717d3",
+                "https://hdl.handle.net/10796/bbc7343f-9ab6-4533-ae23-084bc334930e",
+                "https://hdl.handle.net/10796/3627e55a-2d27-48bf-ba44-8af1f076bae3"
+            ],
+            "InformatieObject.isOnderworpenAan": {
+                "@type": "Recht",
+                "Recht.type": {
+                    "@id": "https://example.com/rechttype/raadpleegbaar",
+                    "@type": "skos:Concept"
+                }
+            },
+            "InformatieObject.drager": {
+                "@type": [
+                    "MensgemaaktObject",
+                    "rico:Instantiation"
+                ],
+                "MaterieelDing.isOvergedragenBijVerwerving": {
+                    "@type": "Verwerving",
+                    "Gebeurtenis.tijd": {
+                        "@type": "Moment",
+                        "Moment.inEDTF": {
+                            "@value": "2023/2024",
+                            "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+                        }
+                    },
+                    "Gebeurtenis.beschrijving": {
+                        "@value": "In april 2023 nam Tumult contact op met Amsab-ISG in verband met het archiveren van hun website. Naar aanleiding van deze website-archivering (en een gepland verhuis in 2024) heeft er ook een overdracht plaatsgevonden van papieren archief van de afgelopen 50 jaar, van Burgerdienst van de Jeugd tot Tumult. Later ontvingen we ook nog een persoonlijk archief van medewerker Jan Rutgeers. Dit is ingebracht onder nummer S/2024/130",
+                        "@language": "nl"
+                    },
+                    "Gebeurtenis.identificator": [
+                        {
+                            "@type": "Identificator",
+                            "Identificator.identificator": {
+                                "@value": "S/2023/055",
+                                "@type": "https://example.com/identificatortype/inschrijvingsnummer"
+                            }
+                        },
+                        {
+                            "@type": "Identificator",
+                            "Identificator.identificator": {
+                                "@value": "S/2024/130",
+                                "@type": "https://example.com/identificatortype/inschrijvingsnummer"
+                            }
+                        }
+                    ]
+                },
+                "MaterieelDing.dimensie": {
+                    "@type": "Dimensie",
+                    "Dimensie.waarde": 3,
+                    "Dimensie.eenheid": {
+                        "@id": "http://qudt.org/vocab/unit/M",
+                        "@type": "Eenheid"
+                    }
+                }
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/6d22532e-e8dd-4819-a30a-c0b7c0e717d3",
+            "@type": [
+                "Set",
+                "rico:RecordSet"
+            ],
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "811/1",
+                    "@type": "https://example.com/identificatortype/objectnummer"
+                }
+            },
+            "ConceptueelObject.creatie": [
+                {
+                    "@type": "Creatie",
+                    "Activiteit.uitgevoerdDoor": "_:ORG002"
+                }
+            ],
+            "ConceptueelObject.titel": {
+                "@value": "Burgerdienst voor de Jeugd (1972-1992)",
+                "@language": "nl"
+            },
+            "Entiteit.type": [
+                {
+                    "@id": "rico-rst:Fonds",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/deelarchief",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "Set.heeftLid": [
+                "https://hdl.handle.net/10796/58eaf63c-6c3c-417d-9da0-06e25b1ab4e9",
+                "https://hdl.handle.net/10796/54a0beb9-138e-4d0b-b3ac-238c2e27519b",
+                "https://hdl.handle.net/10796/b7df89d8-4113-4475-b776-4aa4d3958316",
+                "https://hdl.handle.net/10796/b716744e-346b-48b6-89e2-c6f8d1bc6ca2"
+            ],
+            "InformatieObject.isOnderworpenAan": {
+                "@type": "Recht",
+                "Recht.type": {
+                    "@id": "https://example.com/rechttype/raadpleegbaar",
+                    "@type": "skos:Concept"
+                }
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/58eaf63c-6c3c-417d-9da0-06e25b1ab4e9",
+            "@type": [
+                "Set",
+                "rico:RecordSet"
+            ],
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "811/1.1",
+                    "@type": "https://example.com/identificatortype/objectnummer"
+                }
+            },
+            "ConceptueelObject.creatie": [
+                {
+                    "@type": "Creatie",
+                    "Activiteit.uitgevoerdDoor": "_:ORG002"
+                }
+            ],
+            "ConceptueelObject.titel": {
+                "@value": "Statuut, vorming en ondersteuning van gewetensbezwaarden",
+                "@language": "nl"
+            },
+            "Entiteit.type": [
+                {
+                    "@id": "rico-rst:Series",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/reeks",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "Set.heeftLid": [
+                "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
+                "https://hdl.handle.net/10796/3c95e451-569d-431d-b76b-0cd0a977546f",
+                ""
+            ],
+            "InformatieObject.isOnderworpenAan": {
+                "@type": "Recht",
+                "Recht.type": {
+                    "@id": "https://example.com/rechttype/raadpleegbaar",
+                    "@type": "skos:Concept"
+                }
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
+            "@type": [
+                "Set",
+                "rico:RecordSet"
+            ],
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "811/001",
+                    "@type": "https://example.com/identificatortype/objectnummer"
+                }
+            },
+            "ConceptueelObject.creatie": [
+                {
+                    "@type": "Creatie",
+                    "Activiteit.uitgevoerdDoor": "_:ORG002",
+                    "Gebeurtenis.tijd": {
+                        "@type": "Moment",
+                        "Moment.inEDTF": {
+                            "@value": "1969",
+                            "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+                        }
+                    }
+                }
+            ],
+            "ConceptueelObject.titel": {
+                "@value": "Witboek over de civiele bescherming",
+                "@language": "nl"
+            },
+            "Entiteit.type": [
+                {
+                    "@id": "rico-rst:File",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/bestanddeel",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "InformatieObject.isOnderworpenAan": {
+                "@type": "Recht",
+                "Recht.type": {
+                    "@id": "https://example.com/rechttype/raadpleegbaar",
+                    "@type": "skos:Concept"
+                }
+            }
+        },
+        {
+            "@id": "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
+            "@type": [
+                "Set",
+                "rico:RecordSet"
+            ],
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "811/002",
+                    "@type": "https://example.com/identificatortype/objectnummer"
+                }
+            },
+            "ConceptueelObject.creatie": [
+                {
+                    "@type": "Creatie",
+                    "Activiteit.uitgevoerdDoor": "_:ORG002",
+                    "Gebeurtenis.tijd": {
+                        "@type": "Moment",
+                        "Moment.inEDTF": {
+                            "@value": "1971/1975",
+                            "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
+                        }
+                    }
+                }
+            ],
+            "ConceptueelObject.titel": {
+                "@value": "Knipseldossier betreffende getuigenissen van dienstweigeraars",
+                "@language": "nl"
+            },
+            "Entiteit.type": [
+                {
+                    "@id": "rico-rst:File",
+                    "@type": "rico:RecordSetType"
+                },
+                {
+                    "@id": "https://example.com/recordtype/bestanddeel",
+                    "@type": "skos:Concept"
+                }
+            ],
+            "InformatieObject.isOnderworpenAan": {
+                "@type": "Recht",
+                "Recht.type": {
+                    "@id": "https://example.com/rechttype/raadpleegbaar",
+                    "@type": "skos:Concept"
+                }
+            }
+        },
+        {
+            "@id": "_:ORG001",
+            "@type": "Organisatie",
+            "Agent.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "0421.285.549",
+                    "@type": "https://example.com/identificatortype/kbo-nummer"
+                },
+                "Organisatie.voorkeursnaam": {
+                    "@value": "Amsab-Instituut voor Sociale Geschiedenis",
+                    "@language": "nl"
+                }
+            }
+        },
+        {
+            "@id": "_:ORG002",
+            "@type": "Organisatie",
+            "Agent.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "0412.588.609",
+                    "@type": "https://example.com/identificatortype/kbo-nummer"
+                }
+            },
+            "Organisatie.voorkeursnaam": {
+                "@value": "Tumult vzw",
+                "@language": "nl"
+            }
+        }
+    ]
+}
