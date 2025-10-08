@@ -5,39 +5,153 @@ import * as assert from "node:assert";
 /* eslint-disable no-undef */
 // We disable the no-undef rule because it gets triggered by describe and it.
 
-describe("Museaal Object schilderij Théo Van Rysselberge", function () {
-  it("Implementation model", async () => {
-    const result = await validate({
-      shapePath: "./shacl-original.ttl",
-      dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld"
+describe("Original SHACL", function() {
+
+  describe("Museaal Object schilderij Théo Van Rysselberge", function () {
+    it("Implementation model", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld"
+      });
+
+      console.log(result.report);
+      assert.equal(result.conforms, true);
+    });
+  });
+
+  describe("Archief Tumult", function () {
+    it("Implementation model", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/archief-tumult/implementation-model.jsonld"
+      });
+
+      console.log(result.report);
+      assert.equal(result.conforms, true);
     });
 
-    console.log(result.report);
-    assert.equal(result.conforms, true);
+    it("Rico", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/archief-tumult/rico.jsonld"
+      });
+
+      assert.equal(result.conforms, true);
+    });
+
+    it("Both", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/archief-tumult/both.jsonld"
+      });
+
+      assert.equal(result.conforms, true);
+    });
+  });
+
+  describe("Publicatie Reynaert de Vos", function () {
+    it("Implementation model", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld"
+      });
+
+      console.log(result.report);
+      assert.equal(result.conforms, true);
+    });
+
+    it("LRMoo", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/publicatie-reynaert-de-vos/lrmoo.jsonld"
+      });
+
+      assert.equal(result.conforms, false);
+    });
+
+    it("Both", async () => {
+      const result = await validate({
+        shapePath: "./shacl/original.ttl",
+        dataPath: "test/publicatie-reynaert-de-vos/both.jsonld"
+      });
+
+      assert.equal(result.conforms, true);
+    });
   });
 });
 
-describe("Archief Tumult", function () {
-  it("Implementation model", async () => {
-    const result = await validate({
-      shapePath: "./shacl-original.ttl",
-      dataPath: "test/archief-tumult/implementation-model.jsonld"
-    });
+describe("Updated SHACL", function() {
 
-    console.log(result.report);
-    assert.equal(result.conforms, true);
+  describe("Museaal Object schilderij Théo Van Rysselberge", function () {
+    it("Implementation model", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld"
+      });
+
+      console.log(result.report);
+      assert.equal(result.conforms, true);
+    });
   });
-});
 
-describe("Publicatie Reynaert de Vos", function () {
-  it("Implementation model", async () => {
-    const result = await validate({
-      shapePath: "./shacl-original.ttl",
-      dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld"
+  describe("Archief Tumult", function () {
+    it("Implementation model", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/archief-tumult/implementation-model.jsonld"
+      });
+
+      console.log(result.report);
+      assert.equal(result.conforms, true);
     });
 
-    console.log(result.report);
-    assert.equal(result.conforms, true);
+    it("Rico", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/archief-tumult/rico.jsonld"
+      });
+
+      assert.equal(result.conforms, false);
+    });
+
+    it("Both", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/archief-tumult/both.jsonld"
+      });
+
+      assert.equal(result.conforms, true);
+    });
+  });
+
+  describe("Publicatie Reynaert de Vos", function () {
+    it("Implementation model", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld"
+      });
+
+      console.log(result.report);
+      assert.equal(result.conforms, true);
+    });
+
+    it("LRMoo", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/publicatie-reynaert-de-vos/lrmoo.jsonld"
+      });
+
+      assert.equal(result.conforms, false);
+    });
+
+    it("Both", async () => {
+      const result = await validate({
+        shapePath: "./shacl/updated.ttl",
+        dataPath: "test/publicatie-reynaert-de-vos/both.jsonld"
+      });
+
+      assert.equal(result.conforms, true);
+    });
   });
 });
 
