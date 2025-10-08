@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "lint:js": "eslint . --ext js --report-unused-disable-directives --max-warnings 0",
+    "lint:js:fix": "eslint . --ext js --report-unused-disable-directives --max-warnings 0 --fix",
+    "lint:markdown": "markdownlint-cli2",
+    "lint:markdown:fix": "markdownlint-cli2 --fix"
+  },
+  "dependencies": {
+    "@zazuko/env-node": "^3.0.0",
+    "mocha": "^11.7.4",
+    "rdf-validate-shacl": "^0.6.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-jsdoc": "^50.6.1",
+    "globals": "^15.14.0",
+    "markdownlint-cli2": "^0.16.0"
+  }
+}
