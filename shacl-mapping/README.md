@@ -2,6 +2,10 @@
 
 This code tests if our SHACL shapes correctly assert the given data graphs.
 
+## Requirements
+
+Node.js v22 or newer
+
 ## Usage
 
 1. Install dependencies
