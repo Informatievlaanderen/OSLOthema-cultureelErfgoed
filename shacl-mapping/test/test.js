@@ -11,6 +11,7 @@ const myEngine = new QueryEngine();
 // We disable the no-undef rule because it gets triggered by describe and it.
 
 const crmInverseProperties = await getInversePropertiesFromUrl("http://www.cidoc-crm.org/cidoc-crm/");
+const crmSubClasses = await getSubClassesFromUrl("http://www.cidoc-crm.org/cidoc-crm/");
 
 describe("Original SHACL", function() {
 
@@ -169,12 +170,14 @@ async function validate({shapePath, dataPath}) {
   const shapes = await rdf.dataset().import(rdf.fromFile(shapePath));
   const data = await rdf.dataset().import(rdf.fromFile(dataPath));
   let inverseProperties = [];
+  let subClasses = [];
   const inverse = shapes.match(null, dataFactory.namedNode("http://www.w3.org/2002/07/owl#inverseOf"), null);
   inverse.forEach((inverse) => {
      inverseProperties.push([inverse.subject, inverse.object]);
   });
 
   inverseProperties = inverseProperties.concat(crmInverseProperties);
+  subClasses = subClasses.concat(crmSubClasses);
 
   const validator = new SHACLValidator(shapes, {factory: rdf, importGraph: async (url) => {
       const bindingsStream = await myEngine.queryBindings(`
@@ -194,6 +197,7 @@ async function validate({shapePath, dataPath}) {
     }});
 
   addInverseProperties({inverseProperties, dataset: data});
+  addSuperClasses({subClasses, dataset: data});
 
   const report = await validator.validate(data);
   report.results = report.results.filter(r => r.message.length !== 0);
@@ -238,6 +242,19 @@ function addInverseProperties({inverseProperties, dataset}) {
   dataset.addAll(newQuads);
 }
 
+function addSuperClasses({subClasses, dataset}) {
+  const newQuads = [];
+
+  subClasses.forEach(pair => {
+    let result = dataset.match(null, dataFactory.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), pair.sub);
+    result.forEach(r => {
+      newQuads.push(dataFactory.quad(r.subject, dataFactory.namedNode("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), pair.super));
+    });
+  });
+
+  dataset.addAll(newQuads);
+}
+
 async function getInversePropertiesFromUrl(url) {
   const result = [];
 
@@ -255,3 +272,22 @@ async function getInversePropertiesFromUrl(url) {
 
   return result;
 }
+
+async function getSubClassesFromUrl(url) {
+  const result = [];
+
+  const bindingsStream = await myEngine.queryBindings(`
+        SELECT ?s ?o WHERE {
+          ?s <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?o
+        }`, {
+    sources: [url],
+  });
+  const bindings = await bindingsStream.toArray();
+
+  for (const binding of bindings) {
+    result.push({sub: binding.get("s"), super: binding.get("o")});
+  }
+
+  return result;
+}
+
