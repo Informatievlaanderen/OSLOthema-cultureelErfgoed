@@ -65,7 +65,8 @@
                     {
                         "@id": "https://anet.be/record/stcvopac/a::06.6634",
                         "@type": "Persoon",
-                        "Persoon.achternaam": "Verhulst, Maria Cornelia",
+                        "Persoon.achternaam":"Verhulst",
+                        "Persoon.volledigeNaam": "Verhulst, Maria Cornelia",
                         "Agent.rol": {
                             "@type": "Rol",
                             "Rol.rol": {
