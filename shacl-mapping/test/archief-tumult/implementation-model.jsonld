@@ -34,7 +34,15 @@
             "Rol.rol": {
               "@id": "https://example.com/roltype/instelling",
               "@type": "skos:Concept"
+            },
+            "Rol.agent": {
+              "@id": "ex:Agent001",
+              "@type": "Agent"
             }
+          },
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie005",
+            "@type": "Locatie"
           }
         },
         {
@@ -47,6 +55,10 @@
             "Rol.rol": {
               "@id": "https://example.com/roltype/archiefvormer",
               "@type": "skos:Concept"
+            },
+            "Rol.agent": {
+              "@id": "ex:Agent002",
+              "@type": "Agent"
             }
           },
           "Gebeurtenis.tijd": {
@@ -56,6 +68,10 @@
               "@value": "1964/2018",
               "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
             }
+          },
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie006",
+            "@type": "Locatie"
           }
         }
       ],
@@ -98,6 +114,10 @@
               "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
             }
           },
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie005",
+            "@type": "Locatie"
+          },
           "Gebeurtenis.beschrijving": {
             "@value": "In april 2023 nam Tumult contact op met Amsab-ISG in verband met het archiveren van hun website. Naar aanleiding van deze website-archivering (en een gepland verhuis in 2024) heeft er ook een overdracht plaatsgevonden van papieren archief van de afgelopen 50 jaar, van Burgerdienst van de Jeugd tot Tumult. Later ontvingen we ook nog een persoonlijk archief van medewerker Jan Rutgeers. Dit is ingebracht onder nummer S/2024/130",
             "@language": "nl"
@@ -133,7 +153,11 @@
         },
         "MensgemaaktObject.productie": {
           "@id": "ex:Productie001",
-          "@type": "Productie"
+          "@type": "Productie",
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie007",
+            "@type": "Locatie"
+          }
         }
       }
     },
@@ -154,7 +178,11 @@
         {
           "@type": "Creatie",
           "@id": "ex:Creatie001",
-          "Activiteit.uitgevoerdDoor": "_:ORG002"
+          "Activiteit.uitgevoerdDoor": "_:ORG002",
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie001",
+            "@type": "Locatie"
+          }
         }
       ],
       "ConceptueelObject.titel": {
@@ -199,7 +227,11 @@
         {
           "@type": "Creatie",
           "@id": "ex:Creatie002",
-          "Activiteit.uitgevoerdDoor": "_:ORG002"
+          "Activiteit.uitgevoerdDoor": "_:ORG002",
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie002",
+            "@type": "Locatie"
+          }
         }
       ],
       "ConceptueelObject.titel": {
@@ -251,6 +283,10 @@
               "@value": "1969",
               "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
             }
+          },
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie003",
+            "@type": "Locatie"
           }
         }
       ],
@@ -298,6 +334,10 @@
               "@value": "1971/1975",
               "@type": "http://id.loc.gov/datatypes/edtf/EDTF"
             }
+          },
+          "Gebeurtenis.plaats": {
+            "@id": "ex:Locatie004",
+            "@type": "Locatie"
           }
         }
       ],
