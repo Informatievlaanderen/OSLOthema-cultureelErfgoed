@@ -12,6 +12,8 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix la: <https://linked.art/> .
 
 # Added #####################
 
@@ -25,6 +27,16 @@ _:MyShape a shacl:NodeShape;
     shacl:name "Checks E1_CRM_Entity existence";
     shacl:message "At least one E1_CRM_Entity instance should exist"
 ] .
+
+## Equivalent classes
+
+### Linked Art
+
+la:Set rdfs:subClassOf crm:E1_CRM_Entity.
+
+### RiC-O
+
+rico:RecordSet owl:equivalentClass la:Set.
 
 #############################
 

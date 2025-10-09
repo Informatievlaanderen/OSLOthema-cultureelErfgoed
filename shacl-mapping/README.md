@@ -16,6 +16,27 @@ This code tests if our SHACL shapes correctly assert the given data graphs.
    npm test
    ```
 
+## Original SHACL
+
+You find the original SHACL in `shacl/original.ttl`.
+The only change that we made is adding the following:
+
+```turtle
+_:MyShape a shacl:NodeShape;
+  shacl:targetNode crm:E1_CRM_Entity ;
+  shacl:property [
+    a shacl:PropertyShape;
+    shacl:path [ shacl:inversePath rdf:type ] ;
+    shacl:minCount 1;
+    shacl:name "Checks E1_CRM_Entity existence";
+    shacl:message "At least one E1_CRM_Entity instance should exist"
+] .
+```
+
+This makes sure that at least one Entity is present in the data graph.
+If we don't add this,
+the SHACL validator will consider the data graph as correct when the data graph doesn't contain types.
+
 ## Repo structure
 
 - The file `shacl/original.ttl` contains the content of
