@@ -13,9 +13,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-# <> owl:imports <http://www.cidoc-crm.org/cidoc-crm/>.
-# <> owl:imports <http://www.w3.org/2006/time>.
-
 # Added #####################
 
 ## At least on Entity instance has to be present
@@ -28,14 +25,6 @@ _:MyShape a shacl:NodeShape;
     shacl:name "Checks E1_CRM_Entity existence";
     shacl:message "At least one E1_CRM_Entity instance should exist"
 ] .
-
-## Subclasses
-
-<https://linked.art/Set> rdfs:subClassOf crm:E1_CRM_Entity.
-crm:E22_Human-Made_Object rdfs:subClassOf crm:E1_CRM_Entity.
-crm:E65_Creation rdfs:subClassOf crm:E7_Activity.
-org:Organization rdfs:subClassOf dc:Agent.
-<https://qudt.org/schema/qudt/Unit> rdfs:subClassOf skos:Concept.
 
 #############################
 

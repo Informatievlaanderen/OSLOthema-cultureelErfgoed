@@ -12,6 +12,21 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+# Added #####################
+
+## At least on Entity instance has to be present
+_:MyShape a shacl:NodeShape;
+  shacl:targetNode crm:E1_CRM_Entity ;
+  shacl:property [
+    a shacl:PropertyShape;
+    shacl:path [ shacl:inversePath rdf:type ] ;
+    shacl:minCount 1;
+    shacl:name "Checks E1_CRM_Entity existence";
+    shacl:message "At least one E1_CRM_Entity instance should exist"
+] .
+
+#############################
+
 <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#> rdfs:member <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MensgemaaktDingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#PropositioneelObjectShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelMensgemaaktDingShape>,
