@@ -30,6 +30,7 @@
           "Activiteit.uitgevoerdDoor": "_:ORG001",
           "Activiteit.rol": {
             "@type": "Rol",
+            "@id": "ex:Rol001",
             "Rol.rol": {
               "@id": "https://example.com/roltype/instelling",
               "@type": "skos:Concept"
@@ -42,6 +43,7 @@
           "Activiteit.uitgevoerdDoor": "_:ORG002",
           "Activiteit.rol": {
             "@type": "Rol",
+            "@id": "ex:Rol002",
             "Rol.rol": {
               "@id": "https://example.com/roltype/archiefvormer",
               "@type": "skos:Concept"
@@ -87,6 +89,7 @@
         ],
         "MaterieelDing.isOvergedragenBijVerwerving": {
           "@type": "Verwerving",
+          "@id": "ex:Verwerving001",
           "Gebeurtenis.tijd": {
             "@type": "Moment",
             "@id": "ex:Moment003",
@@ -121,6 +124,7 @@
         },
         "MaterieelDing.dimensie": {
           "@type": "Dimensie",
+          "@id": "ex:Dimensie001",
           "Dimensie.waarde": 3,
           "Dimensie.eenheid": {
             "@id": "http://qudt.org/vocab/unit/M",
