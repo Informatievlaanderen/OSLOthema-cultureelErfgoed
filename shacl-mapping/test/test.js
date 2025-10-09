@@ -106,20 +106,6 @@ describe("Updated SHACL", function() {
         dataPath: "test/archief-tumult/implementation-model.jsonld"
       });
 
-
-      console.log(result.results.length);
-
-      for (const r of result.results) {
-        console.log('####');
-        console.log(r.message.map(a => a.value));
-        console.log('Path: ' + r.path.value)
-        console.log('Focus node: ' + r.focusNode.value)
-        // console.log(r.severity)
-        // console.log(r.sourceConstraintComponent)
-        // console.log(r.sourceShape)
-        console.log();
-      }
-
       assert.equal(result.conforms, true);
     });
 
@@ -149,7 +135,6 @@ describe("Updated SHACL", function() {
         dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld"
       });
 
-      console.log(result.report);
       assert.equal(result.conforms, true);
     });
 
@@ -208,26 +193,28 @@ async function validate({shapePath, dataPath}) {
   addInverseProperties({inverseProperties, dataset: data});
 
   const report = await validator.validate(data);
+  report.results = report.results.filter(r => r.message.length !== 0);
+
+  if (report.results.length !== 0) {
+    console.log(report.results.length);
+
+    for (const r of report.results) {
+      console.log('####');
+      console.log(r.message.map(a => a.value));
+      console.log('Path: ' + r.path.value)
+      console.log('Focus node: ' + r.focusNode.value)
+      // console.log(r.severity)
+      // console.log(r.sourceConstraintComponent)
+      // console.log(r.sourceShape)
+      console.log();
+    }
+  }
 
   return {
     report: await report.dataset.serialize({format: "text/turtle"}),
-    results: report.results = report.results.filter(r => r.message.length !== 0),
+    results: report.results,
     conforms: report.results.length === 0
   };
-
-  // for (const result of report.results) {
-  //   // See https://www.w3.org/TR/shacl/#results-validation-result for details
-  //   // about each property
-  //   console.log(result.message)
-  //   console.log(result.path)
-  //   console.log(result.focusNode)
-  //   console.log(result.severity)
-  //   console.log(result.sourceConstraintComponent)
-  //   console.log(result.sourceShape)
-  // }
-
-  // Validation report as RDF dataset
-  // console.log(await report.dataset.serialize({ format: 'text/n3' }))
 }
 
 function addInverseProperties({inverseProperties, dataset}) {
