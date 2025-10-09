@@ -10,6 +10,8 @@ const myEngine = new QueryEngine();
 /* eslint-disable no-undef */
 // We disable the no-undef rule because it gets triggered by describe and it.
 
+const crmInverseProperties = await getInversePropertiesFromUrl("http://www.cidoc-crm.org/cidoc-crm/");
+
 describe("Original SHACL", function() {
 
   describe("Museaal Object schilderij Théo Van Rysselberge", function () {
@@ -94,7 +96,6 @@ describe("Updated SHACL", function() {
         dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld"
       });
 
-      console.log(result.report);
       assert.equal(result.conforms, true);
     });
   });
@@ -167,11 +168,13 @@ describe("Updated SHACL", function() {
 async function validate({shapePath, dataPath}) {
   const shapes = await rdf.dataset().import(rdf.fromFile(shapePath));
   const data = await rdf.dataset().import(rdf.fromFile(dataPath));
-  const inverseProperties = [];
+  let inverseProperties = [];
   const inverse = shapes.match(null, dataFactory.namedNode("http://www.w3.org/2002/07/owl#inverseOf"), null);
   inverse.forEach((inverse) => {
-    inverseProperties.push([inverse.subject, inverse.object]);
+     inverseProperties.push([inverse.subject, inverse.object]);
   });
+
+  inverseProperties = inverseProperties.concat(crmInverseProperties);
 
   const validator = new SHACLValidator(shapes, {factory: rdf, importGraph: async (url) => {
       const bindingsStream = await myEngine.queryBindings(`
@@ -233,4 +236,22 @@ function addInverseProperties({inverseProperties, dataset}) {
   });
 
   dataset.addAll(newQuads);
+}
+
+async function getInversePropertiesFromUrl(url) {
+  const result = [];
+
+  const bindingsStream = await myEngine.queryBindings(`
+        SELECT ?s ?o WHERE {
+          ?s <http://www.w3.org/2002/07/owl#inverseOf> ?o
+        }`, {
+    sources: [url],
+  });
+  const bindings = await bindingsStream.toArray();
+
+  for (const binding of bindings) {
+    result.push([binding.get("s"), binding.get("o")]);
+  }
+
+  return result;
 }

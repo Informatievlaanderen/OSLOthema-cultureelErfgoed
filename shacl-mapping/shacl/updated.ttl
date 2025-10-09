@@ -32,15 +32,10 @@ _:MyShape a shacl:NodeShape;
 ## Subclasses
 
 <https://linked.art/Set> rdfs:subClassOf crm:E1_CRM_Entity.
+crm:E22_Human-Made_Object rdfs:subClassOf crm:E1_CRM_Entity.
 crm:E65_Creation rdfs:subClassOf crm:E7_Activity.
 org:Organization rdfs:subClassOf dc:Agent.
 <https://qudt.org/schema/qudt/Unit> rdfs:subClassOf skos:Concept.
-
-## Inverse properties
-
-crm:P94i_was_created_by owl:inverseOf crm:P94_has_created.
-crm:P108_has_produced owl:inverseOf crm:P108i_was_produced_by.
-crm:P24_transferred_title_of owl:inverseOf crm:P24i_changed_ownership_through.
 
 #############################
 
