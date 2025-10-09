@@ -8,6 +8,8 @@
     "lint:markdown:fix": "markdownlint-cli2 --fix"
   },
   "dependencies": {
+    "@comunica/query-sparql": "^4.4.1",
+    "@rdfjs/dataset": "^2.0.2",
     "@zazuko/env-node": "^3.0.0",
     "mocha": "^11.7.4",
     "rdf-validate-shacl": "^0.6.5"

@@ -1,6 +1,11 @@
 import rdf from "@zazuko/env-node";
 import SHACLValidator from "rdf-validate-shacl";
 import * as assert from "node:assert";
+import {QueryEngine} from "@comunica/query-sparql";
+import dataFactory from '@rdfjs/data-model';
+import datasetFactory from '@rdfjs/dataset';
+
+const myEngine = new QueryEngine();
 
 /* eslint-disable no-undef */
 // We disable the no-undef rule because it gets triggered by describe and it.
@@ -165,12 +170,25 @@ async function validate({shapePath, dataPath}) {
   const shapes = await rdf.dataset().import(rdf.fromFile(shapePath));
   const data = await rdf.dataset().import(rdf.fromFile(dataPath));
 
-  const validator = new SHACLValidator(shapes, {factory: rdf});
+  const validator = new SHACLValidator(shapes, {factory: rdf, importGraph: async (url) => {
+      const bindingsStream = await myEngine.queryBindings(`
+        SELECT ?s ?p ?o WHERE {
+          ?s ?p ?o
+        }`, {
+        sources: [url],
+      });
+      const bindings = await bindingsStream.toArray();
+      const quads = [];
+      bindings.forEach(binding => {
+        quads.push(dataFactory.quad(binding.get("s"), binding.get("p"), binding.get("o")));
+      });
+      return datasetFactory.dataset(quads);
+    }});
   const report = await validator.validate(data);
 
   return {
     conforms: report.conforms,
-    report: await report.dataset.serialize({format: "text/n3"})
+    report: await report.dataset.serialize({format: "text/turtle"})
   };
 
   // for (const result of report.results) {
