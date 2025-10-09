@@ -106,7 +106,20 @@ describe("Updated SHACL", function() {
         dataPath: "test/archief-tumult/implementation-model.jsonld"
       });
 
-      console.log(result.report);
+
+      console.log(result.results.length);
+
+      for (const r of result.results) {
+        console.log('####');
+        console.log(r.message.map(a => a.value));
+        console.log('Path: ' + r.path.value)
+        console.log('Focus node: ' + r.focusNode.value)
+        // console.log(r.severity)
+        // console.log(r.sourceConstraintComponent)
+        // console.log(r.sourceShape)
+        console.log();
+      }
+
       assert.equal(result.conforms, true);
     });
 
@@ -169,6 +182,11 @@ describe("Updated SHACL", function() {
 async function validate({shapePath, dataPath}) {
   const shapes = await rdf.dataset().import(rdf.fromFile(shapePath));
   const data = await rdf.dataset().import(rdf.fromFile(dataPath));
+  const inverseProperties = [];
+  const inverse = shapes.match(null, dataFactory.namedNode("http://www.w3.org/2002/07/owl#inverseOf"), null);
+  inverse.forEach((inverse) => {
+    inverseProperties.push([inverse.subject, inverse.object]);
+  });
 
   const validator = new SHACLValidator(shapes, {factory: rdf, importGraph: async (url) => {
       const bindingsStream = await myEngine.queryBindings(`
@@ -179,16 +197,22 @@ async function validate({shapePath, dataPath}) {
       });
       const bindings = await bindingsStream.toArray();
       const quads = [];
-      bindings.forEach(binding => {
+
+      for (const binding of bindings) {
         quads.push(dataFactory.quad(binding.get("s"), binding.get("p"), binding.get("o")));
-      });
+      }
+
       return datasetFactory.dataset(quads);
     }});
+
+  addInverseProperties({inverseProperties, dataset: data});
+
   const report = await validator.validate(data);
 
   return {
-    conforms: report.conforms,
-    report: await report.dataset.serialize({format: "text/turtle"})
+    report: await report.dataset.serialize({format: "text/turtle"}),
+    results: report.results = report.results.filter(r => r.message.length !== 0),
+    conforms: report.results.length === 0
   };
 
   // for (const result of report.results) {
@@ -204,4 +228,22 @@ async function validate({shapePath, dataPath}) {
 
   // Validation report as RDF dataset
   // console.log(await report.dataset.serialize({ format: 'text/n3' }))
+}
+
+function addInverseProperties({inverseProperties, dataset}) {
+  const newQuads = [];
+
+  inverseProperties.forEach(pair => {
+    let result = dataset.match(null, pair[0], null);
+    result.forEach(r => {
+      newQuads.push(dataFactory.quad(r.object, pair[1], r.subject));
+    });
+
+    result = dataset.match(null, pair[1], null);
+    result.forEach(r => {
+      newQuads.push(dataFactory.quad(r.object, pair[0], r.subject));
+    });
+  });
+
+  dataset.addAll(newQuads);
 }

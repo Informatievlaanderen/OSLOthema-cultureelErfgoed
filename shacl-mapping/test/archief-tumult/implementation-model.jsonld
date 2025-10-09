@@ -149,6 +149,9 @@
           "Dimensie.eenheid": {
             "@id": "http://qudt.org/vocab/unit/M",
             "@type": "Eenheid"
+          },
+          "Dimensie.type": {
+            "@type": "Concept"
           }
         },
         "MensgemaaktObject.productie": {

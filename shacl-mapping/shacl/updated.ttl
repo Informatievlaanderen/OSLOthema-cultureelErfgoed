@@ -13,8 +13,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<> owl:imports <http://www.cidoc-crm.org/cidoc-crm/>.
-<> owl:imports <http://www.w3.org/2006/time>.
+# <> owl:imports <http://www.cidoc-crm.org/cidoc-crm/>.
+# <> owl:imports <http://www.w3.org/2006/time>.
 
 # Added #####################
 
@@ -38,8 +38,9 @@ org:Organization rdfs:subClassOf dc:Agent.
 
 ## Inverse properties
 
-#crm:P94i_was_created_by owl:inverseOf crm:P94_has_created.
-#crm:P94_has_created owl:inverseOf crm:P94i_was_created_by.
+crm:P94i_was_created_by owl:inverseOf crm:P94_has_created.
+crm:P108_has_produced owl:inverseOf crm:P108i_was_produced_by.
+crm:P24_transferred_title_of owl:inverseOf crm:P24i_changed_ownership_through.
 
 #############################
 
