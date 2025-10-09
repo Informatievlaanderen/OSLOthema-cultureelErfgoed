@@ -1,5 +1,7 @@
 # SHACL mapping
 
+This code tests if our SHACL shapes correctly assert the given data graphs.
+
 ## Usage
 
 1. Install dependencies
