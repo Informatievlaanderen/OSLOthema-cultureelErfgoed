@@ -192,6 +192,7 @@
       "MensgemaaktObject.dimensie": [
         {
           "@type": "Dimensie",
+          "@id": "ex:Dimensie001",
           "Dimensie.type": {
             "@id": "http://vocab.getty.edu/aat/300055644",
             "@type": "Grootheid",
@@ -239,6 +240,10 @@
           "Aankoop.heeftAankoopprijs": [
             {
               "@type": "Geldbedrag",
+              "@id": "ex:Dimensie002",
+              "Dimensie.type": {
+                "@type": "Concept"
+              },
               "Dimensie.waarde": 25,
               "Geldbedrag.valuta": {
                 "@value": "https://example.com/valuta/belgische_frank",
