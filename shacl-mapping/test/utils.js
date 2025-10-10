@@ -56,7 +56,7 @@ export async function validate({shapePath, dataPath, externalUrls}) {
   report.results = report.results.filter(r => r.message.length !== 0);
 
   if (report.results.length !== 0) {
-    console.log(report.results.length);
+    console.log('Total errors: ' + report.results.length);
 
     for (const r of report.results) {
       console.log('####');
