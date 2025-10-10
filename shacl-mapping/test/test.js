@@ -9,8 +9,8 @@ const externalUrls = ["http://www.cidoc-crm.org/cidoc-crm/", "http://www.w3.org/
 describe("Original SHACL", function() {
   this.timeout(30000);
 
-  describe("Museaal Object schilderij Théo Van Rysselberge", function () {
-    it("Implementation model", async () => {
+  describe("Museaal Object schilderij Théo Van Rysselberge (OS-MOSTVR)", function () {
+    it("Implementation model (OS-MOSTV-IM)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld",
@@ -21,8 +21,8 @@ describe("Original SHACL", function() {
     });
   });
 
-  describe("Archief Tumult", function () {
-    it("Implementation model", async () => {
+  describe("Archief Tumult (OS-AT)", function () {
+    it("Implementation model (OS-AT-IM)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/archief-tumult/implementation-model.jsonld",
@@ -32,7 +32,7 @@ describe("Original SHACL", function() {
       assert.equal(result.conforms, true);
     });
 
-    it("Rico", async () => {
+    it("Rico (OS-AT-R)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/archief-tumult/rico.jsonld",
@@ -42,7 +42,7 @@ describe("Original SHACL", function() {
       assert.equal(result.conforms, false);
     });
 
-    it("Both", async () => {
+    it("Both (OS-AT-B)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/archief-tumult/both.jsonld",
@@ -53,8 +53,8 @@ describe("Original SHACL", function() {
     });
   });
 
-  describe("Publicatie Reynaert de Vos", function () {
-    it("Implementation model", async () => {
+  describe("Publicatie Reynaert de Vos (OS-PRDV)", function () {
+    it("Implementation model (OS-PRDV-IM)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld",
@@ -64,7 +64,7 @@ describe("Original SHACL", function() {
       assert.equal(result.conforms, true);
     });
 
-    it("LRMoo", async () => {
+    it("LRMoo (OS-PRDV-L)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/lrmoo.jsonld",
@@ -74,7 +74,7 @@ describe("Original SHACL", function() {
       assert.equal(result.conforms, false);
     });
 
-    it("Both", async () => {
+    it("Both (OS-PRDV-B)", async () => {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/both.jsonld",
@@ -89,28 +89,30 @@ describe("Original SHACL", function() {
 describe("Updated SHACL", function() {
   this.timeout(30000);
 
-  describe("Museaal Object schilderij Théo Van Rysselberge", function () {
-    it("Implementation model", async () => {
+  describe("Museaal Object schilderij Théo Van Rysselberge (US-MOSTVR)", function () {
+    it("Implementation model (US-MOSTVR-IM)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
-        dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld"
+        dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld",
+        externalUrls
       });
 
       assert.equal(result.conforms, true);
     });
   });
 
-  describe("Archief Tumult", function () {
-    it("Implementation model", async () => {
+  describe("Archief Tumult (US-AT)", function () {
+    it("Implementation model (US-AT-IM)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
-        dataPath: "test/archief-tumult/implementation-model.jsonld"
+        dataPath: "test/archief-tumult/implementation-model.jsonld",
+        externalUrls
       });
 
       assert.equal(result.conforms, true);
     });
 
-    it("Rico", async () => {
+    it("Rico (US-AT-R)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/archief-tumult/rico.jsonld",
@@ -120,7 +122,7 @@ describe("Updated SHACL", function() {
       assert.equal(result.conforms, true);
     });
 
-    it("Both", async () => {
+    it("Both (US-AT-B)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/archief-tumult/both.jsonld",
@@ -131,8 +133,8 @@ describe("Updated SHACL", function() {
     });
   });
 
-  describe("Publicatie Reynaert de Vos", function () {
-    it("Implementation model", async () => {
+  describe("Publicatie Reynaert de Vos (US-PRDV)", function () {
+    it("Implementation model (US-PRDV-IM)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld",
@@ -142,7 +144,7 @@ describe("Updated SHACL", function() {
       assert.equal(result.conforms, true);
     });
 
-    it.skip("LRMoo", async () => {
+    it.skip("LRMoo (US-PRDV-L)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/lrmoo.jsonld",
@@ -152,7 +154,7 @@ describe("Updated SHACL", function() {
       assert.equal(result.conforms, true);
     });
 
-    it("Both", async () => {
+    it("Both (US-PRDV-B)", async () => {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/both.jsonld",

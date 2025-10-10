@@ -2,6 +2,8 @@
   "type": "module",
   "scripts": {
     "test": "mocha test/test.js",
+    "test:original": "mocha test/test.js -g 'Original SHACL'",
+    "test:updated": "mocha test/test.js -g 'Updated SHACL'",
     "lint:js": "eslint . --ext js --report-unused-disable-directives --max-warnings 0",
     "lint:js:fix": "eslint . --ext js --report-unused-disable-directives --max-warnings 0 --fix",
     "lint:markdown": "markdownlint-cli2",
