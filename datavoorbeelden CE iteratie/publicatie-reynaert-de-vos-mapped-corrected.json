@@ -32,6 +32,7 @@
                     "@language": "nl"
                 },
                 "ConceptueelObject.creatie": {
+                    "@id": "_:act001",
                     "@type": "Creatie",
                     "Activiteit.uitgevoerdDoor": {
                         "@type": "Persoon",
@@ -43,15 +44,15 @@
                                 "@type": "skos:Concept"
                             },
                             "Rol.activiteit": {
-                                "@type": "Activiteit",
-                                "Activiteit.uitgevoerdDoor": {
-                                    "@type": "Agent"
-                                }
+                                "@id": "_:act001"
                             }
                         }
                     },
                     "Creatie.creatie": {
                         "@id": "_:expr001"
+                    },
+                    "Gebeurtenis.plaats": {
+                        "@type": "Locatie"
                     }
                 },
                 "InformatieObject.taal": {
@@ -60,12 +61,13 @@
                 }
             },
             "ConceptueelObject.creatie": {
+                "@id": "_:act002",
                 "@type": "Creatie",
                 "Activiteit.uitgevoerdDoor": [
                     {
                         "@id": "https://anet.be/record/stcvopac/a::06.6634",
                         "@type": "Persoon",
-                        "Persoon.achternaam":"Verhulst",
+                        "Persoon.achternaam": "Verhulst",
                         "Persoon.volledigeNaam": "Verhulst, Maria Cornelia",
                         "Agent.rol": {
                             "@type": "Rol",
@@ -74,17 +76,17 @@
                                 "@type": "skos:Concept"
                             },
                             "Rol.activiteit": {
-                                "@type": "Activiteit",
-                                "Activiteit.uitgevoerdDoor": {
-                                    "@type": "Agent"
-                                }
+                                "@id": "_:act002"
                             }
                         }
                     }
                 ],
                 "Gebeurtenis.tijd": {
                     "@type": "Periode",
-                    "Periode.inEDTF": "1713-1717"
+                    "Periode.inEDTF": {
+                        "@value": "1713-1717",
+                        "@type": "EDTF"
+                    }
                 },
                 "Gebeurtenis.plaats": {
                     "@id": "https://anet.be/record/stcvopac/a::91.493.2000",
@@ -205,6 +207,19 @@
                         "@type": "Productie",
                         "Productie.product": {
                             "@id": "_:item001"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Locatie"
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Agent"
+                        },
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": {
+                                "@value": "1713-1717",
+                                "@type": "EDTF"
+                            }
                         }
                     },
                     "MaterieelDing.materiaal": {
@@ -254,6 +269,19 @@
                         "@type": "Productie",
                         "Productie.product": {
                             "@id": "_:item002"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Locatie"
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Agent"
+                        },
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": {
+                                "@value": "1713-1717",
+                                "@type": "EDTF"
+                            }
                         }
                     },
                     "MaterieelDing.materiaal": {
