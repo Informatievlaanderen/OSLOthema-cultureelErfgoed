@@ -102,7 +102,7 @@
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#GeografischeNaamShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#AdresvoorstellingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#PeriodeShape>,
-    <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Shape>,
+    <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#EdtfShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#GeometrieShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#DimensieShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#BeschrijvingShape>,
@@ -713,9 +713,9 @@
   shacl:closed false;
   shacl:targetClass crm:E70_Thing .
 
-<https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Shape> a shacl:NodeShape;
-  rdfs:label ""@nl;
-  <http://purl.org/vocab/vann/usageNote> "Voorbeelden: 1980/1984 (periode 1980-1984), 1984? (jaar onzeker), 1984~ (jaar bij benadering), 19XX (20ste eeuw), /1980 (periode met onbekend begin), 1984 (ergens in 1984). Zie <a href=\"https://www.loc.gov/standards/datetime/\"></a> voor meer info."@nl;
+<https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#EdtfShape> a shacl:NodeShape;
+  rdfs:label "EDTF"@nl;
+  <http://purl.org/vocab/vann/usageNote> "Voorbeelden: 1980/1984 (periode 1980-1984), 1984? (jaar onzeker), 1984~ (jaar bij benadering), 19XX (20ste eeuw), /1980 (periode met onbekend begin), 1984 (ergens in 1984). Zie <a href=\"https://www.loc.gov/standards/datetime/\">EDTF</a> voor meer info."@nl;
   rdfs:comment "Een uitgebreide set van notaties voor het vastleggen van datums, tijden en tijdsintervallen, inclusief onzekere of benaderde datums, herhalende datums en open tijdsintervallen."@nl;
   shacl:closed false;
   shacl:targetClass <http://id.loc.gov/datatypes/edtf/EDTF> .
@@ -1267,7 +1267,7 @@
     rdfs:label "in EDTF"@nl;
     rdfs:comment "Positie in de tijd van een Moment, uitgedrukt in EDTF."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Moment.InEdtf>;
-    shacl:nodekind <http://id.loc.gov/datatypes/edtf/EDTF>;
+    shacl:datatype <http://id.loc.gov/datatypes/edtf/EDTF>;
     shacl:description "Positie in de tijd van een Moment, uitgedrukt in EDTF."@nl;
     shacl:maxCount "1";
     shacl:name "in EDTF"@nl;
@@ -1312,7 +1312,7 @@
     rdfs:label "in EDTF"@nl;
     rdfs:comment "Waarde van een Periode, uitgedrukt in EDTF."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Periode.InEdtf>;
-    shacl:nodekind <http://id.loc.gov/datatypes/edtf/EDTF>;
+    shacl:datatype <http://id.loc.gov/datatypes/edtf/EDTF>;
     shacl:description "Waarde van een Periode, uitgedrukt in EDTF."@nl;
     shacl:maxCount "1";
     shacl:name "in EDTF"@nl;
@@ -1743,5 +1743,4 @@
   <http://purl.org/vocab/vann/usageNote> "Productie uit ruw materiaal valt hieronder maar bv ook behandeling of restauratie van bestaande objecten. OPMERKING: Directe subklasse van Activiteit en niet expliciet aanwezig in dit model. Directe superklasse van Productie. . Zie <a href=\"https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html\">CIDOC</a> voor de volledige opdeling in klassen en subklassen."@nl;
   rdfs:comment "Activiteit waarbij een Materieel Mensgemaakt Ding wordt geproduceerd, gewijzigd of veranderd."@nl;
   shacl:closed false;
-
   shacl:targetClass crm:E11_Modification .
