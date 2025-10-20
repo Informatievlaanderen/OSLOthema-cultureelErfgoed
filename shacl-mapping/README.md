@@ -25,9 +25,11 @@ Important to know is that
     but it should when we use the updated SHACL file.
   - The file `both.jsonld` contains the data graph that follows both the implementation model and external model.
     This data graph should validate when we use the original and updated SHACL files.
-- The code uses subclass, equivalent-class, and inverse-of information from http://www.cidoc-crm.org/cidoc-crm/,
-  http://www.w3.org/2006/time, https://qudt.org/schema/qudt/, and the SHACL files to add more data to the data graphs.
+- The code uses subclass, equivalent-class, and inverse-of information from <http://www.cidoc-crm.org/cidoc-crm/>,
+  <http://www.w3.org/2006/time>, <https://qudt.org/schema/qudt/>, and the SHACL files to add more data to the data graphs.
   We specify these urls on line 7 of the file `./test/test.js`.
+  See [this section](#adding-more-data-to-the-data-graph-superclasses-equivalent-classes-and-inverse-properties)
+  for more information.
 
 ## Requirements
 
@@ -90,6 +92,49 @@ _:MyShape a shacl:NodeShape;
 This makes sure that at least one Entity is present in the data graph.
 If we don't add this,
 the SHACL validator will consider the data graph as correct when the data graph doesn't contain types.
+
+## Local and remote validation
+
+You can either choose to use local or remote validation
+by updating the variable `validate` on line 8 in the file `test/test.js`.
+Local validation uses [rdf-validate-shacl](https://www.npmjs.com/package/rdf-validate-shacl).
+Remote validation uses the API of <https://www.itb.ec.europa.eu/shacl/any/upload>.
+
+## Adding more data to the data graph: superclasses, equivalent classes, and inverse properties
+
+Before we validate the data graph,
+we add more triples based on information about subclasses, equivalent classes, and inverse properties.
+For example,
+assume that we want to validate this data graph:
+
+```turtle
+_:b1 a :Person.
+_:b1 :worksFor _:b2.
+_:b2 a :Organisation.
+```
+
+Assume that we have this extra information that is neither in the data graph nor the shapes graph:
+
+```turtle
+:Person rdfs:subClassOf :Agent.
+:worksFor owl:inverseOf :employee.
+```
+
+Then, then the following data is generated:
+
+```turtle
+_:b1 a :Agent.
+_:b2 :employee _:b1.
+```
+
+The updated data graph, which is used for validation, becomes:
+
+```turtle
+_:b1 a :Person, :Agent.
+_:b1 :worksFor _:b2.
+_:b2 a :Organisation.
+_:b2 :employee _:b1.
+```
 
 ## Linters
 

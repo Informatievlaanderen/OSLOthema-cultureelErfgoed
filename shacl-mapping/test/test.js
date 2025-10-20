@@ -1,10 +1,11 @@
 import * as assert from "node:assert";
-import {validate} from "./utils.js";
+import {validateLocal, validateRemote} from "./utils.js";
 
 /* eslint-disable no-undef */
 // We disable the no-undef rule because it gets triggered by describe and it.
 
 const externalUrls = ["http://www.cidoc-crm.org/cidoc-crm/", "http://www.w3.org/2006/time", "https://qudt.org/schema/qudt/"];
+const validate = validateLocal; // validateLocal for local validation or validateRemote for remote validation
 
 describe("Original SHACL", function() {
   this.timeout(30000);
