@@ -6,8 +6,7 @@
       "skos": "http://www.w3.org/2004/02/skos/core#",
       "Agent.rol": {
         "@reverse": "Rol.agent"
-      },
-      "ex": "https://example.com/"
+      }
     }
   ],
   "@graph": [
@@ -21,7 +20,7 @@
         "@language": "nl"
       },
       "InformatieObject.bevat": {
-        "@id": "ex:InformatieObject001",
+        "@id": "_:expr001",
         "@type": [
           "InformatieObject"
         ],
@@ -30,31 +29,27 @@
           "@language": "nl"
         },
         "ConceptueelObject.creatie": {
+          "@id": "_:act001",
           "@type": "Creatie",
-          "@id": "ex:Creatie001",
           "Activiteit.uitgevoerdDoor": {
             "@type": "Persoon",
-            "@id": "ex:Persoon001",
-            "Persoon.volledigeNaam": "Anoniem",
+            "Persoon.achternaam": "Anoniem",
             "Agent.rol": {
               "@type": "Rol",
-              "@id": "ex:Rol001",
               "Rol.rol": {
                 "@id": "https://example.com/roltype/auteur",
                 "@type": "skos:Concept"
               },
               "Rol.activiteit": {
-                "@type": "Activiteit",
-                "@id": "ex:Activiteit001",
-                "Activiteit.uitgevoerdDoor": {
-                  "@type": "Agent"
-                },
-                "Gebeurtenis.plaats": {
-                  "@id": "ex:Locatie001",
-                  "@type": "Locatie"
-                }
+                "@id": "_:act001"
               }
             }
+          },
+          "Creatie.creatie": {
+            "@id": "_:expr001"
+          },
+          "Gebeurtenis.plaats": {
+            "@type": "Locatie"
           }
         },
         "InformatieObject.taal": {
@@ -63,39 +58,32 @@
         }
       },
       "ConceptueelObject.creatie": {
+        "@id": "_:act002",
         "@type": "Creatie",
-        "@id": "ex:Creatie002",
         "Activiteit.uitgevoerdDoor": [
           {
             "@id": "https://anet.be/record/stcvopac/a::06.6634",
             "@type": "Persoon",
-            "Persoon.volledigeNaam": "Verhulst, Maria Cornelia",
             "Persoon.achternaam": "Verhulst",
+            "Persoon.volledigeNaam": "Verhulst, Maria Cornelia",
             "Agent.rol": {
               "@type": "Rol",
-              "@id": "ex:Rol002",
               "Rol.rol": {
                 "@id": "https://example.com/roltype/uitgever",
                 "@type": "skos:Concept"
               },
               "Rol.activiteit": {
-                "@type": "Activiteit",
-                "@id": "ex:Activiteit002",
-                "Activiteit.uitgevoerdDoor": {
-                  "@type": "Agent"
-                },
-                "Gebeurtenis.plaats": {
-                  "@id": "ex:Locatie002",
-                  "@type": "Locatie"
-                }
+                "@id": "_:act002"
               }
             }
           }
         ],
         "Gebeurtenis.tijd": {
           "@type": "Periode",
-          "@id": "ex:Periode001",
-          "Periode.inEDTF": "1713-1717"
+          "Periode.inEDTF": {
+            "@value": "1713-1717",
+            "@type": "EDTF"
+          }
         },
         "Gebeurtenis.plaats": {
           "@id": "https://anet.be/record/stcvopac/a::91.493.2000",
@@ -107,7 +95,6 @@
           "Locatie.identificator": [
             {
               "@type": "Identificator",
-              "@id": "ex:ID001",
               "Identificator.identificator": {
                 "@value": "https://dbpedia.org/page/Antwerp",
                 "@type": "xsd:anyURI"
@@ -116,7 +103,6 @@
             },
             {
               "@type": "Identificator",
-              "@id": "ex:ID002",
               "Identificator.identificator": {
                 "@value": "http://wikidata.org/wiki/Q12892",
                 "@type": "xsd:anyURI"
@@ -124,12 +110,14 @@
               "Identificator.toegekendDoor (string)": "wikidata"
             }
           ]
+        },
+        "Creatie.creatie": {
+          "@id": "https://anet.be/record/stcvopac/c:stcv:12910495"
         }
       },
       "ConceptueelObject.dimensie": [
         {
           "@type": "Dimensie",
-          "@id": "ex:Dimensie001",
           "Dimensie.type": {
             "@id": "https://example.com/collatie/vellen",
             "@type": "Grootheid"
@@ -138,7 +126,6 @@
         },
         {
           "@type": "Dimensie",
-          "@id": "ex:Dimensie002",
           "Dimensie.type": {
             "@id": "https://example.com/collatie/formaat",
             "@type": "Grootheid"
@@ -147,7 +134,6 @@
         },
         {
           "@type": "Dimensie",
-          "@id": "ex:Dimensie003",
           "Dimensie.type": {
             "@id": "https://example.com/collatie/katernen",
             "@type": "Grootheid"
@@ -156,7 +142,6 @@
         },
         {
           "@type": "Dimensie",
-          "@id": "ex:Dimensie004",
           "Dimensie.type": {
             "@id": "https://example.com/collatie/bladnummering",
             "@type": "Grootheid"
@@ -171,7 +156,6 @@
       "Entiteit.identificator": [
         {
           "@type": "Identificator",
-          "@id": "ex:ID003",
           "Identificator.identificator": {
             "@value": "000004 - # b1 A2 en : # b2 D4 zal$",
             "@type": "https://example.com/identificatortype/vingerafdruk"
@@ -179,7 +163,6 @@
         },
         {
           "@type": "Identificator",
-          "@id": "ex:ID004",
           "Identificator.identificator": {
             "@value": 0,
             "@type": "https://example.com/identificatortype/editie"
@@ -188,17 +171,12 @@
       ],
       "InformatieObject.drager": [
         {
+          "@id": "_:item001",
           "@type": [
             "MensgemaaktObject"
           ],
-          "@id": "ex:MensgemaaktObject001",
-          "MensgemaaktObject.productie": {
-            "@type": "Productie",
-            "@id": "ex:Productie001"
-          },
           "Entiteit.identificator": {
             "@type": "Identificator",
-            "@id": "ex:ID005",
             "Identificator.identificator": {
               "@value": "A 94050 [S0-267 f]",
               "@type": "https://example.com/identificatortype/plaatskenmerk"
@@ -220,20 +198,46 @@
                 }
               }
             }
+          },
+          "MensgemaaktObject.productie": {
+            "@type": "Productie",
+            "Productie.product": {
+              "@id": "_:item001"
+            },
+            "Gebeurtenis.plaats": {
+              "@type": "Locatie"
+            },
+            "Activiteit.uitgevoerdDoor": {
+              "@type": "Agent"
+            },
+            "Gebeurtenis.tijd": {
+              "@type": "Periode",
+              "Periode.inEDTF": {
+                "@value": "1713-1717",
+                "@type": "EDTF"
+              }
+            }
+          },
+          "MaterieelDing.materiaal": {
+            "@id": "https://example.com/materiaaltype/papier",
+            "@type": "skos:Concept"
+          },
+          "MaterieelDing.dimensie": {
+            "@type": "Dimensie",
+            "Dimensie.type": {
+              "@id": "https://example.com/grootheidtype/onbekend",
+              "@type": "Grootheid"
+            },
+            "Dimensie.waarde": "0"
           }
         },
         {
+          "@id": "_:item002",
           "@type": [
             "MensgemaaktObject"
           ],
-          "@id": "ex:MensgemaaktObject002",
-          "MensgemaaktObject.productie": {
-            "@type": "Productie",
-            "@id": "ex:Productie002"
-          },
           "Entiteit.identificator": {
             "@type": "Identificator",
-            "@id": "ex:ID006",
             "Identificator.identificator": {
               "@value": "HF632",
               "@type": "https://example.com/identificatortype/plaatskenmerk"
@@ -255,6 +259,37 @@
                 }
               }
             }
+          },
+          "MensgemaaktObject.productie": {
+            "@type": "Productie",
+            "Productie.product": {
+              "@id": "_:item002"
+            },
+            "Gebeurtenis.plaats": {
+              "@type": "Locatie"
+            },
+            "Activiteit.uitgevoerdDoor": {
+              "@type": "Agent"
+            },
+            "Gebeurtenis.tijd": {
+              "@type": "Periode",
+              "Periode.inEDTF": {
+                "@value": "1713-1717",
+                "@type": "EDTF"
+              }
+            }
+          },
+          "MaterieelDing.materiaal": {
+            "@id": "https://example.com/materiaaltype/papier",
+            "@type": "skos:Concept"
+          },
+          "MaterieelDing.dimensie": {
+            "@type": "Dimensie",
+            "Dimensie.type": {
+              "@id": "https://example.com/grootheidtype/onbekend",
+              "@type": "Grootheid"
+            },
+            "Dimensie.waarde": "0"
           }
         }
       ]

@@ -22,6 +22,7 @@
         "@language": "nl"
       },
       "InformatieObject.bevat": {
+        "@id": "_:expr001",
         "@type": [
           "LRMoo:F2_Expression",
           "InformatieObject"
@@ -31,10 +32,11 @@
           "@language": "nl"
         },
         "ConceptueelObject.creatie": {
+          "@id": "_:act001",
           "@type": "Creatie",
           "Activiteit.uitgevoerdDoor": {
             "@type": "Persoon",
-            "Persoon.volledigeNaam": "Anoniem",
+            "Persoon.achternaam": "Anoniem",
             "Agent.rol": {
               "@type": "Rol",
               "Rol.rol": {
@@ -42,17 +44,15 @@
                 "@type": "skos:Concept"
               },
               "Rol.activiteit": {
-                "@type": "Activiteit",
-                "@id": "ex:Activiteit001",
-                "Activiteit.uitgevoerdDoor": {
-                  "@type": "Agent"
-                },
-                "Gebeurtenis.plaats": {
-                  "@id": "ex:Locatie001",
-                  "@type": "Locatie"
-                }
+                "@id": "_:act001"
               }
             }
+          },
+          "Creatie.creatie": {
+            "@id": "_:expr001"
+          },
+          "Gebeurtenis.plaats": {
+            "@type": "Locatie"
           }
         },
         "InformatieObject.taal": {
@@ -61,13 +61,14 @@
         }
       },
       "ConceptueelObject.creatie": {
+        "@id": "_:act002",
         "@type": "Creatie",
         "Activiteit.uitgevoerdDoor": [
           {
             "@id": "https://anet.be/record/stcvopac/a::06.6634",
             "@type": "Persoon",
-            "Persoon.volledigeNaam": "Verhulst, Maria Cornelia",
             "Persoon.achternaam": "Verhulst",
+            "Persoon.volledigeNaam": "Verhulst, Maria Cornelia",
             "Agent.rol": {
               "@type": "Rol",
               "Rol.rol": {
@@ -75,22 +76,17 @@
                 "@type": "skos:Concept"
               },
               "Rol.activiteit": {
-                "@type": "Activiteit",
-                "@id": "ex:Activiteit002",
-                "Activiteit.uitgevoerdDoor": {
-                  "@type": "Agent"
-                },
-                "Gebeurtenis.plaats": {
-                  "@id": "ex:Locatie002",
-                  "@type": "Locatie"
-                }
+                "@id": "_:act002"
               }
             }
           }
         ],
         "Gebeurtenis.tijd": {
           "@type": "Periode",
-          "Periode.inEDTF": "1713-1717"
+          "Periode.inEDTF": {
+            "@value": "1713-1717",
+            "@type": "EDTF"
+          }
         },
         "Gebeurtenis.plaats": {
           "@id": "https://anet.be/record/stcvopac/a::91.493.2000",
@@ -117,6 +113,9 @@
               "Identificator.toegekendDoor (string)": "wikidata"
             }
           ]
+        },
+        "Creatie.creatie": {
+          "@id": "https://anet.be/record/stcvopac/c:stcv:12910495"
         }
       },
       "ConceptueelObject.dimensie": [
@@ -175,6 +174,7 @@
       ],
       "InformatieObject.drager": [
         {
+          "@id": "_:item001",
           "@type": [
             "LRMoo:F5_Item",
             "MensgemaaktObject"
@@ -202,9 +202,41 @@
                 }
               }
             }
+          },
+          "MensgemaaktObject.productie": {
+            "@type": "Productie",
+            "Productie.product": {
+              "@id": "_:item001"
+            },
+            "Gebeurtenis.plaats": {
+              "@type": "Locatie"
+            },
+            "Activiteit.uitgevoerdDoor": {
+              "@type": "Agent"
+            },
+            "Gebeurtenis.tijd": {
+              "@type": "Periode",
+              "Periode.inEDTF": {
+                "@value": "1713-1717",
+                "@type": "EDTF"
+              }
+            }
+          },
+          "MaterieelDing.materiaal": {
+            "@id": "https://example.com/materiaaltype/papier",
+            "@type": "skos:Concept"
+          },
+          "MaterieelDing.dimensie": {
+            "@type": "Dimensie",
+            "Dimensie.type": {
+              "@id": "https://example.com/grootheidtype/onbekend",
+              "@type": "Grootheid"
+            },
+            "Dimensie.waarde": "0"
           }
         },
         {
+          "@id": "_:item002",
           "@type": [
             "LRMoo:F5_Item",
             "MensgemaaktObject"
@@ -232,6 +264,37 @@
                 }
               }
             }
+          },
+          "MensgemaaktObject.productie": {
+            "@type": "Productie",
+            "Productie.product": {
+              "@id": "_:item002"
+            },
+            "Gebeurtenis.plaats": {
+              "@type": "Locatie"
+            },
+            "Activiteit.uitgevoerdDoor": {
+              "@type": "Agent"
+            },
+            "Gebeurtenis.tijd": {
+              "@type": "Periode",
+              "Periode.inEDTF": {
+                "@value": "1713-1717",
+                "@type": "EDTF"
+              }
+            }
+          },
+          "MaterieelDing.materiaal": {
+            "@id": "https://example.com/materiaaltype/papier",
+            "@type": "skos:Concept"
+          },
+          "MaterieelDing.dimensie": {
+            "@type": "Dimensie",
+            "Dimensie.type": {
+              "@id": "https://example.com/grootheidtype/onbekend",
+              "@type": "Grootheid"
+            },
+            "Dimensie.waarde": "0"
           }
         }
       ]
