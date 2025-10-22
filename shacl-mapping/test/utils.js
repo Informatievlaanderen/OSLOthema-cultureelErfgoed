@@ -13,8 +13,8 @@ const myEngine = new QueryEngine();
  * @param {string} options.shapePath
  * @param {string} options.dataPath
  */
-export async function validateLocal({shapePath, dataPath, externalUrls}) {
-  const {data, shapes} = await getDataAndShapes({shapePath, dataPath, externalUrls});
+export async function validateLocal({shapePath, dataPath, externalUrls, printUpdatedDataGraph = false}) {
+  const {data, shapes} = await getDataAndShapes({shapePath, dataPath, externalUrls, printUpdatedDataGraph});
 
   const validator = new SHACLValidator(shapes, {
     factory: rdf, importGraph: async (url) => {
@@ -67,8 +67,8 @@ export async function validateLocal({shapePath, dataPath, externalUrls}) {
  * @param {string} options.shapePath
  * @param {string} options.dataPath
  */
-export async function validateRemote({shapePath, dataPath, externalUrls}) {
-  const {data, shapes} = await getDataAndShapes({shapePath, dataPath, externalUrls});
+export async function validateRemote({shapePath, dataPath, externalUrls, printUpdatedDataGraph = false}) {
+  const {data, shapes} = await getDataAndShapes({shapePath, dataPath, externalUrls, printUpdatedDataGraph});
 
   const requestBody = {
     "contentToValidate": await data.serialize({format: "text/turtle"}),
@@ -131,7 +131,7 @@ export async function validateRemote({shapePath, dataPath, externalUrls}) {
  * @param {string} options.shapePath
  * @param {string} options.dataPath
  */
-export async function getDataAndShapes({shapePath, dataPath, externalUrls}) {
+export async function getDataAndShapes({shapePath, dataPath, externalUrls, printUpdatedDataGraph = false}) {
   const externalInverseProperties = await getInversePropertiesFromUrls(externalUrls);
   const externalSubClasses = await getSubClassesFromUrls(externalUrls);
 
@@ -153,6 +153,12 @@ export async function getDataAndShapes({shapePath, dataPath, externalUrls}) {
   addEquivalentClasses({equivalentClasses, dataset: data});
   addInverseProperties({inverseProperties, dataset: data});
   addSuperClasses({subClasses, dataset: data});
+
+  if (printUpdatedDataGraph) {
+    console.log("# Updated data graph #");
+    console.log(await data.serialize({format: "text/turtle"}));
+    console.log("######################");
+  }
 
   return {
     data,

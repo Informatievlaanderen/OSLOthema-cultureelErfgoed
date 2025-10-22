@@ -6,6 +6,7 @@ import {validateLocal, validateRemote} from "./utils.js";
 
 const externalUrls = ["http://www.cidoc-crm.org/cidoc-crm/", "http://www.w3.org/2006/time", "https://qudt.org/schema/qudt/"];
 const validate = validateLocal; // validateLocal for local validation or validateRemote for remote validation
+const printUpdatedDataGraph = false; // Set to true to print data graph after reasoning
 
 describe("Original SHACL", function() {
   this.timeout(30000);
@@ -15,7 +16,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -27,7 +29,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/archief-tumult/implementation-model.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -37,7 +40,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/archief-tumult/rico.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, false);
@@ -47,7 +51,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/archief-tumult/both.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -59,7 +64,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -69,7 +75,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/lrmoo.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, false);
@@ -79,7 +86,8 @@ describe("Original SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/original.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/both.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -95,7 +103,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/museaal-object-schilderij-theo-van-rysselberge/implementation-model.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -107,7 +116,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/archief-tumult/implementation-model.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -117,7 +127,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/archief-tumult/rico.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -127,7 +138,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/archief-tumult/both.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -139,7 +151,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/implementation-model.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -149,7 +162,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/lrmoo.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
@@ -159,7 +173,8 @@ describe("Updated SHACL", function() {
       const result = await validate({
         shapePath: "./shacl/updated.ttl",
         dataPath: "test/publicatie-reynaert-de-vos/both.jsonld",
-        externalUrls
+        externalUrls,
+        printUpdatedDataGraph
       });
 
       assert.equal(result.conforms, true);
