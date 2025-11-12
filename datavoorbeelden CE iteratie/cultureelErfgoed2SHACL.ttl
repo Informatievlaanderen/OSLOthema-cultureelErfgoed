@@ -14,35 +14,35 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix qudt: <https://qudt.org/schema/qudt/> .
 
-	crm:E28_Conceptual_Object
+crm:E28_Conceptual_Object
 		a owl:Class;
 		rdfs:subClassOf crm:E1_CRM_Entity .
   
-  crm:E73_Information_Object
+crm:E73_Information_Object
 		a owl:Class;
 		rdfs:subClassOf crm:E28_Conceptual_Object .
 
-	crm:E18_Physical_Thing
+crm:E18_Physical_Thing
 		a owl:Class;
 		rdfs:subClassOf crm:E1_CRM_Entity .
   
-  crm:E22_Human-Made_Object
+crm:E22_Human-Made_Object
 		a owl:Class;
 		rdfs:subClassOf crm:E18_Physical_Thing . 
 
-   crm:E22_Human-Made_Object
+crm:E22_Human-Made_Object
 		a owl:Class;
 		rdfs:subClassOf crm:E24_Physical_Human-Made_Thing . 
 
-	<http://www.w3.org/ns/person#Person>
+<http://www.w3.org/ns/person#Person>
 		a owl:Class;
 		rdfs:subClassOf dc:Agent .
 	      
-	org:Organization
+org:Organization
 	     a owl:Class;
      rdfs:subClassOf dc:Agent .
 
-  qudt:QuantityKind
+qudt:QuantityKind
 	     a owl:Class;
      rdfs:subClassOf skos:Concept .
 
@@ -1735,4 +1735,5 @@
   <http://purl.org/vocab/vann/usageNote> "Productie uit ruw materiaal valt hieronder maar bv ook behandeling of restauratie van bestaande objecten. OPMERKING: Directe subklasse van Activiteit en niet expliciet aanwezig in dit model. Directe superklasse van Productie. . Zie <a href=\"https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html\">CIDOC</a> voor de volledige opdeling in klassen en subklassen."@nl;
   rdfs:comment "Activiteit waarbij een Materieel Mensgemaakt Ding wordt geproduceerd, gewijzigd of veranderd."@nl;
   shacl:closed false;
+
   shacl:targetClass crm:E11_Modification .
