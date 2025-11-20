@@ -43,6 +43,7 @@
 <http://www.cidoc-crm.org/cidoc-crm/E5_Event> a owl:Class; rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> .
 <http://www.cidoc-crm.org/cidoc-crm/E71_Human-Made_Thing> a owl:Class; rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E70_Thing> .
 <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> a owl:Class; rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E70_Thing> .
+<http://www.cidoc-crm.org/cidoc-crm/E96_Purchase> a owl:Class; rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition> .
 <http://www.w3.org/ns/person#Person> a owl:Class; rdfs:subClassOf <http://purl.org/dc/terms/Agent> .
 <http://www.w3.org/ns/person#Person> a owl:Class; rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> .
 <https://linked.art/Set> a owl:Class; rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> .
@@ -1747,5 +1748,6 @@
   rdfs:comment "Activiteit waarbij een Materieel Mensgemaakt Ding wordt geproduceerd, gewijzigd of veranderd."@nl;
   shacl:closed false;
   shacl:targetClass crm:E11_Modification .
+
 
 
