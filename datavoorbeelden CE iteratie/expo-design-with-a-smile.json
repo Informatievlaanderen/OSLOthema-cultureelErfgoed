@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
+        {
+            "skos": "http://www.w3.org/2004/02/skos/core#"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://stad.gent/id/tentoonstelling/530003570",
+            "@type": "Activiteit",
+            "Gebeurtenis.type": {
+                "@id": "https://example.com/Gebeurtenistype/Tentoonstelling",
+                "@type": "skos:Concept"
+            },
+            "Gebeurtenis.identificator": [
+                {
+                    "@type": "Identificator",
+                    "Identificator.identificator": {
+                        "@value": "TE_2008-009",
+                        "@type": "https://stad.gent/id/identificatiesysteem/referentienummer"
+                    }
+                },
+                {
+                    "@type": "Identificator",
+                    "Identificator.identificator": {
+                        "@value": "Design with a smile",
+                        "@language": "nl"
+                    }
+                }
+            ],
+            "Gebeurtenis.tijd": {
+                "@type": "Periode",
+                "Periode.inEDTF": {
+                    "@value": "2008-07-11/2008-10-12",
+                    "@type": "EDTF"
+                }
+            },
+            "Gebeurtenis.plaats": {
+                "@type": "Plaats",
+                "Plaats.plaatsnaam": {
+                    "@value": "Design Museum Gent",
+                    "@language": "nl"
+                }
+            },
+            "Activiteit.uitgevoerdDoor": {
+                "@type": "Organisatie",
+                "Organisatie.voorkeursnaam": {
+                    "@value": "Design Museum Gent",
+                    "@language": "nl"
+                }
+            },
+            "Activiteit.gebruiktObject": [
+                {
+                    "@type": "MensgemaaktObject",
+                    "@id": "https://stad.gent/id/mensgemaaktobject/530018034",
+                    "MensgemaaktObject.titel": {
+                        "@value": "Bocca",
+                        "@language": "nl"
+                    },
+                    "Entiteit.identificator": {
+                        "@type": "Identificator",
+                        "Identificator.identificator": {
+                            "@value": "2008-0096",
+                            "@type": "https://stad.gent/id/identificatiesysteem/objectnummer"
+                        }
+                    },
+                    "MensgemaaktObject.productie": {
+                        "@type": "Productie",
+                        "Productie.product": "https://stad.gent/id/mensgemaaktobject/530018034",
+                        "Activiteit.uitgevoerdDoor": [
+                            {
+                                "@type": "Agent"
+                            }
+                        ],
+                        "Gebeurtenis.tijd": {
+                            "Periode.inEDTF": {
+                                "@value": "..2008",
+                                "@type": "EDTF"
+                            },
+                            "@type": "Periode"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Locatie"
+                        }
+                    },
+                    "MaterieelDing.dimensie": [
+                        {
+                            "@type": "Dimensie",
+                            "Dimensie.type": {
+                                "@id": "https://example.com/dimensietype/onbekend",
+                                "@type": "Grootheid"
+                            },
+                            "Dimensie.waarde": 0
+                        }
+                    ],
+                    "MaterieelDing.materiaal": {
+                        "@id": "https://example.com/materiaaltype/papier",
+                        "@type": "skos:Concept"
+                    }
+                },
+                {},
+                {
+                    "@type": "MensgemaaktObject",
+                    "@id": "https://stad.gent/id/mensgemaaktobject/530010145",
+                    "MensgemaaktObject.titel": {
+                        "@value": "Staande kapstok met omgekeerde kleerhangers als armen",
+                        "@language": "nl"
+                    },
+                    "Entiteit.identificator": {
+                        "@type": "Identificator",
+                        "Identificator.identificator": {
+                            "@value": "2008-0097",
+                            "@type": "https://stad.gent/id/identificatiesysteem/objectnummer"
+                        }
+                    },
+                    "MensgemaaktObject.productie": {
+                        "@type": "Productie",
+                        "Productie.product": "https://stad.gent/id/mensgemaaktobject/530010145",
+                        "Activiteit.uitgevoerdDoor": [
+                            {
+                                "@type": "Agent"
+                            }
+                        ],
+                        "Gebeurtenis.tijd": {
+                            "Periode.inEDTF": {
+                                "@value": "..2008",
+                                "@type": "EDTF"
+                            },
+                            "@type": "Periode"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Locatie"
+                        }
+                    },
+                    "MaterieelDing.dimensie": [
+                        {
+                            "@type": "Dimensie",
+                            "Dimensie.type": {
+                                "@id": "https://example.com/dimensietype/onbekend",
+                                "@type": "Grootheid"
+                            },
+                            "Dimensie.waarde": 0
+                        }
+                    ],
+                    "MaterieelDing.materiaal": {
+                        "@id": "https://example.com/materiaaltype/papier",
+                        "@type": "skos:Concept"
+                    }
+                }
+            ]
+        }
+    ]
+}
