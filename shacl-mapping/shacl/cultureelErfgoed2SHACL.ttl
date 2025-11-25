@@ -59,6 +59,7 @@
 <http://www.w3.org/ns/locn#Geometry> a owl:Class; rdfs:subClassOf <http://www.w3.org/ns/prov#Location> .
 
 <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#> rdfs:member <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MensgemaaktDingShape>,
+    <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#DingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#PropositioneelObjectShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelMensgemaaktDingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#SymbolischObjectShape>,
@@ -81,7 +82,6 @@
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#ProductieShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#VerwervingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#ClassificatieShape>,
-    <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#DingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#RolShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelDingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#EntiteitShape>,
@@ -96,7 +96,6 @@
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#ValutaShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#LocatieShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#IdentificatorShape>,
-    <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#LiteralShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#ContactinfoShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#LangstringShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#StringShape>,
@@ -177,6 +176,15 @@
     shacl:minCount 1;
     shacl:name "uitgevoerd door"@nl;
     shacl:path crm:P14_carried_out_by
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "Activiteit.Rol";
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Activiteit.Activiteit.rol>;
+    shacl:class <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Activiteit.Rol";
+    shacl:path <https://data.vlaanderen.be/ns/cultureel-erfgoed#Activiteit.Rol>
   ];
   shacl:targetClass crm:E7_Activity .
 
@@ -385,6 +393,15 @@
     shacl:description "Recht dat een Agent bezit."@nl;
     shacl:name "heeft"@nl;
     shacl:path crm:P75_possesses
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "Activiteit.Rol";
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Agent.Activiteit.rol>;
+    shacl:class <https://data.vlaanderen.be/ns/cultureel-erfgoed#Rol>;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "Activiteit.Rol";
+    shacl:path <http://todo.com/Activiteit.Rol>
   ];
   shacl:targetClass dc:Agent .
 
@@ -479,6 +496,15 @@
     shacl:description "Titel van het Conceptueel Object."@nl;
     shacl:name "titel"@nl;
     shacl:path crm:P102_has_title
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "heeft kenmerken van"@nl;
+    rdfs:comment "Ding dat op het ConceptueelObject een invlmoed heeft gehad of waarvan het ConceptueelObject is afgeleid."@nl;
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#ConceptueelObject.HeeftKenmerkenVan>;
+    shacl:class crm:E70_Thing;
+    shacl:description "Ding dat op het ConceptueelObject een invlmoed heeft gehad of waarvan het ConceptueelObject is afgeleid."@nl;
+    shacl:name "heeft kenmerken van"@nl;
+    shacl:path crm:P130_shows_features_of
   ], [
     a shacl:PropertyShape;
     rdfs:label "creatie"@nl;
@@ -586,7 +612,7 @@
     shacl:description "Email-adres waarnaar men kan mailen."@nl;
     shacl:maxCount "1";
     shacl:name "email"@nl;
-    shacl:path schema:email
+    shacl:path schemas:email
   ], [
     a shacl:PropertyShape;
     rdfs:label "fax"@nl;
@@ -597,7 +623,7 @@
     shacl:description "Faxnummer waarnaar men kan faxen."@nl;
     shacl:maxCount "1";
     shacl:name "fax"@nl;
-    shacl:path schema:faxNumber
+    shacl:path schemas:faxNumber
   ], [
     a shacl:PropertyShape;
     rdfs:label "telefoon"@nl;
@@ -608,7 +634,7 @@
     shacl:description "Telefoonnummer waarop men kan bellen."@nl;
     shacl:maxCount "1";
     shacl:name "telefoon"@nl;
-    shacl:path schema:telephone
+    shacl:path schemas:telephone
   ], [
     a shacl:PropertyShape;
     rdfs:label "website"@nl;
@@ -632,7 +658,7 @@
     shacl:name "adres"@nl;
     shacl:path <http://www.w3.org/ns/locn#address>
   ];
-  shacl:targetClass schema:ContactPoint .
+  shacl:targetClass schemas:ContactPoint .
 
 <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#CreatieShape> a shacl:NodeShape;
   rdfs:label "Creatie"@nl;
@@ -647,7 +673,7 @@
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Creatie.Creatie>;
     shacl:class crm:E28_Conceptual_Object;
     shacl:description "Verwijzing naar het Conceptueel Object dat is gecreëerd."@nl;
-    shacl:minCount "0";
+    shacl:minCount "1";
     shacl:name "creatie"@nl;
     shacl:path crm:P94_has_created
   ];
@@ -668,11 +694,11 @@
     rdfs:label "waarde"@nl;
     rdfs:comment "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Dimensie.Waarde>;
-    shacl:nodekind rdfs:Literal;
     shacl:description "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."@nl;
     shacl:maxCount "1";
     shacl:minCount "1";
     shacl:name "waarde"@nl;
+    shacl:nodeKind shacl:Literal;
     shacl:path crm:P90_has_value
   ], [
     a shacl:PropertyShape;
@@ -812,6 +838,16 @@
     shacl:path crm:P2_has_type
   ], [
     a shacl:PropertyShape;
+    rdfs:label "bestaat uit"@nl;
+    <http://purl.org/vocab/vann/usageNote> "Bvb een voorstelling ihkv een festival, een activiteit ihkv immaterieel erfgoed etc."@nl;
+    rdfs:comment "Verwijzing naar een andere Gebeurtenis die tijdens deze Gebeurtenis plaatsvond."@nl;
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Gebeurtenis.BestaatUit>;
+    shacl:class crm:E4_Period;
+    shacl:description "Verwijzing naar een andere Gebeurtenis die tijdens deze Gebeurtenis plaatsvond."@nl;
+    shacl:name "bestaat uit"@nl;
+    shacl:path crm:P9_consists_of
+  ], [
+    a shacl:PropertyShape;
     rdfs:label "plaats"@nl;
     rdfs:comment "Locatie waar de Gebeurtenis plaatsvond."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Gebeurtenis.Plaats>;
@@ -879,10 +915,10 @@
     <http://purl.org/vocab/vann/usageNote> "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">http://www.opengis.net/ont/geosparql#gmlLiteral</a> als datatype."@nl;
     rdfs:comment "Geometrie uitgedrukt in gml-formaat."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Geometrie.Gml>;
-    shacl:nodekind rdfs:Literal;
     shacl:description "Geometrie uitgedrukt in gml-formaat."@nl;
     shacl:maxCount "1";
     shacl:name "gml"@nl;
+    shacl:nodeKind shacl:Literal;
     shacl:path <http://www.opengis.net/ont/geosparql#asGML>
   ], [
     a shacl:PropertyShape;
@@ -890,10 +926,10 @@
     <http://purl.org/vocab/vann/usageNote> "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">http://www.opengis.net/ont/geosparql#wktLiteral</a> als datatype."@nl;
     rdfs:comment "Geometrie uitgedrukt in wkt-formaat."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Geometrie.Wkt>;
-    shacl:nodekind rdfs:Literal;
     shacl:description "Geometrie uitgedrukt in wkt-formaat."@nl;
     shacl:maxCount "1";
     shacl:name "wkt"@nl;
+    shacl:nodeKind shacl:Literal;
     shacl:path <http://www.opengis.net/ont/geosparql#asWKT>
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Geometry> .
@@ -968,9 +1004,9 @@
     <http://purl.org/vocab/vann/usageNote> "In principe wordt hiermee een natuurlijke taal bedoeld. Natuurlijke talen kunnen worden aangeduid met een ISO-639-code (bvb \"nl\" of \"nld\" of \"dut\" voor Nederlands). Gebruik in dat geval xsd:language als type vd Literal."@nl;
     rdfs:comment "Taal waarin het InformatieObject gesteld is."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Informatieobject.Taal>;
-    shacl:nodekind rdfs:Literal;
     shacl:description "Taal waarin het InformatieObject gesteld is."@nl;
     shacl:name "taal"@nl;
+    shacl:nodeKind shacl:Literal;
     shacl:path dc:language
   ], [
     a shacl:PropertyShape;
@@ -1012,24 +1048,24 @@
     shacl:path crm:P67_refers_to
   ], [
     a shacl:PropertyShape;
-    rdfs:label "heeft component"@nl;
-    <http://purl.org/vocab/vann/usageNote> "Structureel in die zin dat de component niet zonder het geheel bestaat."@nl;
-    rdfs:comment "Structureel onderdeel van het InformatieObject"@nl;
-    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Informatieobject.HeeftComponent>;
-    shacl:class crm:E73_Information_Object;
-    shacl:description "Structureel onderdeel van het InformatieObject"@nl;
-    shacl:name "heeft component"@nl;
-    shacl:path crm:P148_has_component
-  ], [
-    a shacl:PropertyShape;
     rdfs:label "bevat"@nl;
     <http://purl.org/vocab/vann/usageNote> "Het Informatieobject dat wordt omvat kan ook op zichzelf staan of omvat worden door andere Informatieobjecten. Bvb eenzelfde tekst kan deel uitmaken van publicatie A maar ook van een andere publicatie B."@nl;
     rdfs:comment "Niet-structureel deel van een Informatieobject."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Informatieobject.Bevat>;
-    shacl:class crm:E73_Information_Object;
+    shacl:class <https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E90>;
     shacl:description "Niet-structureel deel van een Informatieobject."@nl;
     shacl:name "bevat"@nl;
     shacl:path crm:P165_incorporates
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "heeft component"@nl;
+    <http://purl.org/vocab/vann/usageNote> "Structureel in die zin dat de component niet zonder het geheel bestaat."@nl;
+    rdfs:comment "Structureel onderdeel van het Informatieobject."@nl;
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Informatieobject.HeeftComponent>;
+    shacl:class crm:E89_Propositional_Object;
+    shacl:description "Structureel onderdeel van het Informatieobject."@nl;
+    shacl:name "heeft component"@nl;
+    shacl:path crm:P148_has_component
   ], [
     a shacl:PropertyShape;
     rdfs:label "drager"@nl;
@@ -1047,11 +1083,6 @@
   rdfs:label "LangString";
   shacl:closed false;
   shacl:targetClass rdf:langString .
-
-<https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#LiteralShape> a shacl:NodeShape;
-  rdfs:label "Literal";
-  shacl:closed false;
-  shacl:targetClass rdfs:Literal .
 
 <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#LocatieShape> a shacl:NodeShape;
   rdfs:label "Locatie"@nl;
@@ -1124,6 +1155,25 @@
     shacl:path dc11:subject
   ], [
     a shacl:PropertyShape;
+    rdfs:label "bestaat uit"@nl;
+    <http://purl.org/vocab/vann/usageNote> "Merk op dat componenten van een MaterieelDing deel kunnen uitmaken van een ander MaterieelDing."@nl;
+    rdfs:comment "Materieel Ding dat deel uitmaakt van het Materieel Ding."@nl;
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelDing.BestaatUit>;
+    shacl:class crm:E18_Physical_Thing;
+    shacl:description "Materieel Ding dat deel uitmaakt van het Materieel Ding."@nl;
+    shacl:name "bestaat uit"@nl;
+    shacl:path crm:P46_is_composed_of
+  ], [
+    a shacl:PropertyShape;
+    rdfs:label "heeft kenmerken van"@nl;
+    rdfs:comment "Ding dat op het MaterieelDing een invlmoed heeft gehad of waarvan het MaterieelDing is afgeleid."@nl;
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelDing.HeeftKenmerkenVan>;
+    shacl:class crm:E70_Thing;
+    shacl:description "Ding dat op het MaterieelDing een invlmoed heeft gehad of waarvan het MaterieelDing is afgeleid."@nl;
+    shacl:name "heeft kenmerken van"@nl;
+    shacl:path crm:P130_shows_features_of
+  ], [
+    a shacl:PropertyShape;
     rdfs:label "materiaal"@nl;
     rdfs:comment "Beschrijft het Materiaal waaruit het Materieel Ding bestaat."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelDing.Materiaal>;
@@ -1160,16 +1210,6 @@
     shacl:description "De Agent die het Materieel Ding bewaart."@nl;
     shacl:name "beheerder"@nl;
     shacl:path crm:P50_has_current_keeper
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "bestaat uit"@nl;
-    <http://purl.org/vocab/vann/usageNote> "Merk op dat componenten van een MaterieelDing deel kunnen uitmaken van een ander MaterieelDing."@nl;
-    rdfs:comment "Materieel Ding dat deel uitmaakt van het Materieel Ding."@nl;
-    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MaterieelDing.BestaatUit>;
-    shacl:class crm:E18_Physical_Thing;
-    shacl:description "Materieel Ding dat deel uitmaakt van het Materieel Ding."@nl;
-    shacl:name "bestaat uit"@nl;
-    shacl:path crm:P46_is_composed_of
   ];
   shacl:targetClass crm:E18_Physical_Thing .
 
@@ -1300,7 +1340,7 @@
     <http://purl.org/vocab/vann/usageNote> ""@nl;
     rdfs:comment "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Organisatie.Contactinfo>;
-    shacl:class schema:ContactPoint;
+    shacl:class schemas:ContactPoint;
     shacl:description "Informatie zoals email, telefoon... die toelaat de Organisatie te contacteren."@nl;
     shacl:name "contactinfo"@nl;
     shacl:path schema:contactPoint
@@ -1388,7 +1428,7 @@
     <http://purl.org/vocab/vann/usageNote> ""@nl;
     rdfs:comment "Informatie zoals email, telefoon... die toelaat de Persoon te contacteren."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Persoon.Contactinfo>;
-    shacl:class schema:ContactPoint;
+    shacl:class schemas:ContactPoint;
     shacl:description "Informatie zoals email, telefoon... die toelaat de Persoon te contacteren."@nl;
     shacl:maxCount "1";
     shacl:name "contactinfo"@nl;
@@ -1606,6 +1646,15 @@
     shacl:path crm:P104_is_subject_to
   ], [
     a shacl:PropertyShape;
+    rdfs:label "heeft component"@nl;
+    rdfs:comment "Structureel onderdeel van de Set."@nl;
+    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Set.HeeftComponent>;
+    shacl:class crm:E89_Propositional_Object;
+    shacl:description "Structureel onderdeel van de Set."@nl;
+    shacl:name "heeft component"@nl;
+    shacl:path crm:P148_has_component
+  ], [
+    a shacl:PropertyShape;
     rdfs:label "rechtenhouder"@nl;
     rdfs:comment "Agent die een Recht bezit op een Set."@nl;
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Set.Rechtenhouder>;
@@ -1642,15 +1691,6 @@
     shacl:description "Verwijzing naar Entiteit die deel uitmaakt van de Set."@nl;
     shacl:name "heeft lid"@nl;
     shacl:path <https://linked.art/ns/terms/has_member>
-  ], [
-    a shacl:PropertyShape;
-    rdfs:label "heeft component"@nl;
-    rdfs:comment "Structureel onderdeel van de Set"@nl;
-    rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#Set.HeeftComponent>;
-    shacl:class <https://linked.art/Set>;
-    shacl:description "Structureel onderdeel van de Set"@nl;
-    shacl:name "heeft component"@nl;
-    shacl:path crm:P148_has_component
   ];
   shacl:targetClass <https://linked.art/Set> .
 
@@ -1748,6 +1788,7 @@
   rdfs:comment "Activiteit waarbij een Materieel Mensgemaakt Ding wordt geproduceerd, gewijzigd of veranderd."@nl;
   shacl:closed false;
   shacl:targetClass crm:E11_Modification .
+
 
 
 
