@@ -58,6 +58,7 @@
 <http://www.w3.org/2006/time#Instant> a owl:Class; rdfs:subClassOf <http://www.w3.org/2006/time#TemporalEntity> .
 <http://www.w3.org/2006/time#ProperInterval> a owl:Class; rdfs:subClassOf <http://www.w3.org/2006/time#TemporalEntity> .
 <http://www.w3.org/ns/locn#Geometry> a owl:Class; rdfs:subClassOf <http://www.w3.org/ns/prov#Location> .
+<http://purl.org/dc/terms/Location> a owl:Class; rdfs:subClassOf <http://www.w3.org/ns/prov#Location> .
 
 <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#> rdfs:member <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MensgemaaktDingShape>,
     <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#DingShape>,
@@ -1789,6 +1790,7 @@
   rdfs:comment "Activiteit waarbij een Materieel Mensgemaakt Ding wordt geproduceerd, gewijzigd of veranderd."@nl;
   shacl:closed false;
   shacl:targetClass crm:E11_Modification .
+
 
 
 
