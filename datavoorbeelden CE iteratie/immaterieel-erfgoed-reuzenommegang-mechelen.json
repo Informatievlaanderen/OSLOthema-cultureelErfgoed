@@ -1,0 +1,203 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
+        {
+            "LRMoo": "http://iflastandards.info/ns/lrm/lrmoo/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "skos": "http://www.w3.org/2004/02/skos/core#",
+            "OntwerpOfProcedure": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure",
+            "Document": "http://www.cidoc-crm.org/cidoc-crm/E31_Document",
+            "Document.documenteert": {
+                "@container": "@set",
+                "@id": "http://www.cidoc-crm.org/cidoc-crm/P70_documents",
+                "@type": "@id"
+            },
+            "Taalobject": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+            "Taalobject.taal": {
+                "@container": "@set",
+                "@id": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                "@type": "@id"
+            }
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/ImmaterieelErfgoed123",
+            "@type": "LRMoo:F1_Work",
+            "ConceptueelObject.titel": {
+                "@value": "Giant carrying in the Malines Ommegang",
+                "@language": "en"
+            },
+            "Entiteit.type": {
+                "@id": "https://example.com/ImmaterieelErfgoedType/TraditieVanHetReuzenDragen",
+                "@type": "skos:Concept"
+            },
+            "LRMoo:R3_is_realised_in": [
+                {
+                    "@type": "LRMoo:F2_Expression",
+                    "ConceptueelObject.titel": {
+                        "@value": "Mama Giant",
+                        "@language": "en"
+                    },
+                    "LRMoo:R17i_was_created_by": {
+                        "@type": "LRMoo:F28_Expression_Creation",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "/1549"
+                        },
+                        "Gebeurtenis.locatie": {
+                            "@value": "Malines",
+                            "@language": "en"
+                        }
+                    },
+                    "Productie.product": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject456"
+                },
+                {
+                    "@type": "LRMoo:F2_Expression",
+                    "ConceptueelObject.titel": {
+                        "@value": "Giant carrying 2013",
+                        "@language": "en"
+                    },
+                    "LRMoo:R17i_was_created_by": {
+                        "@type": "LRMoo:F28_Expression_Creation",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "2013"
+                        },
+                        "Gebeurtenis.locatie": {
+                            "@value": "Malines",
+                            "@language": "en"
+                        },
+                        "Gebeurtenis.bestaatUit": "https://example.com/id/immaterieel_erfgoed/Voorstelling789"
+                    }
+                },
+                {
+                    "@type": [
+                        "LRMoo:F2_Expression",
+                        "Document"
+                    ],
+                    "ConceptueelObject.titel": {
+                        "@value": "The edited documentary about the Malines Ommegang",
+                        "@language": "en"
+                    },
+                    "LRMoo:R17i_was_created_by": {
+                        "@type": "LRMoo:F28_Expression_Creation",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "2013"
+                        },
+                        "Gebeurtenis.locatie": {
+                            "@value": "Malines",
+                            "@language": "en"
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Persoon",
+                            "Persoon.contactinfo": {
+                                "@type": "Contactinfo",
+                                "Contactinfo.website": "https://www.youtube.com/@ROKKO1954"
+                            }
+                        }
+                    },
+                    "Document.documenteert": "https://example.com/id/immaterieel_erfgoed/Voorstelling789"
+                },
+                {
+                    "@type": [
+                        "LRMoo:F2_Expression",
+                        "OntwerpOfProcedure"
+                    ],
+                    "ConceptueelObject.titel": {
+                        "@value": "Giant carrying manual",
+                        "@language": "en"
+                    },
+                    "LRMoo:R17i_was_created_by": {
+                        "@type": "LRMoo:F28_Expression_Creation",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "/2013"
+                        },
+                        "Gebeurtenis.locatie": {
+                            "@value": "Malines",
+                            "@language": "en"
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Organisatie",
+                            "Organisatie.voorkeursnaam": {
+                                "@value": "Reuzen Mechelen VZW",
+                                "@language": "nl"
+                            }
+                        }
+                    }
+                },
+                {
+                    "@type": [
+                        "LRMoo:F2_Expression",
+                        "Taalobject",
+                        "Document"
+                    ],
+                    "ConceptueelObject.titel": {
+                        "@value": "Digital textfile of the manual",
+                        "@language": "en"
+                    },
+                    "LRMoo:R17i_was_created_by": {
+                        "@type": "LRMoo:F28_Expression_Creation",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "2013"
+                        },
+                        "Gebeurtenis.locatie": {
+                            "@value": "Malines",
+                            "@language": "en"
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Organisatie",
+                            "Organisatie.voorkeursnaam": {
+                                "@value": "Reuzen Mechelen VZW",
+                                "@language": "nl"
+                            }
+                        }
+                    },
+                    "Document.documenteert": "https://example.com/id/immaterieel_erfgoed/Voorstelling789",
+                    "Taalobject.taal": {
+                        "@value": "nl",
+                        "@type": "xsd:language"
+                    },
+                    "Informatieobject.drager": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject012"
+                }
+            ]
+        },
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject456",
+            "@type": "MensgemaaktObject",
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "4839",
+                    "@type": "https://example.com/IdentificatorType/Inventarisnummer"
+                }
+            }
+        },
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/Voorstelling789",
+            "@type": "Voorstelling",
+            "Gebeurtenis.tijd": {
+                "@type": "Periode",
+                "Periode.inEDTF": "20130825"
+            },
+            "Gebeurtenis.locatie": {
+                "@value": "Malines",
+                "@language": "en"
+            }
+        },
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject012",
+            "@type": "MensgemaaktObject",
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "file://reuzen/instructie.pdf",
+                    "@type": "https://example.com/identificatortype/bestandsnaam"
+                }
+            }
+        }
+    ]
+}
