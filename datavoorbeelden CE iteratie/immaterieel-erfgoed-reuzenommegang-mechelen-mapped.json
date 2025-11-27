@@ -1,0 +1,295 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
+        {
+            "skos": "http://www.w3.org/2004/02/skos/core#"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/ImmaterieelErfgoed123",
+            "@type": "ConceptueelObject",
+            "ConceptueelObject.titel": {
+                "@value": "Giant carrying in the Malines Ommegang",
+                "@language": "en"
+            },
+            "Entiteit.type": {
+                "@id": "https://example.com/ImmaterieelErfgoedType/TraditieVanHetReuzenDragen",
+                "@type": "skos:Concept"
+            },
+            "ConceptueelObject.beinvloedOfAfgeleidDing": [
+                {
+                    "@id": "_:expr01",
+                    "@type": "InformatieObject",
+                    "ConceptueelObject.titel": {
+                        "@value": "Mama Giant",
+                        "@language": "en"
+                    },
+                    "ConceptueelObject.creatie": {
+                        "@type": [
+                            "Creatie",
+                            "Productie"
+                        ],
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Agent"
+                        },
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "/1549"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Plaats",
+                            "Plaats.plaatsnaam": {
+                                "@value": "Malines",
+                                "@language": "en"
+                            }
+                        },
+                        "Creatie.creatie": "_:expr01",
+                        "Productie.product": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject456"
+                    }
+                },
+                {
+                    "@id": "_:expr02",
+                    "@type": "InformatieObject",
+                    "ConceptueelObject.titel": {
+                        "@value": "Giant carrying 2013",
+                        "@language": "en"
+                    },
+                    "ConceptueelObject.creatie": {
+                        "@type": "Creatie",
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Agent"
+                        },
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "2013"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Plaats",
+                            "Plaats.plaatsnaam": {
+                                "@value": "Malines",
+                                "@language": "en"
+                            }
+                        },
+                        "Creatie.creatie": "_:expr02",
+                        "Gebeurtenis.bestaatUit": "https://example.com/id/immaterieel_erfgoed/Voorstelling789"
+                    }
+                },
+                {
+                    "@id": "_:expr03",
+                    "@type": "InformatieObject",
+                    "ConceptueelObject.titel": {
+                        "@value": "The edited documentary about the Malines Ommegang",
+                        "@language": "en"
+                    },
+                    "ConceptueelObject.creatie": {
+                        "@type": "Creatie",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "2013"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Plaats",
+                            "Plaats.plaatsnaam": {
+                                "@value": "Malines",
+                                "@language": "en"
+                            }
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Persoon",
+                            "Persoon.achternaam": "Anoniem",
+                            "Persoon.contactinfo": {
+                                "@type": "Contactinfo",
+                                "Contactinfo.website": "https://www.youtube.com/@ROKKO1954"
+                            }
+                        },
+                        "Creatie.creatie": "_:expr03"
+                    },
+                    "InformatieObject.verwijstNaar": "https://example.com/id/immaterieel_erfgoed/Voorstelling789"
+                },
+                {
+                    "@id": "_:expr04",
+                    "@type": "InformatieObject",
+                    "ConceptueelObject.titel": {
+                        "@value": "Giant carrying manual",
+                        "@language": "en"
+                    },
+                    "ConceptueelObject.creatie": {
+                        "@type": "Creatie",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "/2013"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Plaats",
+                            "Plaats.plaatsnaam": {
+                                "@value": "Malines",
+                                "@language": "en"
+                            }
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Organisatie",
+                            "Organisatie.voorkeursnaam": {
+                                "@value": "Reuzen Mechelen VZW",
+                                "@language": "nl"
+                            }
+                        },
+                        "Creatie.creatie": "_:expr04"
+                    }
+                },
+                {
+                    "@id": "_:expr05",
+                    "@type": "InformatieObject",
+                    "ConceptueelObject.titel": {
+                        "@value": "Digital textfile of the manual",
+                        "@language": "en"
+                    },
+                    "ConceptueelObject.creatie": {
+                        "@type": "Creatie",
+                        "Gebeurtenis.tijd": {
+                            "@type": "Periode",
+                            "Periode.inEDTF": "2013"
+                        },
+                        "Gebeurtenis.plaats": {
+                            "@type": "Plaats",
+                            "Plaats.plaatsnaam": {
+                                "@value": "Malines",
+                                "@language": "en"
+                            }
+                        },
+                        "Activiteit.uitgevoerdDoor": {
+                            "@type": "Organisatie",
+                            "Organisatie.voorkeursnaam": {
+                                "@value": "Reuzen Mechelen VZW",
+                                "@language": "nl"
+                            }
+                        },
+                        "Creatie.creatie": "_:expr05"
+                    },
+                    "InformatieObject.verwijstNaar": "https://example.com/id/immaterieel_erfgoed/Voorstelling789",
+                    "InformatieObject.taal": {
+                        "@value": "nl",
+                        "@type": "xsd:language"
+                    },
+                    "InformatieObject.drager": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject012"
+                }
+            ],
+            "ConceptueelObject.creatie": {
+                "@type": "Creatie",
+                "Activiteit.uitgevoerdDoor": {
+                    "@type": "Agent"
+                },
+                "Creatie.creatie": {
+                    "@id": "https://example.com/id/immaterieel_erfgoed/ImmaterieelErfgoed123"
+                },
+                "Gebeurtenis.plaats": {
+                    "@type": "Locatie"
+                }
+            }
+        },
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject456",
+            "@type": "MensgemaaktObject",
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "4839",
+                    "@type": "https://example.com/IdentificatorType/Inventarisnummer"
+                }
+            },
+            "MensgemaaktObject.productie": {
+                "@type": "Productie",
+                "Productie.product": {
+                    "@id": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject456"
+                },
+                "Gebeurtenis.plaats": {
+                    "@type": "Locatie"
+                },
+                "Activiteit.uitgevoerdDoor": {
+                    "@type": "Agent"
+                },
+                "Gebeurtenis.tijd": {
+                    "@type": "Periode",
+                    "Periode.inEDTF": {
+                        "@value": "/1549",
+                        "@type": "EDTF"
+                    }
+                }
+            },
+            "MaterieelDing.materiaal": {
+                "@type": "skos:Concept"
+            },
+            "MaterieelDing.dimensie": [
+                {
+                    "@type": "Dimensie",
+                    "Dimensie.type": {
+                        "@id": "https://example.com/dimensietype/onbekend",
+                        "@type": "Grootheid"
+                    },
+                    "Dimensie.waarde": 0
+                }
+            ]
+        },
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject012",
+            "@type": "MensgemaaktObject",
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "file://reuzen/instructie.pdf",
+                    "@type": "https://example.com/identificatortype/bestandsnaam"
+                }
+            },
+            "MensgemaaktObject.productie": {
+                "@type": "Productie",
+                "Productie.product": {
+                    "@id": "https://example.com/id/immaterieel_erfgoed/MensgemaaktObject012"
+                },
+                "Gebeurtenis.plaats": {
+                    "@type": "Locatie"
+                },
+                "Activiteit.uitgevoerdDoor": {
+                    "@type": "Agent"
+                },
+                "Gebeurtenis.tijd": {
+                    "@type": "Periode",
+                    "Periode.inEDTF": {
+                        "@value": "/1549",
+                        "@type": "EDTF"
+                    }
+                }
+            },
+            "MaterieelDing.materiaal": {
+                "@type": "skos:Concept"
+            },
+            "MaterieelDing.dimensie": [
+                {
+                    "@type": "Dimensie",
+                    "Dimensie.type": {
+                        "@id": "https://example.com/dimensietype/onbekend",
+                        "@type": "Grootheid"
+                    },
+                    "Dimensie.waarde": 0
+                }
+            ]
+        },
+        {
+            "@id": "https://example.com/id/immaterieel_erfgoed/Voorstelling789",
+            "@type": "Activiteit",
+            "Activiteit.uitgevoerdDoor": {
+                "@type": "Agent"
+            },
+            "Gebeurtenis.tijd": {
+                "@type": "Periode",
+                "Periode.inEDTF": "2013"
+            },
+            "Gebeurtenis.plaats": {
+                "@type": "Plaats",
+                "Plaats.plaatsnaam": {
+                    "@value": "Malines",
+                    "@language": "en"
+                }
+            }
+        }
+    ]
+}
