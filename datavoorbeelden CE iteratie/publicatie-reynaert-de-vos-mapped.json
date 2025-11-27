@@ -2,7 +2,6 @@
     "@context": [
         "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
         {
-            "LRMoo": "http://iflastandards.info/ns/lrm/lrmoo/",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "skos": "http://www.w3.org/2004/02/skos/core#",
             "Agent.rol": {
@@ -14,7 +13,6 @@
         {
             "@id": "https://anet.be/record/stcvopac/c:stcv:12910495",
             "@type": [
-                "LRMoo:F3_Manifestation",
                 "InformatieObject"
             ],
             "ConceptueelObject.titel": {
@@ -24,7 +22,6 @@
             "InformatieObject.bevat": {
                 "@id": "_:expr001",
                 "@type": [
-                    "LRMoo:F2_Expression",
                     "InformatieObject"
                 ],
                 "ConceptueelObject.titel": {
@@ -176,7 +173,6 @@
                 {
                     "@id": "_:item001",
                     "@type": [
-                        "LRMoo:F5_Item",
                         "MensgemaaktObject"
                     ],
                     "Entiteit.identificator": {
@@ -238,7 +234,6 @@
                 {
                     "@id": "_:item002",
                     "@type": [
-                        "LRMoo:F5_Item",
                         "MensgemaaktObject"
                     ],
                     "Entiteit.identificator": {
@@ -303,3 +298,4 @@
         {}
     ]
 }
+
