@@ -2,7 +2,6 @@
     "@context": [
         "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
         {
-            "rico": "https://www.ica.org/standards/RiC/ontology#",
             "rico-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#",
             "skos": "http://www.w3.org/2004/02/skos/core#",
             "Activiteit.rol": {
@@ -14,8 +13,7 @@
         {
             "@id": "https://hdl.handle.net/10796/9405f30b-564a-44c4-a86a-a089065ff129",
             "@type": [
-                "Set",
-                "rico:RecordSet"
+                "Set"
             ],
             "Entiteit.identificator": {
                 "@type": "Identificator",
@@ -38,7 +36,8 @@
                     },
                     "Gebeurtenis.plaats": {
                         "@type": "Locatie"
-                    }
+                    },
+                    "Creatie.creatie": "https://hdl.handle.net/10796/9405f30b-564a-44c4-a86a-a089065ff129"
                 },
                 {
                     "@type": "Creatie",
@@ -60,7 +59,8 @@
                     },
                     "Gebeurtenis.plaats": {
                         "@type": "Locatie"
-                    }
+                    },
+                    "Creatie.creatie": "https://hdl.handle.net/10796/9405f30b-564a-44c4-a86a-a089065ff129"
                 }
             ],
             "ConceptueelObject.titel": {
@@ -95,8 +95,7 @@
             "InformatieObject.drager": {
                 "@id": "_:drg001",
                 "@type": [
-                    "MensgemaaktObject",
-                    "rico:Instantiation"
+                    "MensgemaaktObject"
                 ],
                 "MensgemaaktObject.productie": {
                     "@type": "Productie",
@@ -165,8 +164,7 @@
         {
             "@id": "https://hdl.handle.net/10796/6d22532e-e8dd-4819-a30a-c0b7c0e717d3",
             "@type": [
-                "Set",
-                "rico:RecordSet"
+                "Set"
             ],
             "Entiteit.identificator": {
                 "@type": "Identificator",
@@ -181,7 +179,8 @@
                     "Activiteit.uitgevoerdDoor": "_:ORG002",
                     "Gebeurtenis.plaats": {
                         "@type": "Locatie"
-                    }
+                    },
+                    "Creatie.creatie": "https://hdl.handle.net/10796/6d22532e-e8dd-4819-a30a-c0b7c0e717d3"
                 }
             ],
             "ConceptueelObject.titel": {
@@ -218,8 +217,7 @@
         {
             "@id": "https://hdl.handle.net/10796/58eaf63c-6c3c-417d-9da0-06e25b1ab4e9",
             "@type": [
-                "Set",
-                "rico:RecordSet"
+                "Set"
             ],
             "Entiteit.identificator": {
                 "@type": "Identificator",
@@ -234,7 +232,8 @@
                     "Activiteit.uitgevoerdDoor": "_:ORG002",
                     "Gebeurtenis.plaats": {
                         "@type": "Locatie"
-                    }
+                    },
+                    "Creatie.creatie": "https://hdl.handle.net/10796/58eaf63c-6c3c-417d-9da0-06e25b1ab4e9"
                 }
             ],
             "ConceptueelObject.titel": {
@@ -270,8 +269,7 @@
         {
             "@id": "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
             "@type": [
-                "Set",
-                "rico:RecordSet"
+                "Set"
             ],
             "Entiteit.identificator": {
                 "@type": "Identificator",
@@ -293,7 +291,8 @@
                     },
                     "Gebeurtenis.plaats": {
                         "@type": "Locatie"
-                    }
+                    },
+                    "Creatie.creatie": "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25"
                 }
             ],
             "ConceptueelObject.titel": {
@@ -322,10 +321,9 @@
             }
         },
         {
-            "@id": "https://hdl.handle.net/10796/b2fe256d-dc91-4e4d-816d-de6fb472dd25",
+            "@id": "https://hdl.handle.net/10796/3c95e451-569d-431d-b76b-0cd0a977546f",
             "@type": [
-                "Set",
-                "rico:RecordSet"
+                "Set"
             ],
             "Entiteit.identificator": {
                 "@type": "Identificator",
@@ -347,7 +345,8 @@
                     },
                     "Gebeurtenis.plaats": {
                         "@type": "Locatie"
-                    }
+                    },
+                    "Creatie.creatie": "https://hdl.handle.net/10796/3c95e451-569d-431d-b76b-0cd0a977546f"
                 }
             ],
             "ConceptueelObject.titel": {
@@ -407,3 +406,4 @@
         }
     ]
 }
+
