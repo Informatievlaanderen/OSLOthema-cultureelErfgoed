@@ -1,0 +1,236 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
+        {
+            "skos": "http://www.w3.org/2004/02/skos/core#",
+            "dcterms": "http://purl.org/dc/terms/",
+            "persoon": "https://data.vlaanderen.be/ns/persoon#"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://inventaris.onroerenderfgoed.be/erfgoedobjecten/134157",
+            "@type": "MensgemaaktObject",
+            "MensgemaaktObject.titel": {
+                "@value": "Kasteeldomein Rubenskasteel",
+                "@language": "nl"
+            },
+            "dcterms:alternative": {
+                "@value": "Het Steen",
+                "@language": "nl"
+            },
+            "Entiteit.identificator": {
+                "@type": "Identificator",
+                "Identificator.identificator": {
+                    "@value": "134157",
+                    "@type": "https://example.com/identificatortype/erfgoedobjectnummer"
+                }
+            },
+            "Entiteit.type": [
+                "https://example.com/objecttype/Erfgoedobject",
+                "https://example.com/omvangtype/Element",
+                "https://example.com/disciplinetype/Bouwkundig",
+                "https://example.com/disciplinetype/Landschappelijk",
+                "https://example.com/bewaringstoetstandtype/Bewaard",
+                "https://example.com/erfgoedwaarde/Aanwezig"
+            ],
+            "dcterms:references": "https://beeldbank.onroerenderfgoed.be/images/437233",
+            "MensgemaaktObject.permanenteLocatie": [
+                {
+                    "@id": "https://data.vlaanderen.be/id/adres/800682",
+                    "@type": "BelgischAdres"
+                },
+                {
+                    "@type": "Geometrie",
+                    "Geometrie.gml": {
+                        "@value": "<gml:MultiPolygon srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370 srsDimension=\"2\"><gml:coordinates>...</gml:coordinates></gml:Multipolygon>",
+                        "@type": "geosparql:gmlliteral"
+                    }
+                }
+            ],
+            "MensgemaaktObject.productie": {
+                "@type": "Productie",
+                "Productie.product": "https://inventaris.onroerenderfgoed.be/erfgoedobjecten/134157",
+                "Gebeurtenis.plaats": {
+                    "@type": "Locatie"
+                },
+                "Activiteit.uitgevoerdDoor": {
+                    "@type": "Agent"
+                }
+            },
+            "MaterieelDing.dimensie": {
+                "@type": "Dimensie",
+                "Dimensie.type": {
+                    "@id": "https://qudt.org/vocab/quantitykind/Area",
+                    "@type": "Grootheid"
+                },
+                "Dimensie.waarde": 276594,
+                "Dimensie.eenheid": {
+                    "@id": "https://qudt.org/vocab/unit/M2",
+                    "@type": "Eenheid"
+                }
+            },
+            "MaterieelDing.materiaal": {
+                "@id": "https://example.com/materiaaltype/gemengd",
+                "@type": "skos:Concept"
+            },
+            "Entiteit.beschrijving": {
+                "@value": "Kasteeldomein van 26 hectare met landschappelijk park en dreef aangelegd bij Het Steen, een door Rubens in 1635-1640 bewoond buitengoed. Het kasteel met neerhof werd vanaf 1875 historiserend gerestaureerd onder leiding van architect Eugène Carpentier en in 1914 door Guillaume-Chrétien Veraart. Bepalend voor het huidige parkuitzicht was de aanleg uit 1875-1882, die een formele tuin combineerde met een aanleg in landschappelijke stijl.",
+                "@language": "nl"
+            },
+            "Entiteit.classificatie": [
+                {
+                    "@type": "Classificatie",
+                    "Gebeurtenis.type": {
+                        "@id": "https://example.com/gebeurtenistype/ToekenningKenmerkgroep",
+                        "@type": "skos:Concept"
+                    },
+                    "Gebeurtenis.identificator": {
+                        "@type": "Identificator",
+                        "Identificator.identificator": {
+                            "@value": "1",
+                            "@type": "https://example.com/identificatortype/kenmerkgroepnummer"
+                        }
+                    },
+                    "Activiteit.uitgevoerdDoor": {
+                        "@type": "Persoon",
+                        "Persoon.achternaam": "Onbekend"
+                    },
+                    "Gebeurtenis.plaats": {
+                        "@type": "Locatie"
+                    },
+                    "Classificatie.toegekendType": [
+                        "https://id.erfgoed.net/thesauri/erfgoedtypes/225",
+                        "https://id.erfgoed.net/thesauri/erfgoedtypes/350",
+                        "https://id.erfgoed.net/thesauri/erfgoedtypes/1016",
+                        "https://id.erfgoed.net/thesauri/dateringen/17",
+                        "https://id.erfgoed.net/thesauri/dateringen/1066",
+                        "https://id.erfgoed.net/thesauri/dateringen/1069",
+                        "https://id.erfgoed.net/thesauri/stijlen_en_culturen/14",
+                        "https://id.erfgoed.net/thesauri/stijlen_en_culturen/1",
+                        "https://id.erfgoed.net/personen/677",
+                        "https://id.erfgoed.net/personen/7004"
+                    ],
+                    "Classificatie.getypeerdeEntiteit": "https://inventaris.onroerenderfgoed.be/erfgoedobjecten/134157"
+                },
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "MaterieelDing.bestaatUit": [
+                "https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/114748",
+                "https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/1580",
+                "https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/120809",
+                "https://inventaris.onroerenderfgoed.be/aanduidingsobjecten/33698"
+            ]
+        },
+        {
+            "@id": "https://example.com/objecttype/Erfgoedobject",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "https://example.com/omvangtype/Element",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "https://example.com/disciplinetype/Bouwkundig",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "https://example.com/disciplinetype/Landschappelijk",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "https://example.com/bewaringstoetstandtype/Bewaard",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "https://example.com/erfgoedwaarde/Aanwezig",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/erfgoedtypes/225",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "kastelen (woningen)",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/erfgoedtypes/350",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "poorten (bijgebouwen)",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/erfgoedtypes/1016",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "toegangsbruggen",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/dateringen/17",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "17de eeuw",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/dateringen/1066",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "vierde kwart 19de eeuw",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/dateringen/1069",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "WO I",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/stijlen_en_culturen/14",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "neo-Vlaamserenaissance-stijl",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/thesauri/stijlen_en_culturen/1",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@value": "traditioneel",
+                "@language": "nl"
+            }
+        },
+        {
+            "@id": "https://id.erfgoed.net/personen/677",
+            "@type": [
+                "Persoon",
+                "skos:Concept"
+            ],
+            "Persoon.achternaam": "Carpentier",
+            "Persoon.volledigeNaam": "Carpentier, Eugène"
+        },
+        {
+            "@id": "https://id.erfgoed.net/personen/7004",
+            "@type": [
+                "Persoon",
+                "skos:Concept"
+            ],
+            "Persoon.achternaam": "Veraart",
+            "Persoon.volledigeNaam": "Veraart, Guillaume Chrétien"
+        }
+    ]
+}
