@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20/context/cultureel-erfgoed-basisregistratie.jsonld",
+        {
+            "skos": "http://www.w3.org/2004/02/skos/core#"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "https://beeldbank.onroerenderfgoed.be/images/437233",
+            "@type": "InformatieObject",
+            "ConceptueelObject.titel": {
+                "@value": "Kasteeldomein het Steen (Rubenskasteel)",
+                "@language": "nl"
+            },
+            "Entiteit.beschrijving": {
+                "@value": "Zicht vanuit het neerhof op het kasteel. Bomen op de voorgrond zijn twee araucaria's.",
+                "@language": "nl"
+            },
+            "Entiteit.type": {
+                "@id": "https://example.com/entiteittype/foto",
+                "@type": "skos:Concept"
+            },
+            "ConceptueelObject.creatie": {
+                "@type": "Creatie",
+                "Activiteit.uitgevoerdDoor": [
+                    {
+                        "@type": "Persoon",
+                        "Persoon.voornaam": "Hilde",
+                        "Persoon.achternaam": "Verboven"
+                    }
+                ],
+                "Gebeurtenis.tijd": {
+                    "@type": "Moment",
+                    "Periode.inEDTF": "2023-10-20"
+                },
+                "Gebeurtenis.plaats": {
+                    "@id": "https://data.vlaanderen.be/id/adres/800682",
+                    "@type": "BelgischAdres"
+                },
+                "Creatie.creatie": "https://beeldbank.onroerenderfgoed.be/images/437233"
+            },
+            "InformatieObject.verwijstNaar": "https://inventaris.onroerenderfgoed.be/erfgoedobjecten/134157"
+        }
+    ]
+}
