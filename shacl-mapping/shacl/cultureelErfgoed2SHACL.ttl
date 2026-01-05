@@ -1261,7 +1261,6 @@
     rdfs:seeAlso <https://data.vlaanderen.be/doc/implementatiemodel/cultureel-erfgoed-basisregistratie/ontwerpstandaard/2025-01-20#MensgemaaktObject.PermanenteLocatie>;
     shacl:class prov:Location;
     shacl:description "Beschrijft de permanente locatie van het Mensgemaakt Object."@nl;
-    shacl:maxCount "1";
     shacl:name "permanente locatie"@nl;
     shacl:path crm:P54_has_current_permanent_location
   ], [
@@ -1773,6 +1772,7 @@
   rdfs:comment "Activiteit waarbij een Materieel Mensgemaakt Ding wordt geproduceerd, gewijzigd of veranderd."@nl;
   shacl:closed false;
   shacl:targetClass crm:E11_Modification .
+
 
 
 
