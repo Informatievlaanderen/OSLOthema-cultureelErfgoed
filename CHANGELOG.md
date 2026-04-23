@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Vocabulary: Relationships: heeftComponent, afgeleidVan, isVertalingVan, isGeassocieerdMet, bestaatUit, gebaseerdOp
 - Vocabulary: PascalCase and CamelCase
 - Vocabulary: Replace abbreviations
+- Vocabulary: reassigned ranges of certain properties
 
 ### Removed
 
