@@ -9,8 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Relationships: heeftComponent, afgeleidVan, isVertalingVan, isGeassocieerdMet, bestaatUit, gebaseerdOp
+- Vocabulary: Relationships: heeftComponent, afgeleidVan, isVertalingVan, isGeassocieerdMet, bestaatUit, gebaseerdOp
+- Vocabulary: PascalCase and CamelCase
 
 ### Removed
 
-- Tag `ap-usageNote-nl` of class `Verhuis`
+- Vocabulary: Tag `ap-usageNote-nl` of class `Verhuis`
