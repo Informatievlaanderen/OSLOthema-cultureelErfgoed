@@ -26,6 +26,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Object AP: Relationship OntwerpOfProcedure -- IsGeassocieerdMet --> OntwerpOfProcedure
 - Object AP: Relationship MaterieelDing -- bestaatUit --> MaterieelDing
 - Object AP: Relationship Recht -- gebaseerdOp --> Rechtsgrond
+- Object AP: overview diagram
+- Object AP: PascalCase and CamelCase
+- Object AP: Replace abbreviations
+- Object AP: add missing dot at end of sentences
 
 ### Removed
 
