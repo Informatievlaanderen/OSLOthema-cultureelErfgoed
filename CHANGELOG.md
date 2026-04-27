@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Vocabulary: Replace abbreviations
 - Vocabulary: reassigned ranges of certain properties
 - Event AP: reassigned ranges of certain properties
+- Event AP: PascalCase and CamelCase
+- Event AP: Replace abbreviations
+- Event AP: add missing dot at end of sentences
 
 ### Removed
 
