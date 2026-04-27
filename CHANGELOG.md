@@ -18,6 +18,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Event AP: Replace abbreviations
 - Event AP: add missing dot at end of sentences
 - Object AP: reassigned ranges of certain properties
+- Object AP: Relationship ComplexWerk -- heeftComponent --> Werk
+- Object AP: Relationship ConceptueelDing -- heeftComponent --> ConceptueelDing
+- Object AP: Relationship Werk -- afgeleidVan --> Werk
+- Object AP: Relationship InformatieObject -- omvat --> InformatieObject
+- Object AP: Relationship TaalObject -- IsVertalingVan --> TaalObject
+- Object AP: Relationship OntwerpOfProcedure -- IsGeassocieerdMet --> OntwerpOfProcedure
+- Object AP: Relationship MaterieelDing -- bestaatUit --> MaterieelDing
+- Object AP: Relationship Recht -- gebaseerdOp --> Rechtsgrond
 
 ### Removed
 
