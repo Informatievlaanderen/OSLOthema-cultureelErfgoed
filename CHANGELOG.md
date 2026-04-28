@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Vocabulary: PascalCase and CamelCase
 - Vocabulary: Replace abbreviations
 - Vocabulary: reassigned ranges of certain properties
+- Vocabulary: http://schema.org --> https://schema.org
 - Event AP: reassigned ranges of certain properties
 - Event AP: PascalCase and CamelCase
 - Event AP: Replace abbreviations
