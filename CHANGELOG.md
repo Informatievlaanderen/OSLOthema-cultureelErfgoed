@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Event AP: PascalCase and CamelCase
 - Event AP: Replace abbreviations
 - Event AP: add missing dot at end of sentences
+- Event AP: overview diagram
 - Object AP: reassigned ranges of certain properties
 - Object AP: Relationship ComplexWerk -- heeftComponent --> Werk
 - Object AP: Relationship ConceptueelDing -- heeftComponent --> ConceptueelDing
