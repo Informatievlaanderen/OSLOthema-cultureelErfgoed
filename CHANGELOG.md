@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Event AP: Replace abbreviations
 - Event AP: Add missing dot at end of sentences
 - Event AP: Overview diagram
+- Event AP: Replace http://schema.org with https://schema.org
+- Event AP: Remove empty `ap-usage-note` values
 - Object AP: Reassigned ranges of certain properties
 - Object AP: Relationship ComplexWerk -- heeftComponent --> Werk
 - Object AP: Relationship ConceptueelDing -- heeftComponent --> ConceptueelDing
