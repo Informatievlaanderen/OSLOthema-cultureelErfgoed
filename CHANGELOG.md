@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Event AP: Add `ap-definition-nl` to TypeTechniek
+
 ### Changed
 
 - Vocabulary: Relationships: heeftComponent, afgeleidVan, isVertalingVan, isGeassocieerdMet, bestaatUit, gebaseerdOp
