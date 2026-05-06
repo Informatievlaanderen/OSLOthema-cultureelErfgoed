@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Object AP: PascalCase and CamelCase
 - Object AP: Replace abbreviations
 - Object AP: Add missing dot at end of sentences
+- Object AP: http://schema.org --> https://schema.org
 
 ### Removed
 
