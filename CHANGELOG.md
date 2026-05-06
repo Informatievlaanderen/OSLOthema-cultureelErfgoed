@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Vocabulary: PascalCase and CamelCase
 - Vocabulary: Replace abbreviations
 - Vocabulary: Reassigned ranges of certain properties
-- Vocabulary: http://schema.org --> https://schema.org
+- Vocabulary: Replace http://schema.org with https://schema.org
 - Vocabulary: Add missing dot at end of sentences
 - Vocabulary: Labels must only contain alphabetical characters: 'Informatie-object', 'Publicatie-expressie', 'Crm-entiteit', 'Curatie-activiteit', 'toegekendDoor(string)'
 - Event AP: Reassigned ranges of certain properties
@@ -34,7 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Object AP: PascalCase and CamelCase
 - Object AP: Replace abbreviations
 - Object AP: Add missing dot at end of sentences
-- Object AP: http://schema.org --> https://schema.org
+- Object AP: Replace http://schema.org with https://schema.org
+- Object AP: Remove empty `ap-usage-note` values
 
 ### Removed
 
