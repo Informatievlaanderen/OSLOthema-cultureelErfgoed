@@ -3,7 +3,7 @@
     "name": "cultureel-erfgoed-basisregistratie",
     "type": "ap",
     "eap": "CultureelErfgoed-basisregistratie.EAP",
-    "diagram": "OSLO-CultureelErfgoed-Iteratie-Basisregistratie",
+    "diagram": "OSLO-CultureelErfgoed-Iteratie-Basisregistratie-metEnumeraties",
     "template": "cultureel-erfgoed-basisregistratie-impl.j2",
     "title": "Implementatiemodel Cultureel Erfgoed - Basisregistratie - Generiek",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
