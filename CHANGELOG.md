@@ -42,6 +42,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Object AP: Add missing dot at end of sentences
 - Object AP: Replace http://schema.org with https://schema.org
 - Object AP: Remove empty `ap-usage-note` values
+- Basisregistratie Impl: PascalCase and CamelCase
+- Basisregistratie Impl: Replace abbreviations
+- Basisregistratie Impl: Add missing dot at end of sentences
+- Basisregistratie Impl: Replace http://schema.org with https://schema.org
+- Basisregistratie Impl: Remove empty `ap-usage-note` values
 
 ### Removed
 
